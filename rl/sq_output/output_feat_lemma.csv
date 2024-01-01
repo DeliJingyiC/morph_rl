@@ -1,0 +1,3 @@
+form,lemma,upos,feats,frequency,Log_Freq_HAL,I_Mean_RT
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",71,11.316,637.1520869581568
+untied,unite,VERB,"{'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Part'}",1,1.7482,791.7982279951029

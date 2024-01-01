@@ -1,0 +1,61 @@
+23836826
+0
+0
+0
+2
++ mkdir -p output/23836826
++ WORK_DIR=output/23836826
++ source /users/PAS2062/delijingyic/project/morph/.pitzermorphenv/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/users/PAS2062/delijingyic/project/morph/.pitzermorphenv
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/apps/xalt/xalt/bin:/apps/git/2.18.0/share/man:/apps/git/2.18.0/bin:/opt/osc/bin:/users/PAS2062/delijingyic/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/opt/mvapich2/intel/19.0/2.3.3/bin:/apps/gnu/8.4.0/bin:/opt/intel/19.0.5/itac_latest/bin:/opt/intel/19.0.5/advisor/bin64:/opt/intel/19.0.5/vtune_amplifier/bin64:/opt/intel/19.0.5/inspector_2019/bin64:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin
+++ PATH=/users/PAS2062/delijingyic/project/morph/.pitzermorphenv/bin:/apps/xalt/xalt/bin:/apps/git/2.18.0/share/man:/apps/git/2.18.0/bin:/opt/osc/bin:/users/PAS2062/delijingyic/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/opt/mvapich2/intel/19.0/2.3.3/bin:/apps/gnu/8.4.0/bin:/opt/intel/19.0.5/itac_latest/bin:/opt/intel/19.0.5/advisor/bin64:/opt/intel/19.0.5/vtune_amplifier/bin64:/opt/intel/19.0.5/inspector_2019/bin64:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/bin/intel64:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.pitzermorphenv) '
+++ export PS1
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ pwd
++ cwd=/users/PAS2062/delijingyic/project/morph/neural-transducer/example/transformer
++ lang=
++ arch=tagtransformer
++ res=high
++ lr=0.001
++ scheduler=warmupinvsqr
++ max_steps=20000
++ warmup=4000
++ beta2=0.98
++ label_smooth=0.1
++ total_eval=50
++ bs=400
++ layers=4
++ hs=1024
++ embed_dim=256
++ nb_heads=4
++ dropout=0.3
++ data_dir=data
++ ckpt_dir=checkpoints/transformer
++ python3 /users/PAS2062/delijingyic/project/morph/neural-transducer/src/train.py --dataset sigmorphon17task1 --train data/conll2017/all/task1/-train-high --dev data/conll2017/all/task1/-dev --test data/conll2017/answers/task1/-uncovered-test --model checkpoints/transformer/tagtransformer/sigmorphon17-task1-dropout0.3/-high- --embed_dim 256 --src_hs 1024 --trg_hs 1024 --dropout 0.3 --nb_heads 4 --label_smooth 0.1 --total_eval 50 --src_layer 4 --trg_layer 4 --max_norm 1 --lr 0.001 --shuffle --arch tagtransformer --gpuid 0 --estop 1e-8 --bs 400 --max_steps 20000 --scheduler warmupinvsqr --warmup_steps 4000 --cleanup_anyway --beta2 0.98 --bestacc
+Traceback (most recent call last):
+  File "/users/PAS2062/delijingyic/project/morph/neural-transducer/src/train.py", line 10, in <module>
+    import dataloader
+  File "/users/PAS2062/delijingyic/project/morph/neural-transducer/src/dataloader.py", line 8, in <module>
+    from align import Aligner
+  File "/users/PAS2062/delijingyic/project/morph/neural-transducer/src/align.py", line 22, in <module>
+    libalign = cdll.LoadLibrary("src/libalign.so")
+  File "/apps/python/3.9-2022.05/lib/python3.9/ctypes/__init__.py", line 460, in LoadLibrary
+    return self._dlltype(name)
+  File "/apps/python/3.9-2022.05/lib/python3.9/ctypes/__init__.py", line 382, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: src/libalign.so: cannot open shared object file: No such file or directory

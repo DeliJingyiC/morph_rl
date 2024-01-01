@@ -1,0 +1,1228 @@
+form,lemma,upos,feats,frequency,Log_Freq_HAL,I_Mean_RT
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",71,11.316,637.1520869581568
+preserved,preserve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,1.9912,787.870573542462
+built,build,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",23,3.3222,766.3573715817004
+focused,focus,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,2.6064,777.9269808705908
+completed,complete,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",7,2.5933,778.1387186209183
+provided,provide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",12,2.705,776.3332906276673
+written,write,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",12,3.3518,765.8789412450824
+established,establish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,2.6191,777.7217083950824
+interspersed,intersperse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.4771,812.343255051695
+called,call,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",71,4.2391,751.5373453774762
+determined,determine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.8274,774.3549165330038
+highlighted,highlight,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,0.0,820.0547115922506
+understood,understand,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.2148,768.0932978706453
+used,use,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",71,4.2443,751.4532968048271
+evaluated,evaluate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,1.5051,795.7274987664487
+encouraged,encourage,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.2279,784.0447471682229
+investigated,investigate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.2095,784.3421498099043
+influenced,influence,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.0334,787.1884870490404
+improved,improve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3636,781.8514026858221
+shown,show,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",15,2.8597,773.8328455913564
+conducted,conduct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,2.2148,784.2564849185504
+enhanced,enhance,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,1.699,792.5934567978599
+organized,organize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,2.716,776.1554955701404
+distributed,distribute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,1.8325,790.4356713269646
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",46,3.1329,769.4170628898688
+tended,tend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.716,792.3186826180455
+assembled,assemble,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1903,784.652483001224
+shed,shed,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.749,775.6221103975595
+washed,wash,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.8567,773.8813351525001
+adapted,adapt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.7559,791.6737714548341
+required,require,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",12,2.7388,775.7869749054481
+meant,mean,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",11,3.7257,759.8355256078706
+applied,apply,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,2.4983,779.6742213904694
+recollected,recollect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.6021,810.3228566707069
+curated,curate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+collected,collect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,2.4683,780.1591170019065
+enabled,enable,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.5441,795.0971344715804
+witnessed,witness,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.4654,780.2059902443455
+contributed,contribute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.9395,788.7062103128387
+analyzed,analyze,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.0453,786.9961451231703
+defined,define,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,1.9494,788.5461947610644
+taken,take,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",28,3.8495,757.8345230513399
+adopted,adopt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",7,2.6345,777.4727953145447
+implemented,implement,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,1.1761,801.0451873052094
+reflected,reflect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,1.9345,788.7870262480782
+increased,increase,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",15,2.3201,782.554501322406
+consolidated,consolidate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,7.105,705.2152676168851
+respected,respect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5276,779.2006400099657
+reduced,reduce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.3962,781.3244827880604
+discussed,discuss,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,2.7316,775.9033498521931
+originated,originate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.8388,790.3338432485627
+occurred,occur,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,2.8681,773.6970748201541
+broken,break,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",9,3.5605,762.5056841081846
+enjambed,enjamb,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+described,describe,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",12,2.6656,776.9701201973548
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",26,3.6859,760.4788204523772
+developed,develop,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",18,2.8102,774.6329233502278
+considered,consider,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",18,3.073,770.3852377940383
+structured,structure,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.5441,795.0971344715804
+followed,follow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",12,3.2405,767.6779039635142
+omitted,omit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.2788,799.3852279953895
+suggested,suggest,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.721,776.0746796349008
+connected,connect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,2.9455,772.4460441426462
+performed,perform,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.5729,778.4684476366956
+translated,translate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,2.1072,785.995643844905
+bounded,bound,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.0,803.8915245443454
+identified,identify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",13,2.7202,776.0876101845392
+noted,note,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,2.3909,781.4101476794143
+pronounced,pronounce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.1847,784.7429968486923
+proposed,propose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",12,2.5366,779.0551713265346
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",50,3.7994,758.64429872244
+assessed,assess,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.3802,797.746280828732
+polluted,pollute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.7076,792.4544533892479
+had,have,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",104,4.9318,740.3411057093923
+intended,intend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.7796,775.1275168738937
+issued,issue,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.4533,780.401564807625
+mistook,mistake,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9031,789.2945503213824
+expected,expect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",13,3.2297,767.8524663836315
+involved,involve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",14,3.5398,762.8402620800762
+reviewed,review,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.1271,785.6739964226517
+hoped,hope,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.9196,772.864670687187
+uncovered,uncover,VERB,"{'Polarity': 'Neg', 'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.1173,785.8323956557211
+published,publish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",27,2.5658,778.5832062647357
+diminished,diminish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.8062,790.8607631463244
+engaged,engage,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,3.1232,769.5738458042334
+decided,decide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",18,3.6553,760.9734139760432
+lowered,lower,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9731,788.1631272280291
+put,put,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",68,4.6258,745.2870409460513
+manipulated,manipulate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9731,788.1631272280291
+attempted,attempt,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.5944,778.1209391151657
+made,make,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",85,4.4568,748.0186195571472
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",27,4.3934,749.0433656159844
+consisted,consist,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.4624,796.4176668533942
+divided,divide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.3579,781.9435328519952
+participated,participate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.8573,790.0348242881764
+measured,measure,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,2.1614,785.1195991069085
+paired,pair,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5315,795.300790628384
+obtained,obtain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,2.0934,786.2186958261661
+reported,report,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.8876,773.3818926727199
+observed,observe,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",15,2.2989,782.8971608878215
+denoted,denote,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,6.597,713.4261666372208
+spoken,speak,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",10,3.0056,771.4746366010671
+heard,hear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",13,4.2961,750.6160437157456
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",137,4.7523,743.2423977844913
+learnt,learn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+presumed,presume,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.7924,791.0838151275855
+calibrated,calibrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.3979,797.4601924179841
+shared,share,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.7284,775.9550720507464
+constrained,constrain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.1139,802.0505375395891
+initiated,initiate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",7,2.0374,787.1238343008488
+found,find,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",50,4.3053,750.4673423949049
+studied,study,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",11,2.7619,775.4136052846416
+derived,derive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7324,792.0536063504599
+hypothesized,hypothesize,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.6021,810.3228566707069
+posited,posit,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+supported,support,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.2718,783.3351832568198
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",45,5.46,731.8037103106889
+limited,limit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.7497,775.610796166626
+included,include,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",10,2.5832,778.3019668101022
+resulted,result,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7853,791.1985737556256
+needed,need,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",19,3.683,760.5256936948161
+responded,respond,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.143,785.41700174859
+answered,answer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.8899,773.3447173425097
+picked,pick,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,3.5484,762.7012586714642
+became,become,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",30,3.3867,765.3148460171104
+accustomed,accustom,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.1761,784.8820002573043
+expressed,express,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.2227,784.128795740872
+indicated,indicate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.3096,782.724214786409
+busted,bust,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,3.0678,770.4692863666874
+segmented,segment,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+grouped,group,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.9031,805.4577373692875
+generated,generate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,1.8325,790.4356713269646
+estimated,estimate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,2.1553,785.2181945479008
+disposed,dispose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9494,788.5461947610644
+released,release,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,2.946,772.4379625491222
+produced,produce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,2.4298,780.7813997032508
+prolonged,prolong,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7482,791.7982279951029
+repeated,repeat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.1584,785.1680886680523
+compared,compare,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,2.7308,775.9162804018314
+presented,present,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,2.4713,780.1106274407628
+associated,associate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,2.3032,782.8276591835156
+formalized,formalize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.699,808.7566438457649
+oriented,orient,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,1.4472,796.6633472965224
+mutated,mutate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+introduced,introduce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.7738,775.2212633587715
+simplified,simplify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.0792,802.6114001301514
+drawn,draw,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.7348,775.8516276536398
+affected,affect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,2.5391,779.0147633589148
+tested,test,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",7,2.7308,775.9162804018314
+emerged,emerge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.8808,789.6549893925506
+perceived,perceive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.8808,789.6549893925506
+alleged,allege,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.3096,782.724214786409
+reproduced,reproduce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.2553,799.7650628910153
+undertaken,undertake,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.4914,795.9489344290049
+thought,think,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",31,4.6152,745.4583707287591
+caused,cause,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",10,3.1202,769.6223353653771
+informed,inform,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.8021,774.7638451653157
+labeled,label,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8633,789.937845165889
+agreed,agree,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",7,3.2632,767.3109996175267
+deemed,deem,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8573,790.0348242881764
+accumulated,accumulate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6021,794.1596696228019
+become,become,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",27,3.7705,759.1114148281245
+demonstrated,demonstrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,1.8633,789.937845165889
+scanned,scan,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9031,789.2945503213824
+thinned,thin,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.0414,803.2223686005622
+evidenced,evidence,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.1461,801.5300829166465
+polarized,polarize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2788,799.3852279953895
+accepted,accept,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.9042,773.1135837677247
+combined,combine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.3263,782.4542895627089
+corrected,correct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.1303,785.6222742240984
+covered,cover,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",11,3.2076,768.2096728173902
+clarified,clarify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.2304,800.1675262485081
+roughened,roughen,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,3.584,762.1258492125588
+hampered,hamper,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.9031,805.4577373692875
+discarded,discard,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.7993,790.9722891369549
+inferred,infer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.9542,804.6317985111396
+decreased,decrease,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6628,793.1785641689941
+driven,drive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.7202,776.0876101845392
+attributed,attribute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,1.6532,793.3337307646539
+showed,show,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,3.3849,765.3439397537967
+modulated,modulate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.4771,812.343255051695
+failed,fail,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.1667,768.8707471676496
+inspired,inspire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",12,2.5922,778.1564981266711
+differed,differ,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0792,802.6114001301514
+lived,live,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",7,3.5275,763.0390692807654
+allowed,allow,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",12,3.3593,765.757717342223
+housed,house,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.6335,793.6521455494976
+attached,attach,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.7952,774.8753711559464
+carried,carry,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,3.0116,771.3776574787796
+explained,explain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",7,2.7774,775.163075885399
+recreated,recreate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.3979,797.4601924179841
+popularized,popularize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+spawned,spawn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+explored,explore,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8195,790.6457927585873
+exemplified,exemplify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.0,803.8915245443454
+engendered,engender,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,5.338,733.7756191305333
+anticipated,anticipate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.1303,785.6222742240984
+dreaded,dread,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8451,790.2320151701609
+shocked,shock,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.7774,775.163075885399
+aligned,align,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6128,793.9867235213893
+grounded,ground,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.5999,778.0320415864022
+reasoned,reason,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.4472,796.6633472965224
+posed,pose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.0531,786.8700722641967
+framed,frame,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.4548,780.3773200270532
+remembered,remember,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,3.0596,770.6018245004802
+commemorated,commemorate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.6021,810.3228566707069
+born,bear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",28,3.6303,761.3774936522408
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",39,4.3738,749.3601640821233
+emigrated,emigrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2041,800.5926180678681
+moved,move,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,3.5486,762.6980260340546
+banned,ban,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.1399,785.4671076284385
+plagiarized,plagiarize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+backdated,backdate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+refused,refuse,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.8202,774.4712914797487
+wanted,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",24,4.4085,748.7993014915611
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",14,4.0944,753.8761585433081
+asked,ask,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",19,4.0426,754.7134116323896
+continued,continue,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",11,2.5694,778.5250187913633
+earned,earn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9,2.8109,774.6216091192941
+went,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",31,4.322,750.1974171712048
+returned,return,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",17,3.1017,769.9213543257634
+held,hold,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",20,3.3357,766.1391685565536
+elected,elect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",19,2.5694,778.5250187913633
+pointed,point,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.5888,778.2114529626339
+arranged,arrange,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.9165,772.9147765670355
+awarded,award,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.1038,786.0505986808679
+wrote,write,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",16,3.5599,762.5153820204133
+tried,try,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",12,3.9791,755.7397740099315
+experimented,experiment,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5051,795.7274987664487
+rose,rise,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,9.869,660.5402186164754
+discovered,discover,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.1667,768.8707471676496
+realised,realise,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,0.0,820.0547115922506
+exploited,exploit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.9345,788.7870262480782
+designed,design,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.9518,772.3442160642444
+pushed,push,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,3.0195,771.2499683011013
+entitled,entitle,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.7686,775.3053119314205
+turned,turn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",20,3.7315,759.7417791229927
+spoke,speak,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.2947,766.8018592255178
+served,serve,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",21,3.0035,771.5085792938677
+visited,visit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.5453,778.9145515992178
+possessed,possess,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.5328,779.1165914373166
+attended,attend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,2.2989,782.8971608878215
+taught,teach,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9,3.3497,765.912883937883
+began,begin,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",23,3.2198,768.0124819354058
+collaborated,collaborate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0792,802.6114001301514
+left,leave,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",32,4.3928,749.0530635282132
+resided,reside,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,0.9031,805.4577373692875
+dedicated,dedicate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.6201,777.7055452080344
+invited,invite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,3.3149,766.47536284715
+died,die,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",26,3.9041,756.9520130385243
+reigned,reign,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2304,800.1675262485081
+recruited,recruit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.1461,785.3668958687415
+arrived,arrive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,3.29,766.8778262046429
+commissioned,commission,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.8633,789.937845165889
+wounded,wound,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.9969,771.6152563283838
+recovered,recover,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.6522,777.1867069037967
+exchanged,exchange,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.0334,787.1884870490404
+promoted,promote,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.4579,780.3272141472047
+discharged,discharge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.356,781.9742429073863
+disbanded,disband,VERB,"{'Polarity': 'Neg', 'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.4624,796.4176668533942
+shaped,shape,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.2601,783.5242925452803
+sent,send,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",10,3.8475,757.8668494254358
+achieved,achieve,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.3424,782.1940622512377
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",34,4.2419,751.4920884537421
+chartered,charter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.6628,793.1785641689941
+offered,offer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,3.1252,769.5415194301377
+received,receive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",21,3.1575,769.0194484884903
+spent,spend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,3.5533,762.6220590549294
+stationed,station,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.2253,784.0867714545474
+intercepted,intercept,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1703,784.9757467421822
+coded,code,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.8865,789.5628592263777
+predicted,predict,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.1584,785.1680886680523
+evolved,evolve,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.2095,784.3421498099043
+delivered,deliver,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.9159,772.9244744792642
+illuminated,illuminate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2788,799.3852279953895
+generalized,generalize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.699,808.7566438457649
+aimed,aim,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.0,787.7283374964404
+noticed,notice,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,3.3288,766.2506945471841
+appeared,appear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",12,2.699,776.4302697499547
+recognized,recognize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.6618,777.0315403081369
+met,meet,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",11,3.9894,755.5732931833381
+linked,link,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.3424,782.1940622512377
+retired,retire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.7896,774.9658850034145
+joined,join,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",11,2.9253,772.7725405210139
+started,start,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",44,3.9808,755.71229659195
+gathered,gather,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.692,776.5434120592901
+annotated,annotate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+stored,store,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.2304,784.0043392006031
+declared,declare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.5237,779.2636764394525
+attracted,attract,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,2.7825,775.0806436314547
+waned,wane,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.8451,806.395202218066
+seemed,seem,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,3.4422,764.4177891359517
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",23,5.077,737.9942109500365
+reacted,react,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.9494,788.5461947610644
+talked,talk,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,3.7183,759.9551331920252
+stayed,stay,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.2225,767.9688413303764
+copied,copy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.1106,785.9406890089422
+obliterated,obliterate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5051,795.7274987664487
+confided,confide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.6435,793.4905136790186
+prompted,prompt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,1.6721,793.0282465294484
+knew,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",18,4.2746,750.9635522372755
+mentioned,mention,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.1923,768.4569695792233
+supposed,suppose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",10,4.1094,753.6337107375895
+provoked,provoke,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9345,788.7870262480782
+exclaimed,exclaim,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.6021,810.3228566707069
+interpolated,interpolate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,5.472,731.609752066114
+managed,manage,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.9279,772.7305162346893
+celebrated,celebrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.143,785.41700174859
+occasioned,occasion,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1761,801.0451873052094
+speculated,speculate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.301,799.0264052429261
+married,marry,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,4.0851,754.0264761828536
+imprisoned,imprison,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.0253,787.3194088641284
+lost,lose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",20,4.1454,753.0518360038649
+convinced,convince,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.0261,771.143291266585
+judged,judge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.316,782.6207703893024
+exaggerated,exaggerate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.8129,790.7524697931035
+outlined,outline,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.6128,793.9867235213893
+submitted,submit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.017,787.4535633166261
+buried,bury,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,3.2403,767.6811366009238
+shot,shoot,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,4.0645,754.3594378360403
+abandoned,abandon,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.8319,774.2821821912881
+ended,end,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",16,3.1796,768.6622420547316
+were,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",15,4.9284,740.3960605453552
+postponed,postpone,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.0128,787.5214487022272
+notified,notify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.3424,782.1940622512377
+erected,erect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.415,797.1838019194649
+garnered,garner,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+starred,star,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.5682,794.7076016637259
+acclaimed,acclaim,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3222,798.6837456775105
+portrayed,portray,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.4914,795.9489344290049
+b.,bear,VERB,"{'Abbr': 'Yes', 'Tense': 'Past', 'VerbForm': 'Part'}",3,0.0,820.0547115922506
+played,play,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",18,3.458,764.1624107805949
+co-starred,co-star,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+grew,grow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",15,3.1744,768.7462906273807
+educated,educate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.4518,780.4258095881969
+descended,descend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.9685,788.2374778884495
+assumed,assume,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,2.7634,775.3893605040697
+confirmed,confirm,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.8388,774.1706562006576
+brought,bring,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",13,3.9438,756.3103345127225
+remained,remain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.3502,782.067989392264
+persecuted,persecute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.7709,791.4313236491155
+entered,enter,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.8739,773.6033283352762
+changed,change,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.7117,760.0618102265413
+enlisted,enlist,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.243,783.8006830437995
+distinguished,distinguish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4997,779.6515929286022
+disliked,dislike,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4624,796.4176668533942
+appointed,appoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.433,780.7296775046975
+broke,break,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.7288,759.7854197280221
+headed,head,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.1962,768.3939331497363
+created,create,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",12,3.0777,770.3092708149131
+employed,employ,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.3222,782.5205586296054
+raised,raise,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.1183,769.6530454207682
+closed,close,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,3.4408,764.4404175978189
+reinterred,reinter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+edited,edit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7853,791.1985737556256
+printed,print,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.4871,779.8552490854058
+liberated,liberate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.9777,788.0887765676086
+co-founded,co-found,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+recalled,recall,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.9085,789.2072691113237
+drew,draw,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,9.189,671.5311858090508
+appreciated,appreciate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.4669,780.1817454637735
+fell,fall,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,3.571,762.3359706441815
+wished,wish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.6243,777.6376598224333
+treated,treat,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.0864,770.1686510875963
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",47,5.2269,735.5713492115556
+suffered,suffer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.8176,774.5133157660732
+felt,feel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",33,3.7862,758.8576527914723
+compelled,compel,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.143,785.41700174859
+loaded,load,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.9773,771.9320547945227
+signaled,signal,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3617,798.0452997891182
+opened,open,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",11,3.2373,767.7296261620675
+marked,mark,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,2.7388,775.7869749054481
+lay,lie,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",10,3.4729,763.9215792935811
+added,add,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,2.6928,776.5304815096517
+troubled,trouble,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.5403,778.9953675344573
+spread,spread,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.2033,768.2791745216963
+stopped,stop,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.5849,762.1113023442157
+caught,catch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,3.6805,760.5661016624359
+batted,bat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.3979,797.4601924179841
+listed,list,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.4548,780.3773200270532
+graduated,graduate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.5977,778.0676005979076
+named,name,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",12,3.5521,762.641454879387
+posted,post,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,2.5658,778.5832062647357
+led,lead,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.0885,770.1347083947958
+scored,score,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9,2.4683,780.1591170019065
+drafted,draft,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.0792,786.4482130822463
+cut,cut,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",14,4.0689,754.2883198130296
+expanded,expand,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.7482,791.7982279951029
+traded,trade,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.3483,782.0986994476551
+debuted,debut,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,0.0,820.0547115922506
+won,win,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",17,4.588,745.8980094164621
+impressed,impress,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.9881,771.7574923744054
+drove,drive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,3.1682,768.8465023870777
+devoted,devote,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.6128,777.8235364734842
+stemmed,stem,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.6021,810.3228566707069
+recognised,recognise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+baptized,baptize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.0043,787.6588357921344
+gone,go,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,4.18,752.4925897320073
+learned,learn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",10,3.472,763.9361261619241
+acquired,acquire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3598,781.9128227966041
+indulged,indulge,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.415,797.1838019194649
+dug,dig,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.659,777.076797231871
+lined,line,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.5198,779.3267128689394
+fulfilled,fulfill,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.1644,785.0711095457648
+relieved,relieve,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.7202,776.0876101845392
+breathed,breathe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8573,790.0348242881764
+converted,convert,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.1239,785.725718621205
+travelled,travel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9912,787.870573542462
+settled,settle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.9965,771.621721603203
+accompanied,accompany,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0253,787.3194088641284
+abstained,abstain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+plunged,plunge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7076,792.4544533892479
+suspected,suspect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.6972,776.459363486641
+seized,seize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.1139,785.8873504916841
+subscribed,subscribe,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2041,800.5926180678681
+operated,operate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.2227,784.128795740872
+displayed,display,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.8808,789.6549893925506
+located,locate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",16,2.6712,776.8796063498866
+paid,pay,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.6405,761.2126291443521
+viewed,view,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",6,1.7324,792.0536063504599
+featured,feature,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,1.8062,790.8607631463244
+stated,state,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.2672,783.4095339172402
+pulled,pull,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",8,3.396,765.1645283775649
+concerned,concern,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.3545,765.835300640053
+unveiled,unveil,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1761,801.0451873052094
+immortalized,immortalize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.2304,800.1675262485081
+professionalized,professionalize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+m.,marry,VERB,"{'Abbr': 'Yes', 'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+div.,divorce,VERB,"{'Abbr': 'Yes', 'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+walked,walk,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.4374,764.4953724337817
+directed,direct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.49,779.8083758429669
+d.,die,VERB,"{'Abbr': 'Yes', 'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+split,split,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.2911,766.8600466988902
+separated,separate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.7332,775.8774887529164
+centered,center,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.699,792.5934567978599
+worked,work,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",10,3.7692,759.1324269712868
+ministered,minister,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.989,755.5797584581572
+forced,force,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9,3.1303,769.4590871761933
+undertook,undertake,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0792,802.6114001301514
+ordained,ordain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.6532,793.3337307646539
+elaborated,elaborate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.7782,807.4765194315709
+planned,plan,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,3.2109,768.1563343001321
+cast,cast,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.0722,770.3981683436766
+auditioned,audition,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+titled,title,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5563,794.8999435895959
+landed,land,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.8156,774.5456421401691
+discontinued,discontinue,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5441,795.0971344715804
+announced,announce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.4624,780.2544798054892
+launched,launch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.2856,783.1121312755587
+partnered,partner,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3802,797.746280828732
+formed,form,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",8,2.3838,781.5249063074544
+sold,sell,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,3.4242,764.708726502814
+surprised,surprise,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.4486,764.3143447388452
+revealed,reveal,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,2.4757,780.039509417752
+denied,deny,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.7672,775.3279403932877
+preached,preach,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5185,795.5109120600067
+opted,opt,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3424,798.3572492991428
+welcomed,welcome,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.0212,787.3856779310248
+integrated,integrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,1.7482,791.7982279951029
+asserted,assert,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,7.529,698.3620763085733
+maintained,maintain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.0607,786.7472320426326
+pleaded,plead,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8325,790.4356713269646
+consented,consent,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.8129,790.7524697931035
+exiled,exile,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.699,792.5934567978599
+forgave,forgive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.0719,786.566204347696
+qualified,qualify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.6253,777.6214966353854
+practiced,practice,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.233,783.9623149142785
+arose,arise,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.6335,793.6521455494976
+rushed,rush,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4298,780.7813997032508
+claimed,claim,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,2.5717,778.487843461153
+administered,administer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8865,789.5628592263777
+ruled,rule,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.4502,780.4516706874736
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",29,4.5524,746.4734188753675
+seen,see,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",29,4.293,750.6661495955941
+saw,see,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",20,4.3123,750.3542000855696
+confused,confuse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,3.2185,768.0334940785681
+figured,figure,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.5904,762.0224048154522
+happened,happen,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",14,4.3979,748.9706312742688
+popped,pop,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.6075,777.909201364838
+slowed,slow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0682,786.6260081397733
+forgot,forget,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.7029,760.2040462725629
+lent,loan,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.281,783.1864819359791
+shrunk,shrink,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,0.0,820.0547115922506
+bought,buy,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.6398,761.2239433752857
+laid,lay,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.1841,768.589507713016
+hatched,hatch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8573,790.0348242881764
+disputed,dispute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.1139,802.0505375395891
+debated,debate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.3802,797.746280828732
+evalu-,evaluate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+commented,comment,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.2553,799.7650628910153
+exalted,exalt,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5563,794.8999435895959
+demanded,demand,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.1523,785.2666841090445
+ridden,ride,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.0414,787.0591815526572
+deserted,desert,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4425,780.5761272277424
+disappointed,disappoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,3.0512,770.7375952716826
+offended,offend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5855,778.264791479892
+predestined,predestine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.1461,801.5300829166465
+weighed,weigh,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1875,784.6977399249582
+fixed,fix,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.217,768.0577388591399
+sat,sit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",10,3.1644,768.9079224978598
+blasted,blast,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.3617,781.8821127412132
+helped,help,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",10,3.3782,765.4522331070176
+loved,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.7504,759.4362948877874
+trained,train,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.9836,771.8302267161209
+gotten,get,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",7,3.4423,764.4161728172469
+worried,worry,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,3.6841,760.5079141890635
+looked,look,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",13,3.7901,758.7946163619855
+believed,believe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",10,3.2526,767.4823294002346
+leaned,lean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9445,788.6253943775992
+dangled,dangle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0414,803.2223686005622
+salted,salt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.4771,796.18006800379
+painted,paint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.8519,773.9589184503301
+punctuated,punctuate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0,803.8915245443454
+tucked,tuck,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.2014,784.4730716249924
+stretched,stretch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.1399,785.4671076284385
+dismissed,dismiss,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.7945,774.8866853868799
+slung,sling,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2304,800.1675262485081
+bent,bend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.567,778.5638104402782
+dressed,dress,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,3.3793,765.434453601265
+erupted,erupt,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.415,797.1838019194649
+imagined,imagine,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.7042,776.3462211773057
+stepped,step,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.8176,774.5133157660732
+guessed,guess,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.5798,778.3569216460651
+coated,coat,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.301,799.0264052429261
+chimed,chime,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+wiped,wipe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.6042,777.9625398820962
+lifted,lift,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.5575,778.7173607172333
+switched,switch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.5933,778.1387186209183
+unclipped,unclip,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+serrated,serrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.1139,802.0505375395891
+overwhelmed,overwhelm,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.3054,782.7921001720102
+tortured,torture,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5821,778.3197463158549
+swung,swing,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0719,786.566204347696
+kicked,kick,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.1931,768.4440390295849
+frowned,frown,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3424,798.3572492991428
+threatened,threaten,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.9274,772.7385978282133
+summed,sum,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3424,798.3572492991428
+contained,contain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.3729,781.7010850462766
+ate,eat,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.2363,767.7457893491154
+manufactured,manufacture,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9685,788.2374778884495
+faded,fade,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1875,784.6977399249582
+admitted,admit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.6702,776.8957695369345
+delayed,delay,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.4393,780.6278494262957
+smeared,smear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.7709,791.4313236491155
+kept,keep,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.659,760.913610183966
+rained,rain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.143,785.41700174859
+disappeared,disappear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.1673,768.8610492554209
+drunk,drink,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,3.5916,762.0030089909947
+paused,pause,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1461,801.5300829166465
+waited,wait,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.172,768.7850822762957
+bounced,bounce,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1818,784.7898700911313
+plucked,pluck,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8195,790.6457927585873
+marbled,marble,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+climaxed,climax,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.699,808.7566438457649
+overflowed,overflow,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1761,801.0451873052094
+wriggled,wriggle,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+struggled,struggle,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.0492,786.9331086936835
+burst,burst,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.6395,777.3919793793051
+surrounded,surround,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.8312,774.2934964222218
+slipped,slip,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.9289,772.7143530476415
+leant,lean,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+lapped,lap,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9542,804.6317985111396
+tied,tie,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,3.1351,769.3815038783633
+floated,float,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8388,790.3338432485627
+slammed,slam,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.2227,784.128795740872
+shut,shut,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,9.888,660.2331180625653
+retreated,retreat,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.716,792.3186826180455
+gazed,gaze,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3802,797.746280828732
+pressed,press,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4742,780.0637541983239
+rippled,ripple,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.699,808.7566438457649
+splashed,splash,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5185,795.5109120600067
+nipped,nip,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2304,800.1675262485081
+swam,swim,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.0934,786.2186958261661
+sang,sing,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.6232,777.6554393281859
+combed,comb,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.7482,791.7982279951029
+waved,wave,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0253,787.3194088641284
+laughed,laugh,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.7372,775.8128360047248
+engulfed,engulf,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.1761,801.0451873052094
+clambered,clamber,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.699,808.7566438457649
+flecked,fleck,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.4771,812.343255051695
+galloped,gallop,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.4771,812.343255051695
+scrambled,scramble,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.5658,778.5832062647357
+encrusted,encrust,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.0,803.8915245443454
+rode,ride,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.7251,776.0084105680045
+tugged,tug,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.0414,803.2223686005622
+peeled,peel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.143,785.41700174859
+tarred,tar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2041,800.5926180678681
+dipped,dip,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,1.9777,788.0887765676086
+passed,pass,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.4203,764.7717629323008
+speckled,speckle,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3222,798.6837456775105
+threw,throw,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.3187,766.413942736368
+hung,hang,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.1575,769.0194484884903
+hauled,haul,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.8633,789.937845165889
+stood,stand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9,3.1193,769.6368822337203
+sunk,sink,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3766,781.6412812541994
+plowed,plow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5315,795.300790628384
+survived,survive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.8202,774.4712914797487
+caked,cake,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.0,803.8915245443454
+incensed,incense,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.0414,803.2223686005622
+cried,cry,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.8215,774.4502793365864
+veined,vein,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,3.526,763.0633140613373
+oozed,ooze,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.699,808.7566438457649
+charred,char,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5911,794.3374646803288
+smelled,smell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.6075,777.909201364838
+fermented,ferment,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.4624,796.4176668533942
+scoured,scour,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2788,799.3852279953895
+hurried,hurry,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.7993,790.9722891369549
+blackened,blacken,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2304,800.1675262485081
+packed,pack,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.9566,772.2666327664144
+scraped,scrape,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8261,790.539115724071
+twisted,twist,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.7332,775.8774887529164
+burnt,burn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.6893,776.5870526643195
+hurtled,hurtle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9542,804.6317985111396
+glanced,glance,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5185,795.5109120600067
+been,be,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",9,4.9473,740.0905763101498
+dominated,dominate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.8808,789.6549893925506
+loomed,loom,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.4771,812.343255051695
+altered,alter,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.3598,781.9128227966041
+awaited,await,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5563,794.8999435895959
+hid,hide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.776,775.1857043472661
+watched,watch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,3.1316,769.438075033031
+addressed,address,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.29,783.0410132525479
+crept,creep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7709,791.4313236491155
+fallen,fall,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.9365,772.5915128260773
+filled,fill,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",7,3.1421,769.268361569028
+ran,run,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9,3.6332,761.3306204098019
+slanted,slant,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2553,799.7650628910153
+grown,grow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,3.1059,769.8534689401622
+crushed,crush,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.6355,777.4566321274967
+begun,begin,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",4,2.7316,775.9033498521931
+sank,sink,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0453,786.9961451231703
+buckled,buckle,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4914,795.9489344290049
+taxied,taxi,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.7782,807.4765194315709
+exceeded,exceed,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.8062,790.8607631463244
+shone,shine,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.4914,795.9489344290049
+wandered,wander,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.248,783.7198671085599
+tipped,tip,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.3892,781.4376250973958
+cursed,curse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.5775,778.3940969762753
+embowered,embower,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+fluttered,flutter,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.6021,810.3228566707069
+dropped,drop,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,3.395,765.1806915646129
+carven,carve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+maddened,madden,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+litten,light,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+whispered,whisper,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.017,787.4535633166261
+bade,bid,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3617,798.0452997891182
+breeded,breed,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+longed,long,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8261,790.539115724071
+ebbed,ebb,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,0.0,820.0547115922506
+sunken,sink,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.6721,793.0282465294484
+trembled,tremble,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.3424,798.3572492991428
+questioned,question,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.4683,780.1591170019065
+flown,flow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3674,781.7899825750401
+shrieked,shriek,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,0.9031,805.4577373692875
+hidden,hide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,3.0358,770.9865083522203
+assisted,assist,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.9445,788.6253943775992
+bewildered,bewilder,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.7243,792.1845281655478
+worn,wear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.7118,776.2233809557416
+streaked,streak,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.6021,810.3228566707069
+dreamed,dream,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.8949,773.2639014072702
+lit,light,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.6964,776.4722940362793
+woke,wake,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.1287,769.48494827547
+bound,bind,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.9736,771.9918585866001
+optimized,optimize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+repaired,repair,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.1492,785.316789988893
+empathized,empathize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+scared,scare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.8328,758.10444827504
+incapacitated,incapacitate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6902,792.7356928438815
+messed,mess,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.9315,772.6723287613169
+curled,curl,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.6812,792.8811615273125
+engineered,engineer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+stuck,stick,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.5315,762.9744165325739
+crunched,crunch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0414,803.2223686005622
+promised,promise,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.5011,763.4657774188302
+shouted,shout,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0645,786.6858119318506
+twitched,twitch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.8451,806.395202218066
+grabbed,grab,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.8331,774.2627863668307
+yelped,yelp,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.8451,806.395202218066
+ducked,duck,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.7924,791.0838151275855
+moaned,moan,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1761,801.0451873052094
+panted,pant,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,5.746,727.181038814988
+coursed,course,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+splattered,splatter,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.699,792.5934567978599
+wondered,wonder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.8814,773.4821044324169
+backed,back,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.5832,778.3019668101022
+unclenched,unclench,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Polarity': 'Neg', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.398,781.2953890513742
+murdered,murder,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.294,766.8131734564513
+saved,save,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.5513,762.6543854290253
+scooped,scoop,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6628,793.1785641689941
+dashed,dash,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6721,793.0282465294484
+poked,poke,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8325,790.4356713269646
+stomped,stomp,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.7076,792.4544533892479
+irritated,irritate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.8513,790.1318034104639
+battered,batter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7634,791.5525475519747
+blamed,blame,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4594,780.3029693666329
+wrapped,wrap,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.7789,775.1388311048272
+smiled,smile,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.4014,781.2404342154114
+realized,realize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.2636,767.3045343427076
+hated,hate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.1584,769.0049016201472
+slept,sleep,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.2579,767.3966645088806
+trimmed,trim,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6812,792.8811615273125
+chosen,choose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.9675,772.0904540275923
+folded,fold,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.1732,784.9288734997433
+snorted,snort,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2788,799.3852279953895
+sighed,sigh,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4314,796.9187256518792
+kissed,kiss,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.1629,768.9321672784316
+biked,bike,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+embroidered,embroider,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.4472,796.6633472965224
+placed,place,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.7952,774.8753711559464
+gnawed,gnaw,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.2788,799.3852279953895
+inspected,inspect,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5682,794.7076016637259
+eyed,eye,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5911,794.3374646803288
+swallowed,swallow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.5353,779.0761834696968
+winked,wink,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5798,794.5201086939701
+watered,water,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.699,792.5934567978599
+howled,howl,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1461,801.5300829166465
+thrown,throw,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,3.0204,771.2354214327581
+locked,lock,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,3.4267,764.6683185351942
+seated,seat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.6405,777.3758161922573
+clung,cling,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3979,797.4601924179841
+swayed,sway,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4771,796.18006800379
+vibrated,vibrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.699,808.7566438457649
+puzzled,puzzle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8513,790.1318034104639
+brooded,brood,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+glared,glare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9542,804.6317985111396
+ceased,cease,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8388,790.3338432485627
+vanished,vanish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.4533,780.401564807625
+halted,halt,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2788,799.3852279953895
+glowed,glow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2041,800.5926180678681
+reverted,revert,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.0414,803.2223686005622
+reminded,remind,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.6274,777.5875539425848
+shivered,shiver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9031,805.4577373692875
+corrugated,corrugate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.0414,803.2223686005622
+ornamented,ornament,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,3.367,765.6332608019542
+blotched,blotch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+touched,touch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,3.1778,768.6913357914178
+pretended,pretend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.3874,781.466718834082
+jumped,jump,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.033,771.0317652759545
+startled,startle,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.1004,786.1055535168307
+illustrated,illustrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5051,795.7274987664487
+blew,blow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.2071,768.2177544109143
+blown,blow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.9096,773.026302557666
+frightened,frighten,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.0745,770.3609930134664
+skipped,skip,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4133,781.0480922895413
+gladdened,gladden,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+crazed,craze,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.0334,787.1884870490404
+overslept,oversleep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+documented,document,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9243,788.9518907559668
+spotted,spot,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.7185,776.1150876025206
+infected,infect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.6263,777.6053334483374
+chose,choose,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.9791,771.9029610578366
+laced,lace,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7559,791.6737714548341
+avoided,avoid,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.1303,785.6222742240984
+varied,vary,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6232,793.8186263760911
+liked,like,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.604,761.8025854716007
+nicknamed,nickname,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5682,794.7076016637259
+aerated,aerate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,4.174,752.5895688542948
+carved,carve,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.2967,782.932719899327
+drilled,drill,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.7324,792.0536063504599
+dried,dry,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.4133,781.0480922895413
+counted,count,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.5105,779.4770305084849
+ingested,ingest,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4771,796.18006800379
+mixed,mix,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.0378,770.9541819781246
+plated,plate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9542,804.6317985111396
+amassed,amass,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+inducted,induct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.1139,802.0505375395891
+credited,credit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5051,795.7274987664487
+cited,cite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5911,794.3374646803288
+existed,exist,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.6096,777.8752586720375
+collapsed,collapse,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.4624,780.2544798054892
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,3.197,768.3810026000981
+rescinded,rescind,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.4624,796.4176668533942
+induced,induce,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8062,790.8607631463244
+opposed,oppose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.5478,778.874143631598
+diverted,divert,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.6021,794.1596696228019
+interviewed,interview,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7,2.2648,783.4483255661552
+coined,coin,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.3979,797.4601924179841
+voted,vote,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.5502,778.835351982683
+co-owned,co-own,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+remarked,remark,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2788,799.3852279953895
+topped,top,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6902,792.7356928438815
+priced,price,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5315,795.300790628384
+ventured,venture,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3979,797.4601924179841
+balanced,balance,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.0864,786.3318381355015
+selected,select,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.3979,781.297005370079
+gained,gain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.4232,780.888076737767
+acknowledged,acknowledge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.0043,787.6588357921344
+quoted,quote,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.8751,789.7471195587237
+purveyed,purvey,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+criticized,criticize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5315,795.300790628384
+mimicked,mimick,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+shaken,shake,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.2304,784.0043392006031
+poured,pour,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3483,782.0986994476551
+amazed,amaze,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.4183,780.9672763543017
+founded,found,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",6,2.2014,784.4730716249924
+predicated,predicate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+shrouded,shroud,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.2553,799.7650628910153
+encountered,encounter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.1875,784.6977399249582
+embedded,embed,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9494,788.5461947610644
+mounted,mount,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1239,785.725718621205
+stained,stain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8633,789.937845165889
+squashed,squash,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6902,792.7356928438815
+envisioned,envision,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.415,797.1838019194649
+copyrighted,copyright,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+enjoyed,enjoy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.9671,772.0969193024114
+overlooked,overlook,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.0492,786.9331086936835
+televised,televise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.6335,793.6521455494976
+mediated,mediate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+emailed,email,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,0.0,820.0547115922506
+expired,expire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.1106,785.9406890089422
+suited,suit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.1847,784.7429968486923
+captained,captain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+fired,fire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,3.4997,763.4884058806972
+overshadowed,overshadow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.1139,802.0505375395891
+injured,injure,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.7284,775.9550720507464
+experienced,experience,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",6,2.7084,776.2783357917044
+prepared,prepare,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.2615,767.3384770355082
+chased,chase,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6355,777.4566321274967
+battled,battle,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+reprinted,reprint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.8451,806.395202218066
+bothered,bother,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.7259,775.9954800183662
+staggered,stagger,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.4314,796.9187256518792
+clinched,clinch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.0,803.8915245443454
+handed,hand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.6758,776.8052556894662
+broadcast,broadcast,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.6609,777.04608717648
+overdone,overdo,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5185,795.5109120600067
+spirited,spirit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.7993,790.9722891369549
+likened,liken,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0,803.8915245443454
+scripted,script,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+replaced,replace,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.6253,777.6214966353854
+doomed,doom,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6191,777.7217083950824
+committed,commit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",7,3.0885,770.1347083947958
+where,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1,13.027,609.4968739191912
+interested,interest,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.641,761.2045475508282
+thrilled,thrill,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.752,775.5736208364158
+recommended,recommend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.4362,780.6779553061442
+removed,remove,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.8681,773.6970748201541
+captured,capture,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.7917,774.931942310614
+modified,modify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.0043,787.6588357921344
+honored,honor,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.7443,775.6980773766846
+colored,color,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.5775,778.3940969762753
+faced,face,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.5065,779.5416832566765
+controlled,control,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.5527,778.7949440150633
+granted,grant,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.8439,774.0882239467134
+scheduled,schedule,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.6848,776.659787006035
+rescued,rescue,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.4425,780.5761272277424
+deployed,deploy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.9494,788.5461947610644
+untied,unite,VERB,"{'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Part'}",1,1.7482,791.7982279951029
+criticised,criticise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+cracked,crack,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.6928,776.5304815096517
+contacted,contact,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.5798,778.3569216460651
+arrested,arrest,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,3.2509,767.509806818216
+resembled,resemble,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2304,800.1675262485081
+handcuffed,handcuff,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+reposted,repost,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+tweeted,tweet,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,0.0,820.0547115922506
+approached,approach,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.3444,782.161735877142
+killed,kill,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,4.1701,752.6526052837817
+bloodied,bloody,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+persuaded,persuade,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.1399,785.4671076284385
+interrogated,interrogate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,0.0,820.0547115922506
+charged,charge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.8681,773.6970748201541
+invested,invest,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.3075,782.7581574792096
+attacked,attack,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,3.0864,770.1686510875963
+motivated,motivate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,2.2014,784.4730716249924
+traveled,travel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4,2.5366,779.0551713265346
+proceeded,proceed,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8129,790.7524697931035
+cooperated,cooperate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5682,794.7076016637259
+routed,rout,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5798,794.5201086939701
+blacked,black,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.0531,786.8700722641967
+deposited,deposit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8633,789.937845165889
+plied,ply,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9031,805.4577373692875
+dealt,deal,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5798,778.3569216460651
+requested,request,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,2.6444,777.3127797627703
+defeated,defeat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",8,2.4548,780.3773200270532
+re-elected,re-elect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,0.0,820.0547115922506
+resigned,resign,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.1553,785.2181945479008
+sprawled,sprawl,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1139,802.0505375395891
+donned,don,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.6021,810.3228566707069
+animated,animate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7924,791.0838151275855
+deducted,deduct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.2304,800.1675262485081
+costumed,costume,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.0,803.8915245443454
+engraved,engrave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9345,788.7870262480782
+favoured,favour,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+labelled,label,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2788,799.3852279953895
+dubbed,dub,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4314,796.9187256518792
+characterized,characterize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.5682,794.7076016637259
+filed,file,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6532,777.1705437167489
+raided,raid,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9085,789.2072691113237
+theorized,theorize,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+accounted,account,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1903,784.652483001224
+concluded,conclude,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.0531,786.8700722641967
+geared,gear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.2553,799.7650628910153
+hacked,hack,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.3345,782.3217514289162
+rated,rate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8692,789.8424823623064
+shipped,ship,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.3324,782.3556941217167
+outlived,outlive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.4771,796.18006800379
+owned,own,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.7782,775.1501453357607
+transferred,transfer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.7782,775.1501453357607
+tasked,task,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+perpetrated,perpetrate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5185,795.5109120600067
+dispatched,dispatch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9138,789.1216042199699
+evacuated,evacuate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.0334,787.1884870490404
+retaliated,retaliate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9542,804.6317985111396
+crowded,crowd,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.6599,777.0622503635278
+equipped,equip,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3385,782.2570986807245
+sponsored,sponsor,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9956,787.7994555194512
+swamped,swamp,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9138,789.1216042199699
+dwindled,dwindle,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.699,808.7566438457649
+missed,miss,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.6598,760.9006796343276
+substituted,substitute,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.301,799.0264052429261
+booked,book,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,2.7259,775.9954800183662
+conceded,concede,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0,803.8915245443454
+doubled,double,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.2625,783.4855008963654
+co-ordinated,co-ordinate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+tripped,trip,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3464,782.1294095030461
+padded,pad,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7482,791.7982279951029
+installed,install,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.3636,781.8514026858221
+trampled,trample,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8129,790.7524697931035
+collasped,collaspe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+advanced,advance,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6551,777.1398336613578
+donated,donate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.1367,785.5188298269918
+seeded,seed,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+decentralized,decentralize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+coincided,coincide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.0414,803.2223686005622
+exhibited,exhibit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.6335,793.6521455494976
+intrigued,intrigue,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.959,788.3910281654046
+consumed,consume,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.2014,784.4730716249924
+smacked,smack,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9395,788.7062103128387
+adorned,adorn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.9542,804.6317985111396
+analysed,analyse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3802,797.746280828732
+examined,examine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.4409,780.6019883270191
+declined,decline,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.9085,789.2072691113237
+vitalized,vitalize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+commended,commend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.415,797.1838019194649
+enshrined,enshrine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+guided,guide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.0294,787.253139797232
+specialized,specialize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7324,792.0536063504599
+suppressed,suppress,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5563,794.8999435895959
+forgotten,forget,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,3.2485,767.5485984671309
+endured,endure,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.8751,789.7471195587237
+knit,knit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.9912,787.870573542462
+cherished,cherish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8195,790.6457927585873
+betrayed,betray,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.7716,775.2568223702768
+lighted,light,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.7559,791.6737714548341
+strayed,stray,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6902,792.7356928438815
+preferred,prefer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.3243,782.4866159368048
+urged,urge,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.7634,791.5525475519747
+sworn,swear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6946,776.5013877729656
+nominated,nominate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.0792,786.4482130822463
+hastened,hasten,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.7782,807.4765194315709
+prevented,prevent,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.0294,787.253139797232
+unlocked,unlock,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.29,783.0410132525479
+registered,register,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,2.7143,776.1829729881218
+greeted,greet,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.7924,791.0838151275855
+benefited,benefit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3222,798.6837456775105
+embraced,embrace,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8325,790.4356713269646
+reputed,reput,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5185,795.5109120600067
+licensed,license,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.1492,785.316789988893
+rolled,roll,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.6365,777.4404689404488
+assured,assure,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.5011,779.6289644667352
+represented,represent,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.3304,782.3880204958126
+coupled,couple,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6021,794.1596696228019
+marginalized,marginalize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+sweated,sweat,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.5682,794.7076016637259
+transmitted,transmitt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.0128,787.5214487022272
+filtered,filter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.5051,795.7274987664487
+processed,process,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.1106,785.9406890089422
+foisted,foist,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+argued,argue,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.143,785.41700174859
+purged,purge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.4472,796.6633472965224
+interpreted,interpret,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.7482,791.7982279951029
+proven,prove,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5315,779.1376035804789
+finished,finish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",7,3.6304,761.375877333536
+accomplished,accomplish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.5855,778.264791479892
+migrated,migrate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.2553,799.7650628910153
+melted,melt,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.3054,782.7921001720102
+populated,populate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.7559,791.6737714548341
+ranged,rang,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,0.9031,805.4577373692875
+cradled,cradle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9031,805.4577373692875
+domesticated,domesticate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+devised,devise,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,1.8808,789.6549893925506
+crafted,craft,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+woven,wove,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5185,795.5109120600067
+whipped,whip,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5694,778.5250187913633
+bred,bre,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.1004,786.1055535168307
+reclaimed,reclaim,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.1461,801.5300829166465
+worshipped,worship,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9956,787.7994555194512
+crossed,cross,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.942,772.5026152973138
+constructed,construct,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3,1.9494,788.5461947610644
+sacrificed,sacrifice,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.3522,782.0356630181683
+extended,extend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,2.3304,782.3880204958126
+perfected,perfect,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8325,790.4356713269646
+lasted,last,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4997,779.6515929286022
+weakened,weaken,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8921,789.4723453789094
+recorded,record,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.6335,777.4889585015926
+feared,fear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4624,780.2544798054892
+burned,burn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.1611,768.9612610151179
+colonized,colonize,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.9542,804.6317985111396
+confronted,confront,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.143,785.41700174859
+annoyed,annoy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.2455,783.7602750761797
+excited,excite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,3.3945,765.1887731581368
+hesitated,hesitate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8325,790.4356713269646
+congratulated,congratulate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6335,793.6521455494976
+valued,value,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.9823,788.0144259071883
+warped,warp,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9243,788.9518907559668
+pinpointed,pinpoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+distorted,distort,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.017,787.4535633166261
+summarized,summarize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.6021,810.3228566707069
+concentrated,concentrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.0,787.7283374964404
+elapsed,elapse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.415,797.1838019194649
+plotted,plot,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.7243,792.1845281655478
+signed,sign,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",2,3.2648,767.28513851825
+inclined,incline,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.2304,784.0043392006031
+knocked,knock,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.1011,769.9310522379922
+roasted,roast,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9395,788.7062103128387
+implied,imply,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.0414,787.0591815526572
+checked,check,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.3771,765.4700126127703
+drank,drink,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.8176,774.5133157660732
+enriched,enrich,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.3424,798.3572492991428
+infused,infuse,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+cleaned,clean,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.9581,772.2423879858426
+rang,ring,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.444,780.5518824471706
+ordered,order,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,3.2755,767.1121924168375
+rubbed,rub,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.143,785.41700174859
+chocked,chock,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+lagged,lag,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.699,808.7566438457649
+steeped,steep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2041,800.5926180678681
+massacred,massacre,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.699,792.5934567978599
+enslaved,enslave,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.6232,793.8186263760911
+pre-organised,pre-organise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+serviced,service,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+warranted,warrant,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.301,799.0264052429261
+sheltered,shelter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7324,792.0536063504599
+blooded,blood,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3802,797.746280828732
+blessed,bless,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.8482,774.0187222424073
+ranked,rank,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.699,792.5934567978599
+marvelled,marvel,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,4.304,750.4883545380671
+boasted,boast,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.1761,801.0451873052094
+purchased,purchase,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",5,2.281,783.1864819359791
+publicized,publicize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.0792,802.6114001301514
+comprised,comprise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.3979,797.4601924179841
+piled,pile,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8865,789.5628592263777
+situated,situate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,1.6335,793.6521455494976
+bordered,border,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.699,808.7566438457649
+accessed,access,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+dwarfed,dwarf,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.6021,810.3228566707069
+clustered,cluster,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.699,808.7566438457649
+motorized,motorize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+frozen,freeze,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.8938,773.2816809130229
+composed,compose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",3,1.9912,787.870573542462
+renowned,renown,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8325,790.4356713269646
+frequented,frequent,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.1461,801.5300829166465
+relaxed,relax,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.5527,778.7949440150633
+allocated,allocate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.9031,805.4577373692875
+rebuilt,rebuild,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.8692,789.8424823623064
+regarded,regard,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.0212,787.3856779310248
+inscribed,inscribe,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.5185,795.5109120600067
+repurposed,repurpose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+referred,refer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.3541,782.0049529627772
+soared,soar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.3802,797.746280828732
+inhabited,inhabit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.7634,791.5525475519747
+incorporated,incorporate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,8.969,675.08708695959
+renamed,rename,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.0414,803.2223686005622
+starved,starve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.3747,781.6719913095903
+renovated,renovate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3979,797.4601924179841
+reused,reuse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+fueled,fuel,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.699,792.5934567978599
+merged,merge,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3617,798.0452997891182
+commenced,commence,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,1.4472,796.6633472965224
+insured,ensure,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1,2.1038,786.0505986808679
+planted,plant,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,2.6599,777.0622503635278
+ensured,ensure,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,0.0,820.0547115922506
+numbered,number,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,1.9685,788.2374778884495
+designated,designate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.1239,785.725718621205
+spared,spare,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.2304,784.0043392006031
+protected,protect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.7443,775.6980773766846
+reached,reach,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,3.1011,769.9310522379922
+mapped,map,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6721,793.0282465294484
+desired,desire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",4,2.0645,786.6858119318506
+pre,prearrange,VERB,"{'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+restocked,restock,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.0,820.0547115922506
+permitted,permit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,2.3483,782.0986994476551
+toured,tour,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6721,793.0282465294484
+practised,practise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.4771,796.18006800379
+wai'd,wai,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+capped,cap,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7993,790.9722891369549
+advised,advise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.4281,780.8088771212323
+aided,aid,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5315,795.300790628384
+platted,plat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",2,0.0,820.0547115922506
+proclaimed,proclaim,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5441,795.0971344715804
+dotted,dot,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.716,792.3186826180455
+upset,upset,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,3.5799,762.1921182794551
+enraged,enrage,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5563,794.8999435895959
+flexed,flex,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.1461,801.5300829166465
+damaged,damage,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6665,776.9555733290117
+drained,drain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.0492,786.9331086936835
+spaced,space,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.6435,793.4905136790186
+soaked,soak,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.2041,784.429431019963
+subjected,subject,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8921,789.4723453789094
+hypnotized,hypnotize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",3,1.7924,791.0838151275855
+stressed,stress,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.4533,780.401564807625
+flavored,flavor,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.415,797.1838019194649
+guaranteed,guarantee,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.5315,779.1376035804789
+sifted,sift,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.0,803.8915245443454
+molded,mold,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.4914,795.9489344290049
+pureed,puree,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+tasted,taste,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}",1,2.4683,780.1591170019065
+distilled,distil,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,1.5185,795.5109120600067
+invented,invent,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,2.9053,773.0958042619719
+malfunctioned,malfunction,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+steered,steer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.5682,794.7076016637259
+beaten,beat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,2.7868,775.0111419271487
+dislocated,dislocate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.8865,789.5628592263777
+paralyzed,paralyze,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.281,783.1864819359791
+timed,time,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.9191,789.035939328616
+assigned,assign,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.7917,774.931942310614
+allotted,allot,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.1761,801.0451873052094
+deflated,deflate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,0.9542,804.6317985111396
+pegged,peg,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.2625,783.4855008963654
+shortened,shorten,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.3979,797.4601924179841
+blindfolded,blindfold,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.7924,791.0838151275855
+hydrated,hydrate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",1,1.2304,800.1675262485081
+cooked,cook,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,2.6866,776.6306932693487
+skittled,skittle,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}",2,0.0,820.0547115922506
+dissolved,dissolve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}",1,1.8195,790.6457927585873
+attempting,attempt,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",4,2.3118,782.6886557749036
+leading,lead,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",12,3.0273,771.1238954421275
+becoming,become,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",7,3.0674,770.4757516415066
+conducting,conduct,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",3,2.2788,783.2220409474845
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",43,4.7201,743.7628524074338
+filming,film,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.2989,782.8971608878215
+securing,secure,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,1.7924,791.0838151275855
+exploding,explode,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.1239,785.725718621205
+reducing,reduce,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",6,1.7076,792.4544533892479
+sharing,share,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.7952,774.8753711559464
+expecting,expect,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.2665,767.2576611002686
+assisting,assist,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,1.9138,789.1216042199699
+falling,fall,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",4,3.2643,767.2932201117741
+acting,act,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,3.4275,764.6553879855559
+wondering,wonder,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",5,3.5095,763.3300066476277
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",47,0.0,820.0547115922506
+going,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",65,5.0346,738.6795300808677
+fitting,fit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.4564,780.3514589277765
+telling,tell,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",6,3.9882,755.5926890077956
+getting,get,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",29,4.393,749.0498308908036
+showing,show,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",11,3.2009,768.3179661706113
+think-,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+tearing,tear,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.5159,779.3897492984262
+saying,say,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",10,4.1725,752.6138136348667
+reading,read,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",6,3.4961,763.5465933540696
+replacing,replace,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.1239,785.725718621205
+drinking,drink,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",3,3.4291,764.6295268862793
+finding,find,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.2869,766.9279320844914
+calling,call,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",3,3.8002,758.6313681728017
+lacking,lack,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.1139,785.8873504916841
+crying,cry,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.433,764.5664904567925
+looking,look,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",24,4.3437,749.8466760122653
+wailing,wail,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.1959,784.5619691537559
+wheezing,wheeze,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,1.6128,793.9867235213893
+coming,come,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",26,4.4294,748.4614908822598
+crocheting,crochet,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+flying,fly,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",4,3.4116,764.9123826596176
+speeding,speed,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.4065,781.158001961467
+suffering,suffer,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.9965,771.621721603203
+smiling,smile,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.9435,772.478370516742
+wandering,wander,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.6064,777.9269808705908
+avoiding,avoid,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.5428,778.9549595668375
+crawling,crawl,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.6656,776.9701201973548
+chasing,chase,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.9703,772.0451971038581
+regretting,regret,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+leaning,lean,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.3385,782.2570986807245
+sweeping,sweep,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.233,783.9623149142785
+travelling,travel,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.2989,782.8971608878215
+stirring,stir,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.1271,785.6739964226517
+breathing,breath,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,3.1517,769.1131949733682
+fading,fade,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.1004,786.1055535168307
+keeping,keep,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.4165,764.8331830430828
+debating,debate,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.9243,788.9518907559668
+winning,win,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",8,3.0766,770.3270503206659
+intending,intend,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.4771,796.18006800379
+challenging,challenge,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.29,783.0410132525479
+buying,buy,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.2253,767.9235844066424
+happening,happen,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",3,3.6645,760.8247126552025
+dating,date,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.2279,767.8815601203178
+kidding,kid,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.834,758.0850524505826
+protesting,protest,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.0043,787.6588357921344
+killing,kill,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",5,3.5984,761.8930993190689
+answering,answer,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.8549,773.9104288891864
+knocking,knock,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.8808,773.4918023446456
+proving,prove,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.3617,781.8821127412132
+fundraising,fundrais,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+complying,comply,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.1761,801.0451873052094
+waging,wage,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.1761,801.0451873052094
+loading,load,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",3,2.3962,781.3244827880604
+slipping,slip,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.4829,779.9231344710071
+gaining,gain,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",3,2.2878,783.0765722640533
+encouraging,encourage,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.2201,784.1708200271966
+cultivating,cultivate,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.2788,799.3852279953895
+hanging,hang,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",4,3.4371,764.5002213898961
+enforcing,enforce,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.2553,799.7650628910153
+prevailing,prevail,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.4624,796.4176668533942
+cooperating,cooperate,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,2.0414,787.0591815526572
+sailing,sail,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.6821,776.7034276110644
+reviewing,review,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.017,787.4535633166261
+sending,send,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",5,3.2531,767.4742478067105
+perceiving,perceive,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.0,803.8915245443454
+coursing,course,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.3979,797.4601924179841
+sounding,sound,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.2878,783.0765722640533
+coughing,cough,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.4014,781.2404342154114
+gargling,gargle,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+backing,back,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.5119,779.4544020466178
+ending,end,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.9101,773.0182209641421
+battling,battle,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.1072,785.995643844905
+repositioning,reposition,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+capitalizing,capitalize,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.6021,810.3228566707069
+camping,camp,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.4997,779.6515929286022
+staying,stay,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,3.483,763.7583311043973
+interacting,interact,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",2,1.3424,798.3572492991428
+forming,form,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.1492,785.316789988893
+browning,brown,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,7.31,701.9018142720645
+stocking,stock,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.1303,785.6222742240984
+tripping,trip,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.29,783.0410132525479
+troubling,trouble,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.0792,786.4482130822463
+bogging,bog,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,0.0,820.0547115922506
+pushing,push,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,2.9908,771.7138517693761
+daydreaming,daydream,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}",1,1.7559,791.6737714548341

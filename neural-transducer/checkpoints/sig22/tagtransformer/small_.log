@@ -1,0 +1,294 @@
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: seed - 0
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/small_.train']
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/small.dev']
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: test - ['../../../part1/submissions/baseline/wuetal-transformer/small.test']
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: model - 'checkpoints/sig22/tagtransformer/small_'
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: load - ''
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: bs - 400
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: epochs - 20
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: total_eval - 50
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: lr - 0.001
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: cooldown - 0
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: patience - 0
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: saveall - False
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: shuffle - True
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: init - ''
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: src_layer - 4
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: arch - <Arch.tagtransformer: 'tagtransformer'>
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: indtag - False
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: mono - False
+INFO - 08/28/23 17:19:39 - 0:00:00 - command line argument: bestacc - True
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: seed - 0
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/small_.train']
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/small.dev']
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: test - ['../../../part1/submissions/baseline/wuetal-transformer/small.test']
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: model - 'checkpoints/sig22/tagtransformer/small_'
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: load - ''
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: bs - 400
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: epochs - 20
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: total_eval - 50
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: lr - 0.001
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: cooldown - 0
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: patience - 0
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: saveall - False
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: shuffle - True
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: init - ''
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: src_layer - 4
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: arch - <Arch.tagtransformer: 'tagtransformer'>
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: indtag - False
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: mono - False
+INFO - 08/28/23 17:32:55 - 0:00:00 - command line argument: bestacc - True
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: seed - 0
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/small_.train']
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/small.dev']
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: test - ['../../../part1/submissions/baseline/wuetal-transformer/small.test']
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: model - 'checkpoints/sig22/tagtransformer/small_'
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: load - ''
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: bs - 400
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: epochs - 20
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: total_eval - 50
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: lr - 0.001
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: cooldown - 0
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: patience - 0
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: saveall - False
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: shuffle - True
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: init - ''
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: src_layer - 4
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: arch - <Arch.tagtransformer: 'tagtransformer'>
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: indtag - False
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: mono - False
+INFO - 08/28/23 17:33:56 - 0:00:00 - command line argument: bestacc - True
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: seed - 0
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/small_.train']
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/small.dev']
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: test - ['../../../part1/submissions/baseline/wuetal-transformer/small.test']
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: model - 'checkpoints/sig22/tagtransformer/small_'
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: load - ''
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: bs - 400
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: epochs - 20
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: total_eval - 50
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: lr - 0.001
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: cooldown - 0
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: patience - 0
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: saveall - False
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: shuffle - True
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: init - ''
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: src_layer - 4
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: arch - <Arch.tagtransformer: 'tagtransformer'>
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: indtag - False
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: mono - False
+INFO - 08/29/23 13:06:15 - 0:00:00 - command line argument: bestacc - True
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: seed - 0
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: train - ['/users/PAS2062/delijingyic/project/morph/neural-transducer/2022InflectionST/part1/development_languages/small_.train']
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: dev - ['/users/PAS2062/delijingyic/project/morph/neural-transducer/2022InflectionST/part1/development_languages/small.dev']
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: test - ['../../../part1/submissions/baseline/wuetal-transformer/small.test']
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: model - 'checkpoints/sig22/tagtransformer/small_'
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: load - ''
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: bs - 400
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: epochs - 20
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: total_eval - 50
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: lr - 0.001
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: cooldown - 0
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: patience - 0
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: saveall - False
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: shuffle - True
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: init - ''
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: src_layer - 4
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: arch - <Arch.tagtransformer: 'tagtransformer'>
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: indtag - False
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: mono - False
+INFO - 08/29/23 13:33:57 - 0:00:00 - command line argument: bestacc - True
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: seed - 0
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: train - ['/users/PAS2062/delijingyic/project/morph/neural-transducer/2022InflectionST/part1/development_languages/small_.train']
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: dev - ['/users/PAS2062/delijingyic/project/morph/neural-transducer/2022InflectionST/part1/development_languages/small.dev']
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: test - ['../../../part1/submissions/baseline/wuetal-transformer/small.test']
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: model - 'checkpoints/sig22/tagtransformer/small_'
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: load - ''
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: bs - 400
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: epochs - 20
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: total_eval - 50
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: lr - 0.001
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: cooldown - 0
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: patience - 0
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: saveall - False
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: shuffle - True
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: init - ''
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: src_layer - 4
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: arch - <Arch.tagtransformer: 'tagtransformer'>
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: indtag - False
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: mono - False
+INFO - 08/29/23 13:38:57 - 0:00:00 - command line argument: bestacc - True

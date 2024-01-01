@@ -1,0 +1,1894 @@
+form,lemma,upos,feats,frequency
+hizo,hacer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",11
+siguiendo,seguir,VERB,{'VerbForm': 'Ger'},3
+aprendidas,aprender,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+haciendo,hacer,VERB,{'VerbForm': 'Ger'},9
+cambió,cambiar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+transmitiéndo,transmitiéndo,VERB,{'VerbForm': 'Ger'},1
+pedidos,pedido,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+escrita,escribir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+existirá,existir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+permitirá,permitir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+dar,dar,VERB,{'VerbForm': 'Inf'},9
+conocer,conocer,VERB,{'VerbForm': 'Inf'},2
+programando,programar,VERB,{'VerbForm': 'Ger'},1
+quedado,quedar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+dicho,dicho,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+nacieron,nacir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+coordinados,coordinar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+volvió,volver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6
+fallaron,fallar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+resolver,resolver,VERB,{'VerbForm': 'Inf'},1
+promueve,promover,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+maneje,manejar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+permite,permitir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",7
+cree,crear,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+usando,usar,VERB,{'VerbForm': 'Ger'},2
+es,ser,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",30
+implementa,implementar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+da,dar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",9
+retirar,retirar,VERB,{'VerbForm': 'Inf'},2
+trata,tratar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",5
+persuadir,persuadir,VERB,{'VerbForm': 'Inf'},1
+retire,retire,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",2
+existían,existir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+ver,ver,VERB,{'VerbForm': 'Inf'},15
+hay,haber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",17
+reclutados,reclutar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+espera,esperar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+inaugurar,inaugurar,VERB,{'VerbForm': 'Inf'},1
+trasladó,trasladar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+educar,educar,VERB,{'VerbForm': 'Inf'},1
+aprendió,aprender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+nadar,nadar,VERB,{'VerbForm': 'Inf'},1
+ir,ir,VERB,{'VerbForm': 'Inf'},7
+inauguró,inaugurar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+une,unir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+situada,situar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",8
+limita,limita,VERB,{'VerbForm': 'Ger'},2
+tiene,tener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",38
+desemboca,desembocar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+interpretado,interpretar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+dirigiendo,dirigir,VERB,{'VerbForm': 'Ger'},1
+celebran,celebrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+vuelve,volver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+organizar,organizar,VERB,{'VerbForm': 'Inf'},1
+busca,buscar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+vea,ver,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+transiten,transitar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+había,haber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",10
+residiendo,residir,VERB,{'VerbForm': 'Ger'},8
+visualizan,visualizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dan,dar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+rellenadas,rellenar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+promedió,promeder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+gusta,gustar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+confian,confiar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+recalar,recalar,VERB,{'VerbForm': 'Inf'},1
+ubicado,ubicar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",15
+pretendió,pretender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+reemplazar,reemplazar,VERB,{'VerbForm': 'Inf'},1
+tenga,tener,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+retira,retirar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+publicado,publicar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",4
+obtenido,obtener,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+creada,crear,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+dejo,dejar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+veo,ver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+adoran,adorar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tratan,tratar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+promover,promover,VERB,{'VerbForm': 'Inf'},2
+lograr,lograr,VERB,{'VerbForm': 'Inf'},3
+ofrece,ofrecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",5
+solía,soler,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+quedar,quedar,VERB,{'VerbForm': 'Inf'},7
+restringida,restringir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+obliga,obligar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ofrecen,ofrecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+rebajar,rebajar,VERB,{'VerbForm': 'Inf'},1
+conocida,conocer,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+comer,comer,VERB,{'VerbForm': 'Inf'},1
+cenar,cenar,VERB,{'VerbForm': 'Inf'},1
+acusó,acusar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+desafió,desafiar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ganando,ganar,VERB,{'VerbForm': 'Ger'},2
+golpeó,golpear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+nació,nacer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",9
+divertir,divertir,VERB,{'VerbForm': 'Inf'},1
+acompañados,acompañar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+degustar,degustar,VERB,{'VerbForm': 'Inf'},1
+decidió,decidir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7
+cruzado,cruzar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+responder,responder,VERB,{'VerbForm': 'Inf'},1
+surgido,surgir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+jugó,jugar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+pasó,pasar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6
+formar,formar,VERB,{'VerbForm': 'Inf'},3
+visita,visita,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+destacó,destacar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+llevará,llevar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+significará,significar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+necesitas,necesita,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+relajar,relajar,VERB,{'VerbForm': 'Inf'},1
+pasar,pasar,VERB,{'VerbForm': 'Inf'},5
+basado,basar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+autorizadas,autorizar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+caracteriza,caracterizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+crea,crear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+fortalecer,fortalecer,VERB,{'VerbForm': 'Inf'},1
+mejorar,mejorar,VERB,{'VerbForm': 'Inf'},2
+cumplieron,cumplir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+previstos,prever,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",2
+realizó,realizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5
+vivía,vivir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+designado,designar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+compuesto,componer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",7
+eran,ser,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",16
+pertenecían,pertenecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",9
+suele,soler,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+realizan,realizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+reivindicar,reivindicar,VERB,{'VerbForm': 'Inf'},2
+publicada,publicar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+escogió,escoger,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ignorar,ignorar,VERB,{'VerbForm': 'Inf'},1
+pasado,pasar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+ser,ser,VERB,{'VerbForm': 'Inf'},3
+unir,unir,VERB,{'VerbForm': 'Inf'},5
+conquistando,conquistar,VERB,{'VerbForm': 'Ger'},1
+cambiar,cambiar,VERB,{'VerbForm': 'Inf'},3
+traicionando,traicionar,VERB,{'VerbForm': 'Ger'},1
+recompensado,recompensar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+era,ser,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",14
+comenzó,comenzar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",12
+emitir,emitir,VERB,{'VerbForm': 'Inf'},1
+escrito,escribir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",4
+retirado,retirar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+encabezaba,encabezar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+supone,suponer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+teniamos,tener,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+dijo,decir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+querían,querer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+pagar,pagar,VERB,{'VerbForm': 'Inf'},2
+aguardan,aguardar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+intentaron,intentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+atacar,atacar,VERB,{'VerbForm': 'Inf'},2
+incapacitó,incapacitar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+transportar,transportar,VERB,{'VerbForm': 'Inf'},2
+manifestado,manifestar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+acelerar,acelerar,VERB,{'VerbForm': 'Inf'},1
+propiciar,propiciar,VERB,{'VerbForm': 'Inf'},1
+considerado,considerar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",5
+estar,estar,VERB,{'VerbForm': 'Inf'},2
+defraudó,defraudar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+pese,pese,VERB,{'VerbForm': 'Ger'},6
+inquietó,inquietar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+corresponde,corresponder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+gestiona,gestionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tuvo,tener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",11
+enterrados,enterrar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+resultaron,resultar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+diezmadas,diezmar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+producida,producir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+electo,electo,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+mantenía,mantener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+derrocados,derrocar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+dirigida,dirigir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",5
+encuentra,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",29
+está,estar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",11
+electrificar,electrificar,VERB,{'VerbForm': 'Inf'},1
+vieron,ver,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+firmaron,firmar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+distribuir,distribuir,VERB,{'VerbForm': 'Inf'},1
+ofrecer,ofrecer,VERB,{'VerbForm': 'Inf'},1
+tecnología,tecnología,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+camina,camina,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+parece,parecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",6
+dice,decir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+escribió,escribir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+produjo,producir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+ubicada,ubicar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",7
+caracterizan,caracterizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tener,tener,VERB,{'VerbForm': 'Inf'},10
+vengo,vengo,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+ejecutó,ejecutar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ocupar,ocupar,VERB,{'VerbForm': 'Inf'},1
+demandó,demandar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+hacer,hacer,VERB,{'VerbForm': 'Inf'},21
+reducidos,reducir,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+comienzan,comenzar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+publicar,publicar,VERB,{'VerbForm': 'Inf'},1
+domina,dominar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+alojadas,alojar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+alcanzan,alcanzar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+planificadas,planificar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+construidas,construir,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+financiadas,financiar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+colocar,colocar,VERB,{'VerbForm': 'Inf'},1
+aparece,aparecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+dividido,dividir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+denomina,denominar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+vive,vivir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+involucrar,involucrar,VERB,{'VerbForm': 'Inf'},1
+esgrimidas,esgrimida,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+vivir,vivir,VERB,{'VerbForm': 'Inf'},4
+lleva,llevar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",5
+desarrollar,desarrollar,VERB,{'VerbForm': 'Inf'},3
+partir,partir,VERB,{'VerbForm': 'Inf'},9
+puesto,poner,VERB,"{'Number': 'Sing', 'VerbForm': 'Fin'}",6
+escapó,escapar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+aceptado,aceptar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+guardaban,guardar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+abren,abrir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sumergen,sumergir,VERB,"{'Mood': 'Imp', 'Number': 'Plur', 'Person': '3', 'VerbForm': 'Fin'}",1
+logrando,lograr,VERB,{'VerbForm': 'Ger'},1
+encuentran,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",8
+utilizó,utilizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+usó,usar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+salen,salir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+surgen,surgir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dedicó,dedicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+dispone,disponer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+reportar,reportar,VERB,{'VerbForm': 'Inf'},1
+aprehende,aprehender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+existe,existir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+prefiriendo,prefirer,VERB,{'VerbForm': 'Ger'},1
+pertenece,pertenece,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",7
+encontrará,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+intentar,intentar,VERB,{'VerbForm': 'Inf'},2
+sumar,sumar,VERB,{'VerbForm': 'Inf'},1
+descolgar,descolgar,VERB,{'VerbForm': 'Inf'},1
+evitar,evitar,VERB,{'VerbForm': 'Inf'},4
+vienen,venir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+acerquen,acercar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ganar,ganar,VERB,{'VerbForm': 'Inf'},4
+señaló,señalar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+supuesto,suponer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+visitados,visitar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+elogiaron,elogiar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+cayó,caer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+vivido,vivir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+compré,comprar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dió,dir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+llevé,llever,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+siguió,seguir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+dando,dar,VERB,{'VerbForm': 'Ger'},3
+volví,volver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+llevar,llevar,VERB,{'VerbForm': 'Inf'},4
+estoy,estar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sigue,seguir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+intenta,intentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+superar,superar,VERB,{'VerbForm': 'Inf'},2
+relacionados,relacionar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+diferían,difer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+distinguía,distinguir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+sobresalía,sobresaliar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+grabados,grabar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+elegido,elegir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+anticipar,anticipar,VERB,{'VerbForm': 'Inf'},1
+descansar,descansar,VERB,{'VerbForm': 'Inf'},2
+vienes,vién,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+van,ir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tenemos,tener,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+apelar,apelar,VERB,{'VerbForm': 'Inf'},1
+ofrezcan,ofrecer,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+descrito,describir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+leyó,leer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+terminar,terminar,VERB,{'VerbForm': 'Inf'},5
+fundó,fundar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+caído,caer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+explica,explicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+conocido,conocer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",10
+descubrir,descubrir,VERB,{'VerbForm': 'Inf'},1
+demostrada,demostrar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+describía,describir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+deriva,derivar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+posea,poseer,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+viviendo,vivir,VERB,{'VerbForm': 'Ger'},1
+celebramos,celebrar,VERB,{'VerbForm': 'Inf'},1
+encantó,encantar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+ofreció,ofrecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+ahorre,ahorrer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sepa,separ,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+puestos,puesto,VERB,"{'Gender': 'Masc', 'Number': 'Plur'}",1
+deje,dejar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+liberado,liberar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+empezar,empezar,VERB,{'VerbForm': 'Inf'},1
+firmó,firmar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+declarado,declarar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+exiliados,exiliar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+liderados,liderar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+hicieron,hacer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+deponer,deponer,VERB,{'VerbForm': 'Inf'},1
+presentaba,presentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+comunicar,comunicar,VERB,{'VerbForm': 'Inf'},1
+buscan,buscar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+explicar,explicar,VERB,{'VerbForm': 'Inf'},1
+tendría,tener,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",2
+reemplazada,reemplazar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+contenga,contener,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+represente,represente,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+habitan,habitar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+actuó,actuar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+enfrentaron,enfrentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+marchara,marchar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+senia,senia,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sentía,sentir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+percate,percatar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+apunta,apuntar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+mata,matar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+presenta,presentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+girando,girar,VERB,{'VerbForm': 'Ger'},1
+portan,portar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+son,ser,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+conocía,conocer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+tenía,tener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",21
+situados,situar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",2
+bautizado,bautizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+vivió,vivir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+convirtió,convertir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",6
+roba,robar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+quieren,querer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+acabar,acabar,VERB,{'VerbForm': 'Inf'},1
+murió,morir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",7
+contraer,contraer,VERB,{'VerbForm': 'Inf'},1
+componen,componer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+implica,implicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+realiza,realizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+empezado,empezar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+hace,hacer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",11
+conocíamos,conocer,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+reciba,recibir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+comportar,comportar,VERB,{'VerbForm': 'Inf'},1
+tengan,tener,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+corresponden,corresponder,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",5
+cuenta,contar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",7
+asumir,asumir,VERB,{'VerbForm': 'Inf'},1
+cometidos,cometer,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+sobrepasar,sobrepasar,VERB,{'VerbForm': 'Inf'},1
+explicó,explicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+incluya,incluir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+eliminado,eliminar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+inhabilitado,inhabilitar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+volver,volver,VERB,{'VerbForm': 'Inf'},8
+comentar,comentar,VERB,{'VerbForm': 'Inf'},1
+río,río,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tomaba,tomar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+generan,generar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+sale,salir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+elegida,elegir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+presentada,presentar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+recuperado,recuperar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+entra,entrar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",2
+abaratar,abaratar,VERB,{'VerbForm': 'Inf'},1
+toca,tocar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+firmar,firmar,VERB,{'VerbForm': 'Inf'},3
+apodado,apodar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+sometió,someter,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+nacido,nacer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",9
+cursó,cursar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+marchó,marchar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+partieron,partir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+citados,citar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+trabaja,trabajar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+empató,empatar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+quedó,quedar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+presentan,presentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+disponen,disponer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+llevaron,llevar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+estudió,estudiar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+versó,versar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+participaba,participar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+participar,participar,VERB,{'VerbForm': 'Inf'},2
+adhirió,adherir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encontrar,encontrar,VERB,{'VerbForm': 'Inf'},9
+detecten,detectar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+manifestadas,manifestar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+relacionada,relacionar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+importadas,importar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+habla,hablar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+lesionó,lesionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+retrasó,retrasar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+condecorado,condecorar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+colocó,colocar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+conoce,conocer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+hacían,hacer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+adquirir,adquirir,VERB,{'VerbForm': 'Inf'},2
+lanzado,lanzar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",7
+distribuido,distribuir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+unía,unir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+construida,construir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+desaparecido,desaparecer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+quedan,quedar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+llegar,llegar,VERB,{'VerbForm': 'Inf'},5
+atraviesan,atraviesar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+facilitan,facilitar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+reconocidas,reconocer,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+publicó,publicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+lanzada,lanzar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+reeditadas,reeditar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+llegó,llegar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5
+influyó,influir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+afirma,afirmar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+unidos,unir,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+reforzados,reforzar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+suman,sumar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+integrado,integrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+atestigua,atestiguo,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+tocó,tocar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+tocado,tocar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+aliado,aliar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+dudo,dudo,VERB,{'VerbForm': 'Ger'},1
+empujar,empujar,VERB,{'VerbForm': 'Inf'},1
+demostrar,demostrar,VERB,{'VerbForm': 'Inf'},2
+tienen,tener,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",8
+agregados,agregar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+formado,formar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+enterar,enterar,VERB,{'VerbForm': 'Inf'},1
+invirtió,invirtir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+ocupó,ocupar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+pedí,pedir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+fallecieron,fallecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+consiguió,conseguir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+dejaba,dejar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+encargado,encargar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+enviados,enviar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+destinado,destinar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+comenzaban,comenzar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+surgir,surgir,VERB,{'VerbForm': 'Inf'},2
+basados,basar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+esparcidos,esparcido,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+debido,deber,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",14
+saben,saber,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+prefiero,preferir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+evito,evitar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+acudieron,acudir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+recorrió,recorrer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+amaestrados,amaestrar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+destacado,destacar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+adquirido,adquirir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+creado,crear,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",5
+brindar,brindar,VERB,{'VerbForm': 'Inf'},1
+atrae,atraer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+otorgando,otorgar,VERB,{'VerbForm': 'Ger'},1
+crear,crear,VERB,{'VerbForm': 'Inf'},3
+producir,producir,VERB,{'VerbForm': 'Inf'},1
+compartir,compartir,VERB,{'VerbForm': 'Inf'},3
+utilizando,utilizar,VERB,{'VerbForm': 'Ger'},2
+referido,referir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+incluyendo,incluir,VERB,{'VerbForm': 'Ger'},5
+localizado,localizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+falleció,fallecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+emparejada,emparejar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+parecía,parecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",3
+hablado,hablar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+escuchado,escuchar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+reconocieron,reconocer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+cumplió,cumplir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+profesan,profesar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+apreciar,apreciar,VERB,{'VerbForm': 'Inf'},2
+sumó,sumar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+presentara,presentar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+albergara,albergar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+recibió,recibir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5
+convenció,convenciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+trabajar,trabajar,VERB,{'VerbForm': 'Inf'},7
+visto,ver,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+cobraron,cobrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+opuestos,oponer,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+llamar,llamar,VERB,{'VerbForm': 'Inf'},3
+asistió,asistir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+realizar,realizar,VERB,{'VerbForm': 'Inf'},4
+regresó,regresar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+recordaba,recordar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+dio,dar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+pudre,pudrar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+reconoce,reconocer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+significa,significar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+considerar,considerar,VERB,{'VerbForm': 'Inf'},3
+cubre,cubrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+adentra,adentrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+venció,vencer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+proclamó,proclamar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+conservar,conservar,VERB,{'VerbForm': 'Inf'},2
+afirmó,afirmar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5
+quiere,querer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",7
+hablar,hablar,VERB,{'VerbForm': 'Inf'},1
+cenando,cenar,VERB,{'VerbForm': 'Ger'},1
+leer,leer,VERB,{'VerbForm': 'Inf'},2
+decidimos,decidir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+probar,probar,VERB,{'VerbForm': 'Inf'},2
+será,ser,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",2
+concluyó,concluir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ondeada,ondear,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+daba,dar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+confirma,confirmar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+asegurado,asegurar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+estaba,estar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",5
+atribuye,atribuir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+cogemos,coger,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llegamos,llegar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+quedaban,quedar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+descreer,descreer,VERB,{'VerbForm': 'Inf'},1
+terminan,terminar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+autoproclamó,autoproclamar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+considera,considerar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+lucha,lucha,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+extermina,exterminar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+incluido,incluir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+ocupaba,ocupar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+logró,lograr,VERB,{'VerbForm': 'Fin'},3
+conseguiría,conseguir,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+resultó,resultar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+constituyendo,constituir,VERB,{'VerbForm': 'Ger'},1
+aprovechar,aprovechar,VERB,{'VerbForm': 'Inf'},1
+seducir,seducir,VERB,{'VerbForm': 'Inf'},2
+consigue,conseguir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+disfrutar,disfrutar,VERB,{'VerbForm': 'Inf'},2
+hará,har,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+alquilé,alquilé,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+recorrimos,recorrimo,VERB,{'VerbForm': 'Ger'},1
+dieron,dar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+destripar,destripar,VERB,{'VerbForm': 'Inf'},1
+incluye,incluir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+permiten,permitir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+visitar,visitar,VERB,{'VerbForm': 'Inf'},4
+descubierto,descubrir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+expuesto,exponer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+esta,estar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'Typo': 'Yes', 'VerbForm': 'Fin'}",2
+llamado,llamar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",6
+pretende,pretender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+conseguir,conseguir,VERB,{'VerbForm': 'Inf'},6
+guiadas,guiar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+estimada,estimar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+sabía,saber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+vió,vir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+preguntaban,preguntar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+trabajaba,trabajar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+inaugurada,inaugurar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+cumplido,cumplir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+creando,crear,VERB,{'VerbForm': 'Ger'},2
+llegaba,llegar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+avanzaba,avanzar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+abarataban,abaratar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+viendo,ver,VERB,{'VerbForm': 'Ger'},2
+forjó,forjar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+regentado,regentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+decidí,decidir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+buscar,buscar,VERB,{'VerbForm': 'Inf'},2
+dirigir,dirigir,VERB,{'VerbForm': 'Inf'},4
+doblo,doblo,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+basa,basar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+cuadruplicaba,cuadruplicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+dedica,dedicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+ganada,ganar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+muriendo,morir,VERB,{'VerbForm': 'Ger'},1
+enlutando,enlutar,VERB,{'VerbForm': 'Ger'},1
+dejando,dejar,VERB,{'VerbForm': 'Ger'},1
+mermar,mermar,VERB,{'VerbForm': 'Inf'},1
+haya,haber,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+solventar,solventar,VERB,{'VerbForm': 'Inf'},1
+castigados,castigar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+conforman,conformar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+enmarcada,enmarcar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+encajados,encajar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+salió,salir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ahorré,ahorrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+llegaron,llegar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5
+declaró,declarar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+trataba,tratar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+dejar,dejar,VERB,{'VerbForm': 'Inf'},4
+tomar,tomar,VERB,{'VerbForm': 'Inf'},6
+cogido,coger,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+utilizan,utilizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+ocurre,ocurrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+emplea,emplear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+armados,armar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+asaltado,asaltar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+celebrada,celebrar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+enfrentó,enfrentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+tenían,tener,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",4
+alquilar,alquilar,VERB,{'VerbForm': 'Inf'},1
+debiéndo,debiér,VERB,{'VerbForm': 'Ger'},1
+traer,traer,VERB,{'VerbForm': 'Inf'},1
+olvidó,olvidar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+presentó,presentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+despidió,despedir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+sienten,sentir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llegan,llegar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+procedían,proceder,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+seleccionado,seleccionar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+crecer,crecer,VERB,{'VerbForm': 'Inf'},2
+colaboró,colaborar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+creó,crear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ejercer,ejercer,VERB,{'VerbForm': 'Inf'},1
+va,ir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",8
+remarcó,remarcar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ocupa,ocupar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+construyó,construir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+alcanzó,alcanzar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+colocándolo,colocándolo,VERB,{'VerbForm': 'Ger'},1
+manifestaron,manifestar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+acusándo,acusár,VERB,{'VerbForm': 'Ger'},1
+viven,vivir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+rodeada,rodear,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+hacen,hacer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+premiada,premiar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+seguiría,seguir,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",2
+llega,llegar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+habrá,haber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+decir,decir,VERB,{'VerbForm': 'Inf'},7
+usado,usar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+referir,referir,VERB,{'VerbForm': 'Inf'},1
+importara,importar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+guardan,guardar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+necesita,necesita,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+contrarreste,contrarreste,VERB,"{'Number': 'Sing', 'VerbForm': 'Fin'}",1
+generando,generar,VERB,{'VerbForm': 'Ger'},1
+recibe,recibir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+escritas,escribir,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+acaba,acabar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+tocar,tocar,VERB,{'VerbForm': 'Inf'},3
+continúa,continuar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+esconde,esconder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+prohibido,prohibir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+cantar,cantar,VERB,{'VerbForm': 'Inf'},1
+fumar,fumar,VERB,{'VerbForm': 'Inf'},1
+liar,liar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+viene,venir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+cambie,cambie,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+pasa,pasar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+descuentan,descuentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+redondean,redondear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dependiendo,depender,VERB,{'VerbForm': 'Ger'},2
+incida,incido,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+extinguido,extinguir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+desintegrado,desintegrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+hubo,haber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+medió,meder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+hablando,hablar,VERB,{'VerbForm': 'Ger'},1
+amenizan,amenizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+navegaba,navegar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+formateado,formatear,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+digan,decir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+ubicados,ubicar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+representa,representa,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",6
+proponen,proponer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+conciliar,conciliar,VERB,{'VerbForm': 'Inf'},1
+resplandezco,resplandecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+marchan,marchar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+decide,decidir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+ayudar,ayudar,VERB,{'VerbForm': 'Inf'},4
+superaban,superar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+aprovechadas,aprovechar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+ganaron,ganar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+sufrir,sufrir,VERB,{'VerbForm': 'Inf'},1
+sometida,someter,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+sufrió,sufrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+ingresada,ingresar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+informó,informar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+legalizaron,legalizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+refiere,referir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+destaca,destacar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+encabezó,encabezar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+distribuyen,distribuir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+fusionó,fusionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+situó,situar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+reunieron,reunir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+arrestado,arrestar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+pensamos,pensamo,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+reside,residir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+entender,entender,VERB,{'VerbForm': 'Inf'},2
+acoplará,acoplar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+rodeen,rodear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sea,ser,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",7
+maneja,manejar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+acertar,acertar,VERB,{'VerbForm': 'Inf'},1
+dirigido,dirigir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",4
+refirió,refirir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+aprobados,aprobar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+sumados,sumar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+resarcir,resarcir,VERB,{'VerbForm': 'Inf'},1
+ocasionados,ocasionar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+dirigió,dirigir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+finalizar,finalizar,VERB,{'VerbForm': 'Inf'},1
+fueron,ser,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+establecieron,establecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+funciona,funcionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sálva,sálva,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+maduró,madurar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+entrenar,entrenar,VERB,{'VerbForm': 'Inf'},2
+expulsó,expulsar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+enseñó,enseñar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+calificó,calificar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+vendido,vender,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+obtuvo,obtener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+donados,donar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+afrontará,afrontar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+medir,medir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",3
+desayunar,desayunar,VERB,{'VerbForm': 'Inf'},1
+eliminar,eliminar,VERB,{'VerbForm': 'Inf'},2
+definir,definir,VERB,{'VerbForm': 'Inf'},1
+estudian,estudiar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+solicitado,solicitar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+permitan,permitir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+encuentre,encontrar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+doctoró,doctorar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+sosteniendo,sostener,VERB,{'VerbForm': 'Ger'},1
+ascendió,ascender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+sube,subir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ve,ver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+corre,correr,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+pidiento,pidiento,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+encontraron,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+datadas,datar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+existen,existir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+arrasados,arrasar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+comprende,comprender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+entendida,entender,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+acceder,acceder,VERB,{'VerbForm': 'Inf'},2
+nacida,nacer,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+formó,formar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+designada,designar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+integrar,integrar,VERB,{'VerbForm': 'Inf'},2
+habita,habita,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+emitido,emitir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+quedará,quedar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+debatieron,debatir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+posee,poseer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+considerada,considerar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+constituye,constituir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+acumulando,acumular,VERB,{'VerbForm': 'Ger'},1
+derrotar,derrotar,VERB,{'VerbForm': 'Inf'},1
+derrotado,derrotar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+viajó,viajar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+subido,subido,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+recetadas,recetar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+recomiendo,recomer,VERB,{'VerbForm': 'Ger'},2
+comprar,comprar,VERB,{'VerbForm': 'Inf'},3
+consumir,consumir,VERB,{'VerbForm': 'Inf'},1
+experimentó,experimentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+atribuido,atribuir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+desarrollado,desarrollar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+vale,valer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+situado,situar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",4
+citan,citar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+conectar,conectar,VERB,{'VerbForm': 'Inf'},1
+explorar,explorar,VERB,{'VerbForm': 'Inf'},1
+ambientada,ambientar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+contrasta,contrastar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+preside,presidir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+confirmó,confirmar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+tratar,tratar,VERB,{'VerbForm': 'Inf'},1
+dedicaron,dedicar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+empleado,emplear,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+obtener,obtener,VERB,{'VerbForm': 'Inf'},4
+entienden,entiender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+utilizados,utilizar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+tendrá,tener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+ordenado,ordenar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+pondría,poner,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+fue,ser,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+costeó,costear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+remonta,remontar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+crearon,crear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+implantado,implantar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+disponemos,disponer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+supongo,supongo,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llorará,llorar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+restringidas,restringir,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+sorprendió,sorprender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+comprobar,comprobar,VERB,{'VerbForm': 'Inf'},3
+situaría,situar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+casar,casar,VERB,{'VerbForm': 'Inf'},1
+juega,jugar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+estalló,estallar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+respaldados,respaldar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+únan,únan,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+emitida,emitir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+establecida,establecer,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+señala,señalar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+condimentaba,condimentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+almacenaba,almacenar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+recubiertos,recubrir,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+producido,producir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",4
+muestra,mostrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+enfatizó,enfatizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+convencida,convencido,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+vamos,ir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+permitir,permitir,VERB,{'VerbForm': 'Inf'},1
+nombrado,nombrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",3
+casara,casar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+negó,negar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+conceder,conceder,VERB,{'VerbForm': 'Inf'},1
+diciéndo,diciér,VERB,{'VerbForm': 'Ger'},1
+interesa,interesar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+concede,conceder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+recomendado,recomendar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+vayan,ir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+pensó,pensar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+devolviesen,devolviesar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tomado,tomar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+editado,editar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+escoger,escoger,VERB,{'VerbForm': 'Inf'},2
+regular,regular,VERB,{'VerbForm': 'Inf'},1
+consta,constar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+cruzaran,cruzar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+abordaran,abordar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+afirman,afirmar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+integró,integrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ganó,ganar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",4
+otorgado,otorgar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+permitió,permitir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+viajar,viajar,VERB,{'VerbForm': 'Inf'},1
+distribuía,distribuir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+seguido,seguir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+concebidos,concebido,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+eleva,elevar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+alineó,alinear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+apoyó,apoyar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+imponiéndo,imponiéndo,VERB,{'VerbForm': 'Ger'},1
+debutó,debutar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+suelen,soler,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+doblar,doblar,VERB,{'VerbForm': 'Inf'},1
+cambiada,cambiar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+contiene,contener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+prever,prever,VERB,{'VerbForm': 'Inf'},1
+suspira,suspirar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+disfrazados,disfrazar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+utiliza,utilizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+desaparecer,desaparecer,VERB,{'VerbForm': 'Inf'},1
+querido,querido,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+entregando,entregar,VERB,{'VerbForm': 'Ger'},1
+otorgan,otorgar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+conversar,conversar,VERB,{'VerbForm': 'Inf'},1
+interrumpida,interrumpir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+irrumpió,irrumpir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+habló,hablar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+insistió,insistir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+ostenten,ostentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+reportado,reportar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+origina,originar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+colgado,colgar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+vuelto,volver,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+incurra,incurrir,VERB,{'VerbForm': 'Inf'},1
+transportaron,transportar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+pende,pender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+yergue,yergar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+debuta,debuta,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+pueblan,poblar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+concentra,concentrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+poner,poner,VERB,{'VerbForm': 'Inf'},3
+llegaría,llegar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",2
+terminó,terminar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+desertando,desertar,VERB,{'VerbForm': 'Ger'},1
+convirtiéndo,convertir,VERB,{'VerbForm': 'Ger'},1
+llevó,llevar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+voló,volar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+desmanteló,desmantelar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+dedicada,dedicar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+someter,someter,VERB,{'VerbForm': 'Inf'},1
+obligar,obligar,VERB,{'VerbForm': 'Inf'},1
+desviar,desviar,VERB,{'VerbForm': 'Inf'},1
+comenten,comentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+violan,violar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+abordan,abordar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dada,dar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+catalogada,catalogada,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+nidifican,nidificar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+destacando,destacar,VERB,{'VerbForm': 'Ger'},2
+seleccionada,seleccionar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+consideraba,considerar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+completaba,completar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+estableció,establecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+intercalado,intercalar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+insertado,insertar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+grabaron,grabar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+comportaba,comportar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+asustó,asustar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+recuerda,recordar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+desarrollada,desarrollar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+basada,basar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+enmarcadas,enmarcar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+materializa,materializar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+alquilamos,alquilar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ajustadas,ajustar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+engrasadas,engrasar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+crean,crear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+grabando,grabar,VERB,{'VerbForm': 'Ger'},1
+acumula,acumular,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ligada,ligar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+sugirió,sugerir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+evolucionado,evolucionar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+valdrá,valir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+pase,pasar,VERB,"{'Mood': 'Imp', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+sabe,saber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+apoyado,apoyar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+asistir,asistir,VERB,{'VerbForm': 'Inf'},1
+argumentó,argumentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+discurre,discurrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+pedimos,pedir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+investiguen,investigar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+separan,separar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+confirmado,confirmar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+guiados,guiar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+soporta,soporta,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pagaría,pagar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+comienza,comenzar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+interrogando,interrogar,VERB,{'VerbForm': 'Ger'},1
+cogí,coger,VERB,{'VerbForm': 'Ger'},1
+dirigí,dirigir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+afirmaron,afirmar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+bromeando,bromear,VERB,{'VerbForm': 'Ger'},1
+hirió,herir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+debilitaría,debilitar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+convirtieron,convertir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+empezaron,empezar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+multiplicar,multiplicar,VERB,{'VerbForm': 'Inf'},1
+permanecería,permanecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+intentó,intentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+compite,compitar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+apurarán,apurar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+redactado,redactar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+proceden,proceder,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+continua,continuar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+perdura,perdurar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+seleccionar,seleccionar,VERB,{'VerbForm': 'Inf'},2
+tuvieron,tener,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+ingresar,ingresar,VERB,{'VerbForm': 'Inf'},2
+usar,usar,VERB,{'VerbForm': 'Inf'},2
+sacó,sacar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+lastimar,lastimar,VERB,{'VerbForm': 'Inf'},1
+destruyó,destruir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+pudo,poder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+conquistar,conquistar,VERB,{'VerbForm': 'Inf'},1
+preferir,preferir,VERB,{'VerbForm': 'Inf'},1
+utilizar,utilizar,VERB,{'VerbForm': 'Inf'},2
+resulta,resultar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+compone,componer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+conocído,conocído,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+emparentado,emparentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+conseugido,conseugir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+reducir,reducir,VERB,{'VerbForm': 'Inf'},5
+crio,criar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+ubica,ubicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+nacer,nacer,VERB,{'VerbForm': 'Inf'},1
+empezando,empezar,VERB,{'VerbForm': 'Ger'},1
+trabajando,trabajar,VERB,{'VerbForm': 'Ger'},2
+mantener,mantener,VERB,{'VerbForm': 'Inf'},1
+bloquear,bloquear,VERB,{'VerbForm': 'Inf'},1
+come,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ingeniería,ingeniería,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+pasando,pasar,VERB,{'VerbForm': 'Ger'},3
+resultaría,resultar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+honoraban,honorar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+levantaban,levantar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+echaban,echar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+aseguró,asegurar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+cometido,cometer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+bajó,bajar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+pidió,pedir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+sirvieran,sirvir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+afecta,afectar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+requiere,requerir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+relacionen,relacionar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+graduó,graduar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+dedicadas,dedicar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",2
+ocupan,ocupar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+relaciona,relacionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+identifica,identificar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+importados,importar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+retrae,retraer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+aplica,aplicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ejerce,ejercer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+forma,forma,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",3
+oscila,oscilar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+comenzado,comenzar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+encontre,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+necesitaba,necesitar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+respete,respetar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+lanzó,lanzar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+entrando,entrar,VERB,{'VerbForm': 'Ger'},1
+separada,separar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+asume,asumir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+afirmar,afirmar,VERB,{'VerbForm': 'Inf'},1
+convierte,convertir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+examinas,examina,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+apruebas,aprueba,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+tardan,tardar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+grabó,grabar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+unió,unir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+denunciar,denunciar,VERB,{'VerbForm': 'Inf'},1
+cometiendo,cometer,VERB,{'VerbForm': 'Ger'},1
+acude,acudir,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+reitera,reiterar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llevaría,llevar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+entorpecería,entorpecer,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+odian,odiar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+visitó,visitar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encontró,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+acercaba,acercar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+contenido,contener,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+permanecen,permanecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+intentando,intentar,VERB,{'VerbForm': 'Ger'},1
+regresar,regresar,VERB,{'VerbForm': 'Inf'},2
+dividieron,dividir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+lamentamos,lamentar,VERB,{'VerbForm': 'Inf'},1
+deja,dejar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+estuve,estener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+casa,casa,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pasas,paso,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+cabe,caber,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+señalar,señalar,VERB,{'VerbForm': 'Inf'},1
+descendió,descender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+encaja,encajar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+recordando,recordar,VERB,{'VerbForm': 'Ger'},1
+otorga,otorgar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+difieren,diferir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+diferenciando,diferenciar,VERB,{'VerbForm': 'Ger'},1
+hablaron,hablar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+arreglaron,arreglar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+aconsejaron,aconsejar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+tenia,tener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",2
+resuelto,resolver,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+aparecieron,aparecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+identificaban,identificar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+ostentará,ostentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+representando,representar,VERB,{'VerbForm': 'Ger'},1
+sirvió,servir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+hablan,hablar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+poseían,poseer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+obligase,obligar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+niega,negar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+esperar,esperar,VERB,{'VerbForm': 'Inf'},1
+suena,sonar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+entrene,entrener,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pertenecido,pertenecer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+definiria,definir,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+agregó,agregar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+mejoró,mejorar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+operados,operar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",2
+ahorca,ahorcar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+permitieron,permitir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+prevalecer,prevalecer,VERB,{'VerbForm': 'Inf'},1
+prohibió,prohibir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+medidas,medida,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+construyeron,construir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+curar,curar,VERB,{'VerbForm': 'Inf'},1
+registrándose,registrar,VERB,{'VerbForm': 'Ger'},1
+nombrada,nombrar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+mantuvo,mantener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+puso,poner,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+número,número,VERB,{'VerbForm': 'Fin'},1
+regalo,regalo,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sonrojó,sonrojar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+frenar,frenar,VERB,{'VerbForm': 'Inf'},1
+invertir,invertir,VERB,{'VerbForm': 'Inf'},1
+marcada,marcar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+aclara,aclarar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ofender,ofender,VERB,{'VerbForm': 'Inf'},1
+tomadas,tomar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+adquirió,adquirir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+adjudica,adjudicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ocurrido,ocurrir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+regresa,regresar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+muerto,morir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",4
+efectuados,efectuar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+disputadas,disputar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+difundido,difundir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+atender,atender,VERB,{'VerbForm': 'Inf'},2
+prometen,prometer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+configura,configurar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+informa,informar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+reune,reunir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+haz,haz,VERB,"{'Mood': 'Imp', 'Number': 'Sing', 'Person': '2', 'VerbForm': 'Fin'}",1
+procedía,proceder,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+unido,unir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+pretenden,pretender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+regalar,regalar,VERB,{'VerbForm': 'Inf'},1
+compra,compro,VERB,"{'Mood': 'Imp', 'Number': 'Sing', 'Person': '2', 'VerbForm': 'Fin'}",2
+saldrá,salir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+milita,militar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+impulsada,impulsar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+apuntaron,apuntar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+involucren,involucrir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+albergar,albergar,VERB,{'VerbForm': 'Inf'},1
+destacar,destacar,VERB,{'VerbForm': 'Inf'},3
+matar,matar,VERB,{'VerbForm': 'Inf'},1
+domar,domar,VERB,{'VerbForm': 'Inf'},1
+doblando,doblar,VERB,{'VerbForm': 'Ger'},1
+participó,participar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+combatió,combatir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+revistaba,revistar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+reclamar,reclamar,VERB,{'VerbForm': 'Inf'},2
+lavan,lavar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+constituyen,constituir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+pasan,pasan,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dispara,disparar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+interroga,interroga,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+predomina,predominar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pierde,perder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+esconder,esconder,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+descubre,descubrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+rodeadas,rodear,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+predecían,predecir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+convertir,convertir,VERB,{'VerbForm': 'Inf'},5
+analizando,analizar,VERB,{'VerbForm': 'Ger'},1
+encontrándo,encontrar,VERB,{'VerbForm': 'Ger'},2
+informado,informar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+analizar,analizar,VERB,{'VerbForm': 'Inf'},1
+salir,salir,VERB,{'VerbForm': 'Inf'},2
+comentado,comentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+distribuida,distribuir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+desean,desear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tituló,titular,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+orientada,orientar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+encaminadas,encaminar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+sustituye,sustituir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pertenecía,pertenecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+disimular,disimular,VERB,{'VerbForm': 'Inf'},1
+registran,registrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+selló,sellar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+generó,generar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+comentó,comentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+acudía,acudir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+atendía,atendía,VERB,{'VerbForm': 'Fin'},1
+evidencian,evidenciar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+estaban,estar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+exigieron,exigir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+admitido,admitir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+obtuvimos,obtuvir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ajustados,ajustar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+erige,erigir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+argumenta,argumentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+determinar,determinar,VERB,{'VerbForm': 'Inf'},1
+debieran,debir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+queda,quedar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+provenir,provenir,VERB,{'VerbForm': 'Inf'},2
+establecidas,establecer,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+favorecen,favorecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+dificultan,dificultar,VERB,"{'Mood': 'Imp', 'Number': 'Plur', 'Person': '3', 'VerbForm': 'Fin'}",1
+comunica,comunicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sustentado,sustentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+transmitir,transmitir,VERB,{'VerbForm': 'Inf'},1
+transmitirá,transmitir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+suenan,sonar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+funda,fundar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+afectó,afectar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+quedo,quedo,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+catalogo,catalogo,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+atiende,atender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+vaya,ir,VERB,"{'Mood': 'Imp', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+dividían,dividir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+intercambiaban,intercambiar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+derrumbaron,derrumbar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+llamaron,llamar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+presume,presumir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+arrebato,arrebato,VERB,{'VerbForm': 'Ger'},1
+gustó,gustar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encanta,encantar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+permanecido,permanecer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+dejado,dejar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+facilitado,facilitar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+negociar,negociar,VERB,{'VerbForm': 'Inf'},1
+comprometer,comprometer,VERB,{'VerbForm': 'Inf'},1
+reconocer,reconocer,VERB,{'VerbForm': 'Inf'},1
+llegado,llegar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+interceptar,interceptar,VERB,{'VerbForm': 'Inf'},1
+destinados,destinar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",2
+regresando,regresar,VERB,{'VerbForm': 'Ger'},1
+seguía,seguir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+asignan,asignar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+elimina,eliminar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+promovió,promover,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+tenido,tener,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+labrar,labrar,VERB,{'VerbForm': 'Inf'},1
+rodean,rodear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+concurre,concurrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pasada,pasar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+acompañan,acompañar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dura,durar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+recorre,recorrer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+indica,indicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llevan,llevar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+servir,servir,VERB,{'VerbForm': 'Inf'},1
+adornar,adornar,VERB,{'VerbForm': 'Inf'},1
+adornadas,adornar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+puestas,poner,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+paladear,paladear,VERB,{'VerbForm': 'Inf'},1
+abandonó,abandonar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+habilite,habilitar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+usada,usar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+centrado,centrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+gobernado,gobernar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+desconozco,desconocer,VERB,{'VerbForm': 'Fin'},1
+viajaban,viajar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+pretendían,pretender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+aparcar,aparcar,VERB,{'VerbForm': 'Inf'},1
+iba,ir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+complacer,complacer,VERB,{'VerbForm': 'Inf'},2
+personificaba,personificar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+esperan,esperar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+cerrar,cerrar,VERB,{'VerbForm': 'Inf'},1
+coincidía,coincidir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+pretendía,pretender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+extiende,extender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+confirmaron,confirmar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+interpretar,interpretar,VERB,{'VerbForm': 'Inf'},3
+enmendar,enmendar,VERB,{'VerbForm': 'Inf'},1
+continuar,continuar,VERB,{'VerbForm': 'Inf'},2
+erigiría,erigir,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+establecido,establecer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",3
+colaborado,colaborar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+señalaron,señalar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+aterrizó,aterrizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+confirmaba,confirmar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+sumado,sumar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+reportó,reportar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+dotó,dotar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+plagada,plagar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+goza,gozar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+precisan,precisar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+apartado,apartar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+comprometió,comprometer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+restringe,restringir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+perteneció,pertenecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+depuesto,deponer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+acusado,acusar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+jugado,jugar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+sucede,suceder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dado,dar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+vería,ver,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+agradece,agradecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+siguen,seguir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+drena,drenar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llamada,llamado,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+desempeña,desempeñar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+ofrecido,ofrecer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+localizados,localizar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+conservan,conservar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+proyecta,proyectar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+construir,construir,VERB,{'VerbForm': 'Inf'},1
+cuento,contar,VERB,{'VerbForm': 'Inf'},1
+deplorado,deplorar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+complicó,complicar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+aprobar,aprobar,VERB,{'VerbForm': 'Inf'},2
+introdujeron,introducir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+escuchaban,escuchar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+recibirá,recibir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",2
+concentraban,concentrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+emite,emitir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+inicia,iniciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+nace,nace,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ganado,ganar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+rehabilitado,rehabilitar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+descubrieron,descubrir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+realizarán,realizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",2
+huir,huir,VERB,{'VerbForm': 'Inf'},1
+apresado,apresar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+llevado,llevar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+retuvieron,retuvir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+usaban,usar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+solían,soler,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+derribar,derribar,VERB,{'VerbForm': 'Inf'},1
+entrenados,entrenar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+morder,morder,VERB,{'VerbForm': 'Inf'},1
+cocear,cocear,VERB,{'VerbForm': 'Inf'},1
+ordenaba,ordenar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+presentaron,presentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+recibido,recibir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+citar,citar,VERB,{'VerbForm': 'Inf'},1
+viéndo,viéndo,VERB,{'VerbForm': 'Ger'},1
+acudir,acudir,VERB,{'VerbForm': 'Inf'},1
+recayó,recaer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+funcionó,funcionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",3
+incendió,incender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+atacó,atacar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+acudió,acudir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+cubrir,cubrir,VERB,{'VerbForm': 'Inf'},2
+contener,contener,VERB,{'VerbForm': 'Inf'},1
+interrelacionan,interrelacionar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+actúa,actuar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+invertido,invertir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+identificado,identificar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+padeció,padecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+creía,creer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+diga,decir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+resultar,resultar,VERB,{'VerbForm': 'Inf'},1
+aloje,alojar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+fabricar,fabricar,VERB,{'VerbForm': 'Inf'},1
+mejorando,mejorar,VERB,{'VerbForm': 'Ger'},1
+simplificando,simplificar,VERB,{'VerbForm': 'Ger'},1
+ayudó,ayudar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+tolerar,tolerar,VERB,{'VerbForm': 'Inf'},1
+logrado,lograr,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+adaptar,adaptar,VERB,{'VerbForm': 'Inf'},1
+depende,depende,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+cantó,cantar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encantaría,encantar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+formaba,formar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+perteneciente,perteneciente,VERB,{'VerbForm': 'Fin'},1
+asociada,asociar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+anima,animar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+coger,coger,VERB,{'VerbForm': 'Inf'},1
+hundir,hundir,VERB,{'VerbForm': 'Inf'},1
+habitada,habitar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+involucra,involucrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+aprender,aprender,VERB,{'VerbForm': 'Inf'},1
+manejar,manejar,VERB,{'VerbForm': 'Inf'},1
+escriben,escribir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+parecen,parecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+piensa,pensar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+cotizan,cotizar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+representan,representar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+recoge,recoger,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+gararon,garar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+empieza,empezar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+relatando,relatar,VERB,{'VerbForm': 'Ger'},1
+motivado,motivar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+culmina,culminar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+cierra,cerrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+iniciada,iniciar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+ostentó,ostentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+vendidas,vender,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+conseguido,conseguir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+estima,estimar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llegará,llegar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+partiendo,parter,VERB,{'VerbForm': 'Ger'},1
+teniendo,tener,VERB,{'VerbForm': 'Ger'},3
+estimar,estimar,VERB,{'VerbForm': 'Inf'},1
+estando,estar,VERB,{'VerbForm': 'Ger'},2
+especializado,especializar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+adaptaba,adaptar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+incorporaría,incorporar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+dedicado,dedicar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+representó,representar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+compare,comparir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ofenden,ofender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ofende,ofende,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pelean,pelear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+menciona,mencionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+aprovecharon,aprovechar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+aumentado,aumentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+asignado,asignar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+mover,mover,VERB,{'VerbForm': 'Inf'},1
+promovido,promover,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+profesionalizar,profesionalizar,VERB,{'VerbForm': 'Inf'},1
+visitando,visitar,VERB,{'VerbForm': 'Ger'},1
+celebra,celebrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+recordado,recordar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+emitieron,emiter,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+quieran,querer,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+realizado,realizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+disparó,disparar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+causando,causar,VERB,{'VerbForm': 'Ger'},1
+denominar,denominar,VERB,{'VerbForm': 'Inf'},1
+transformando,transformar,VERB,{'VerbForm': 'Ger'},1
+echar,echar,VERB,{'VerbForm': 'Inf'},1
+llorar,llorar,VERB,{'VerbForm': 'Inf'},1
+forzó,forzar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+capitular,capitular,VERB,{'VerbForm': 'Inf'},1
+asestó,asestar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+acompañado,acompañar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+indicado,indicar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+invadieron,invadir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+asesinaron,asesinar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+deportados,deportar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+ocupado,ocupar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+acabó,acabar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+equivocó,equivocar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+trabajó,trabajar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+realizando,realizar,VERB,{'VerbForm': 'Ger'},1
+ripeadas,ripear,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+usadas,usar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+elaborado,elaborar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+comparó,comparar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+establecer,establecer,VERB,{'VerbForm': 'Inf'},2
+aplicar,aplicar,VERB,{'VerbForm': 'Inf'},1
+están,estar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4
+encargarán,encargar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+concurridos,concurrido,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+escalar,escalar,VERB,{'VerbForm': 'Inf'},1
+deduce,deducir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+tienden,tender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+estirar,estirar,VERB,{'VerbForm': 'Inf'},1
+dividió,dividir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+impedir,impedir,VERB,{'VerbForm': 'Inf'},2
+tuviese,tener,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+heredar,heredar,VERB,{'VerbForm': 'Inf'},1
+florecieron,florecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+volvería,volvería,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",2
+presentar,presentar,VERB,{'VerbForm': 'Inf'},1
+cantabas,cantaba,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+deciden,decidir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+trasladar,trasladar,VERB,{'VerbForm': 'Inf'},1
+revelo,revelo,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+supondría,suponer,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+dé,dar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+desocupando,desocupar,VERB,{'VerbForm': 'Ger'},1
+procede,proceder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+trabajado,trabajar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+proviene,provenir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+atacados,atacar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+estudiando,estudiar,VERB,{'VerbForm': 'Ger'},1
+aprenden,aprender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+divierten,divertir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+caracterizado,caracterizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+fabrique,fabricar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+terminado,terminar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+empezó,empezar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+anuncia,anunciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+transforman,transformar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+brilla,brillar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+entrecruzan,entrecruzar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+llegando,llegar,VERB,{'VerbForm': 'Ger'},2
+ordenó,ordenar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+rechazaron,rechazar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+tomada,tomar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+designó,designar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+centran,centrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+produce,producir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+pertencian,pertenciar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+transmitió,transmitir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+elogiando,elogiar,VERB,{'VerbForm': 'Ger'},1
+enviando,enviar,VERB,{'VerbForm': 'Ger'},1
+vaciaban,vaciar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+negaron,negar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+lavar,lavar,VERB,{'VerbForm': 'Inf'},2
+embadurnaron,embadurnar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+recurrir,recurrir,VERB,{'VerbForm': 'Inf'},1
+vio,ver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+originar,originar,VERB,{'VerbForm': 'Inf'},1
+encaminar,encaminar,VERB,{'VerbForm': 'Inf'},1
+dejó,dejar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+dedicar,dedicar,VERB,{'VerbForm': 'Inf'},1
+graba,grar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+conmemorar,conmemorar,VERB,{'VerbForm': 'Inf'},1
+ampliarán,ampliar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+comprometido,comprometido,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+continuara,continuar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+abandonar,abandonar,VERB,{'VerbForm': 'Inf'},1
+desvive,desvivir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+corriendo,correr,VERB,{'VerbForm': 'Ger'},1
+operada,operar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+renunció,renunciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+regía,regía,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+llovido,llover,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+optado,optar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+hechas,hacer,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+propiciado,propiciar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+luzcan,lucir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sucedió,suceder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+desembarca,desembarcar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sería,ser,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+desesperado,desesperar,VERB,{'VerbForm': 'Fin'},1
+subió,subir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+blasfemó,blasfemar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+apareció,aparecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+enseñaba,enseñar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+cierran,cerrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+superan,superar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+contar,contar,VERB,{'VerbForm': 'Inf'},1
+compacta,compacto,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+muda,mudar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+permanece,permanecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+posibilitado,posibilitar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+existiendo,existir,VERB,{'VerbForm': 'Ger'},1
+toma,tomar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pensar,pensar,VERB,{'VerbForm': 'Inf'},3
+cuente,contar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sugiere,sugerir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ido,ir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+recibo,recibo,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+mezclada,mezclar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+decoran,decorar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pidieron,pedir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+adelantara,adelantar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+rechazó,rechazar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+sincronizó,sincronizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+introdujo,introducir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+apostó,apostar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+exigió,exigir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encontrado,encontrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+habitaron,habitar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+situaban,situar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+procedente,procedente,VERB,"{'Number': 'Sing', 'VerbForm': 'Fin'}",1
+confirmada,confirmar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",2
+aparecer,aparecer,VERB,{'VerbForm': 'Inf'},1
+volverían,volver,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+trabajaría,trabajar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+anota,anotar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+conlleva,conllevar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+conducen,conducir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ampliándo,ampliar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+desfragmentar,desfragmentar,VERB,{'VerbForm': 'Inf'},1
+volveré,volveré,VERB,{'VerbForm': 'Inf'},1
+grabado,grabar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+vino,venir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+llevaban,llevar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+convence,convencer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ama,amar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+pidiendo,pedir,VERB,{'VerbForm': 'Ger'},1
+saquen,sacar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+desvielar,desvielar,VERB,{'VerbForm': 'Inf'},1
+separado,separar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+fabricó,fabricar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+introduciendo,introducir,VERB,{'VerbForm': 'Ger'},1
+aclaró,aclarar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+incorporó,incorporar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+dedicados,dedicar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+combatir,combatir,VERB,{'VerbForm': 'Inf'},1
+consistía,consistir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+divulgada,divulgar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+conquistados,conquistar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+apostar,apostar,VERB,{'VerbForm': 'Inf'},1
+renueven,renueven,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sacado,sacar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+desaguan,desaguar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+acaecidas,acaecido,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+suspendieron,suspendir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+concluyendo,concluir,VERB,{'VerbForm': 'Ger'},2
+concedieron,conceder,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+perdonara,perdonar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+enseñando,enseñar,VERB,{'VerbForm': 'Ger'},1
+tomaron,tomar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+publican,publicar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+bailar,bailar,VERB,{'VerbForm': 'Fin'},1
+compuesta,componer,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+detecta,detectar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+entrar,entrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+evidenciar,evidenciar,VERB,{'VerbForm': 'Inf'},1
+preparar,preparar,VERB,{'VerbForm': 'Inf'},1
+muestran,mostrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+podria,poder,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+logro,lograr,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+nombrar,nombrar,VERB,{'VerbForm': 'Inf'},1
+empece,empezar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+aconsejan,aconsejar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+enseñan,enseñar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+exige,exigir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+cumpla,cumplir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+provocados,provocar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+nadó,nadar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+rodeado,rodear,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+promulga,promulgar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+proteja,proteger,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+titulado,titular,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+olvida,olvidar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+fajín,fajín,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+devastar,devastar,VERB,{'VerbForm': 'Inf'},1
+firmada,firmar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+fechada,fechada,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+enviada,enviar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+envió,enviar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",2
+apuntaba,apuntar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+acabado,acabar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+tienes,tener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+denunciado,denunciar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+vierte,vertir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+asienta,asentar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+volviendo,volver,VERB,{'VerbForm': 'Ger'},1
+marcado,marcar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+desapareció,desaparecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+apoye,apoyar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+hagan,hacer,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sintió,sentir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encabezaría,encabezar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+estarán,estar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+abrirán,abrir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+sostienen,sostener,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+protagonizado,protagonizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+interpretando,interpretar,VERB,{'VerbForm': 'Ger'},1
+constituyó,constituir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+asignar,asignar,VERB,{'VerbForm': 'Inf'},1
+recibir,recibir,VERB,{'VerbForm': 'Inf'},1
+desespera,desesperar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+oír,oír,VERB,{'VerbForm': 'Inf'},1
+rompe,romper,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",3
+convertido,convertir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+defendió,defender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+organizada,organizar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+elogió,elogiar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+concentran,concentrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+entorpecen,entorpecer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+pedido,pedir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+erró,errar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+diciendo,decir,VERB,{'VerbForm': 'Ger'},1
+introducen,introducir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+capturados,capturar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+juzgados,juzgar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+encarcelados,encarcelar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+experimentaron,experimentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+basarían,basar,VERB,"{'Mood': 'Cnd', 'Number': 'Plur', 'Person': '3', 'VerbForm': 'Fin'}",1
+inaugurado,inaugurar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+tengamos,tener,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dedicarán,dedicar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+interpretó,interpretar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+ocurrió,ocurrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+padecer,padecer,VERB,{'VerbForm': 'Inf'},1
+trapear,trapear,VERB,{'VerbForm': 'Inf'},1
+ideado,idear,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+recomienda,recomendar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+desempeñó,desempeñar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+sucedida,sucedir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+programados,programar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+tratando,tratar,VERB,{'VerbForm': 'Ger'},1
+rechazar,rechazar,VERB,{'VerbForm': 'Inf'},1
+absteniéndose,absteniér,VERB,{'VerbForm': 'Ger'},1
+beber,beber,VERB,{'VerbForm': 'Inf'},1
+acordaron,acordar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+contraída,contraído,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+entrega,entregar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+mostrarán,mostrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+enamora,enamora,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+forman,formar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+lograron,lograr,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+cerrase,cerrar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+puesta,poner,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+agradezco,agradecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+atendieran,atendir,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+continuaron,continuar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+identificar,identificar,VERB,{'VerbForm': 'Inf'},1
+haber,haber,VERB,{'VerbForm': 'Inf'},1
+atraviesa,atravesar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+gozó,gozar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+incluir,incluir,VERB,{'VerbForm': 'Inf'},1
+aporta,aportar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+mostrado,mostrar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+recortar,recortar,VERB,{'VerbForm': 'Inf'},1
+garantizar,garantizar,VERB,{'VerbForm': 'Inf'},2
+avanzado,avanzar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+cambia,cambiar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+aleja,alejar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+esquiando,esquiar,VERB,{'VerbForm': 'Ger'},1
+quiero,querer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+recoger,recoger,VERB,{'VerbForm': 'Inf'},1
+encargue,encargar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+nombró,nombrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+desembarcado,desembarcar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+presionado,presionar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+repetir,repetir,VERB,{'VerbForm': 'Inf'},1
+establezcan,establecer,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sufren,sufrir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sufre,sufrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sirve,servir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+apegaron,apegar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+destacan,destacar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+abstener,abstener,VERB,{'VerbForm': 'Inf'},1
+seguir,seguir,VERB,{'VerbForm': 'Inf'},1
+promulgando,promulgar,VERB,{'VerbForm': 'Ger'},1
+coartan,coartar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+produzca,producir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+asesinado,asesinar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+invitado,invitar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",2
+ingresa,ingresar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+mezcla,mezclar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+sedimentada,sedimentar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+tengo,tener,VERB,{'VerbForm': 'Fin'},1
+quería,querer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+pregunté,preguntar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+conocidas,conocer,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+capturada,capturar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+entregada,entregar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+denominadas,denominar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+relacionadas,relacionar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+acompañando,acompañar,VERB,{'VerbForm': 'Ger'},1
+acuden,acudir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+rendir,rendir,VERB,{'VerbForm': 'Inf'},1
+evolucionó,evolucionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+guiada,guiar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+sentado,sentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+hundidos,hundir,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+iniciar,iniciar,VERB,{'VerbForm': 'Inf'},1
+juntar,juntar,VERB,{'VerbForm': 'Inf'},1
+atar,atar,VERB,{'VerbForm': 'Inf'},1
+vendieron,vender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+fundada,fundar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+reserven,reservar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+obtienen,obtenir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+ahorrar,ahorrar,VERB,{'VerbForm': 'Inf'},1
+adelantó,adelantar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+llame,llame,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+convoca,convoco,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+participarán,participar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+postulados,postular,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+comparte,compartir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+reunió,reunir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+entonó,entonar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+disputada,disputar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+diseñaba,diseñar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+subyace,subyacer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+parten,partir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+recogió,recoger,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+realizada,realizar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+estaría,estar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+zarpó,zarpar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+producen,producir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+inundadas,inundar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+sido,ser,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+regalaran,regalar,VERB,"{'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+genera,generar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+medido,medido,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+equivale,equivaler,VERB,"{'Mood': 'Imp', 'Number': 'Sing', 'Person': '2', 'VerbForm': 'Fin'}",1
+emplear,emplear,VERB,{'VerbForm': 'Inf'},1
+planificar,planificar,VERB,{'VerbForm': 'Inf'},1
+conoció,conocer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+inició,iniciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+gustaría,gustar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+sostuvo,sostener,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+diferenciará,diferenciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+sitúa,situar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+avanzan,avanzar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+empezaría,empezar,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+comercializado,comercializar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+esperamos,esperar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+facilitar,facilitar,VERB,{'VerbForm': 'Inf'},1
+mostrará,mostrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+expandió,expandiar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+prefijada,prefijar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+recibieron,recibir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+vender,vender,VERB,{'VerbForm': 'Inf'},2
+heredados,heredar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+sustituyó,sustituir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+trató,tratar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+reforzar,reforzar,VERB,{'VerbForm': 'Inf'},1
+conoces,conoz,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+causaron,causar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+relacionado,relacionar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+prolongado,prolongar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+estado,estar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+entraron,entrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+proteger,proteger,VERB,{'VerbForm': 'Inf'},1
+formalizado,formalizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+cede,ceder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+formada,formar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+aceptar,aceptar,VERB,{'VerbForm': 'Inf'},1
+recuperar,recuperar,VERB,{'VerbForm': 'Inf'},1
+jugaba,jugaba,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+condenados,condenar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+trato,trato,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+intentado,intentar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+golpear,golpear,VERB,{'VerbForm': 'Inf'},1
+golpeo,golpeo,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+cubrió,cubrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+representado,representar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",3
+enriquece,enriquecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+elaborando,elaborar,VERB,{'VerbForm': 'Ger'},1
+representadas,representar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+jugar,jugar,VERB,{'VerbForm': 'Inf'},1
+haría,hacer,VERB,"{'Mood': 'Cnd', 'Number': 'Sing', 'Person': '3', 'VerbForm': 'Fin'}",1
+comprados,comprar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+anunció,anunciar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+reveló,revelar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+renombradas,renombrar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+situar,situar,VERB,{'VerbForm': 'Inf'},1
+convertirá,convertir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+realizará,realizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+venciendo,vencer,VERB,{'VerbForm': 'Ger'},1
+manifiesta,manifestar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+describe,describir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+estafados,estafar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+señalado,señalar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+abusaron,abusar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+organiza,organizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+localizar,localizar,VERB,{'VerbForm': 'Inf'},1
+varían,var,VERB,"{'Mood': 'Cnd', 'Number': 'Plur', 'Person': '3', 'VerbForm': 'Fin'}",2
+asesinados,asesinar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+detenidos,detener,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+expulsados,expulsar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+confiscadas,confiscar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+destruidas,destruir,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+encuentros,encuentro,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+jugados,jugar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+participan,participar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",2
+basaba,basar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+ordena,ordenar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+encargar,encargar,VERB,{'VerbForm': 'Inf'},1
+drenada,drenar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+produjeron,producir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+evitando,evitar,VERB,{'VerbForm': 'Ger'},1
+reemplazara,reemplazar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+supusieron,suponer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+atraer,atraer,VERB,{'VerbForm': 'Inf'},1
+mostrar,mostrar,VERB,{'VerbForm': 'Inf'},2
+diseñar,diseñar,VERB,{'VerbForm': 'Inf'},1
+organizado,organizar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+limitada,limitar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+incardinó,incardinar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+mantenido,mantener,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+parecido,parecer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+pedir,pedir,VERB,{'VerbForm': 'Inf'},1
+hacía,hacer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+enfocados,enfocar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+orientadas,orientar,VERB,"{'Gender': 'Fem', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+difundir,difundir,VERB,{'VerbForm': 'Inf'},1
+vencidos,vencido,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Fin'}",1
+incluidos,incluir,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+rendían,render,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+prevé,prever,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+baje,baje,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+regrese,regresar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+escalando,escalar,VERB,{'VerbForm': 'Ger'},1
+quiso,querer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+corren,correr,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+amenazada,amenazar,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+abrió,abrir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+termina,terminar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+abucheados,abuchear,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+afectando,afectar,VERB,{'VerbForm': 'Ger'},1
+compilados,compilar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+encontramos,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+inclina,inclinar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+obedece,obedecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+detenido,detener,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+atacaron,atacar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+recobrar,recobrar,VERB,{'VerbForm': 'Inf'},1
+perdidos,perder,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+hecho,hacer,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+yendo,ir,VERB,{'VerbForm': 'Ger'},1
+constituía,constituir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+prolongar,prolongar,VERB,{'VerbForm': 'Inf'},1
+reprochó,reprochar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+actualizar,actualizar,VERB,{'VerbForm': 'Inf'},1
+abierta,abrir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+amplificado,amplificar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+salido,salir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+mereció,merecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+incluida,incluir,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+carece,carecer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+entera,enterar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+consumen,consumir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+gira,gira,VERB,"{'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+asistieron,asistir,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+postuló,postular,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+obteniendo,obtener,VERB,{'VerbForm': 'Ger'},1
+realizaba,realizar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+vengó,vengar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+matando,matar,VERB,{'VerbForm': 'Ger'},1
+gozará,gozar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+activar,activar,VERB,{'VerbForm': 'Inf'},1
+proveniente,proveniente,VERB,"{'Number': 'Sing', 'VerbForm': 'Fin'}",1
+volvía,volver,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",2
+esperábamos,esperar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+solíamos,soler,VERB,"{'Mood': 'Cnd', 'Number': 'Plur', 'Person': '1', 'VerbForm': 'Fin'}",1
+comparar,comparar,VERB,{'VerbForm': 'Inf'},1
+citado,citar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+mueven,mover,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+tiende,tender,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+decrecer,decrecer,VERB,{'VerbForm': 'Inf'},1
+registra,registrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+herido,herir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+revela,revelar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+publicados,publicar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+añadió,añadir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+precisó,precisar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+tratados,tratar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+parará,parar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",1
+veían,ver,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+galardonado,galardonar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+necesitaban,necesitar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+operar,operar,VERB,{'VerbForm': 'Inf'},1
+encontraba,encontrar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+disecados,disecar,VERB,"{'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part'}",1
+cofundó,cofundar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+encargó,encargar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+calculaba,calcular,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+fui,ser,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+recogen,recoger,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+dejan,dejar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+vivo,vivo,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Fin'}",1
+buscando,buscar,VERB,{'VerbForm': 'Ger'},1
+conozco,conocer,VERB,{'VerbForm': 'Inf'},1
+llevando,llevar,VERB,{'VerbForm': 'Ger'},1
+alimentan,alimentar,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",1
+cayeron,caer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+pulsó,pulsar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+rompió,romper,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",1
+rompiendo,romper,VERB,{'VerbForm': 'Ger'},1
+limpiara,limpiar,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+construyera,construir,VERB,"{'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+olvidado,olvidar,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}",1
+acondicciono,acondiccionar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+conectaba,conectar,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1
+llego,llego,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'Typo': 'Yes', 'VerbForm': 'Fin'}",1
+construido,construir,VERB,"{'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part'}",1
+servía,servir,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Imp', 'VerbForm': 'Fin'}",1

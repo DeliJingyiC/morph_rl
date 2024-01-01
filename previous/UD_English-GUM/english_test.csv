@@ -1,0 +1,2091 @@
+form,lemma,upos,feats
+explored,explore,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+examined,examine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+underpin,underpin,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+examined,examine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+explored,explore,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+emerged,emerge,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+possess,possess,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+concerning,concern,VERB,{'VerbForm': 'Ger'}
+lost,lose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+growing,grow,VERB,{'VerbForm': 'Ger'}
+implement,implement,VERB,{'VerbForm': 'Inf'}
+aimed,aim,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+reducing,reduce,VERB,{'VerbForm': 'Ger'}
+intended,intend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+reduce,reduce,VERB,{'VerbForm': 'Inf'}
+increasing,increase,VERB,{'VerbForm': 'Ger'}
+regarding,regard,VERB,{'VerbForm': 'Ger'}
+facing,face,VERB,{'VerbForm': 'Ger'}
+rooted,root,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+perceived,perceive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+remains,remain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+see,see,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+perceived,perceive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+reported,report,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reported,report,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+see,see,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+seeks,seek,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+build,build,VERB,{'VerbForm': 'Inf'}
+estimating,estimate,VERB,{'VerbForm': 'Ger'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+address,address,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'Typo': 'Yes', 'VerbForm': 'Fin'}"
+perceived,perceive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+reported,report,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+indicated,indicate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+discriminated,discriminate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+responded,respond,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+perceived,perceive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+described,describe,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+asked,ask,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+think,think,VERB,{'VerbForm': 'Inf'}
+allowed,allow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+choose,choose,VERB,{'VerbForm': 'Inf'}
+recoded,recode,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+capturing,capture,VERB,{'VerbForm': 'Ger'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+collapsed,collapse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+asked,ask,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+reported,report,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+built,build,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+resulted,result,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+scored,score,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+use,use,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+reported,report,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+say,say,VERB,{'VerbForm': 'Inf'}
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+preserve,preserve,VERB,{'VerbForm': 'Inf'}
+appeared,appear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+interviewed,interview,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+asked,ask,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+indicate,indicate,VERB,{'VerbForm': 'Inf'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+provided,provide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+select,select,VERB,{'VerbForm': 'Inf'}
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+asked,ask,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+described,describe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+indicated,indicate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+coded,code,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+mixed,mix,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+provide,provide,VERB,{'VerbForm': 'Inf'}
+included,include,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+created,create,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+subtracting,subtract,VERB,{'VerbForm': 'Ger'}
+obtained,obtain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+coded,code,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+reported,report,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+included,include,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+produced,produce,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+examined,examine,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+assessed,assess,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reported,report,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+examine,examine,VERB,{'VerbForm': 'Inf'}
+adjusted,adjust,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+employed,employ,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+corrects,correct,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+analyzing,analyze,VERB,{'VerbForm': 'Ger'}
+weighted,weight,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+employing,employ,VERB,{'VerbForm': 'Ger'}
+converted,convert,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+associated,associate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+associated,associate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+take,take,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+weighted,weight,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+included,include,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reported,report,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+noted,note,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+weighted,weight,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+according,accord,VERB,{'VerbForm': 'Ger'}
+provided,provide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+corrected,correct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+defined,define,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reported,report,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+considered,consider,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+presents,present,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+discuss,discuss,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+show,show,VERB,{'VerbForm': 'Inf'}
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+spoken,speak,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+estimated,estimate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+classified,classify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+taken,take,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+presents,present,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+points,point,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+speaking,speak,VERB,{'VerbForm': 'Ger'}
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+spoken,speak,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+located,locate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+bordered,border,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+separates,separate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+live,live,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+separates,separate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+speaking,speak,VERB,{'VerbForm': 'Ger'}
+coincides,coincide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+adapted,adapt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+shows,show,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+neighbouring,neighbour,VERB,{'VerbForm': 'Ger'}
+referred,refer,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+spoken,speak,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+neighbouring,neighbour,VERB,{'VerbForm': 'Ger'}
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+speaking,speak,VERB,{'VerbForm': 'Ger'}
+written,write,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+provided,provide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+written,write,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+written,write,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+include,include,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+located,locate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+cohabit,cohabit,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+live,live,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+use,use,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+meaning,mean,VERB,{'VerbForm': 'Ger'}
+refer,refer,VERB,{'VerbForm': 'Inf'}
+speak,speak,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+use,use,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+distinguish,distinguish,VERB,{'VerbForm': 'Inf'}
+declining,decline,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+understand,understand,VERB,{'VerbForm': 'Inf'}
+analysed,analyse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+come,come,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+neighbouring,neighbour,VERB,{'VerbForm': 'Ger'}
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+achieve,achieve,VERB,{'VerbForm': 'Inf'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+employed,employ,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+described,describe,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+absorbing,absorb,VERB,{'VerbForm': 'Ger'}
+finding,find,VERB,{'VerbForm': 'Ger'}
+using,use,VERB,{'VerbForm': 'Ger'}
+displayed,display,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+seeking,seek,VERB,{'VerbForm': 'Ger'}
+submitted,submit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+win,win,VERB,{'VerbForm': 'Inf'}
+lost,lose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+rediscovered,rediscover,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+made,make,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+including,include,VERB,{'VerbForm': 'Ger'}
+leading,lead,VERB,{'VerbForm': 'Ger'}
+impressed,impress,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+awarded,award,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+made,make,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+recommended,recommend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+commissioned,commission,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+became,become,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+praised,praise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+launched,launch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+premiered,premiere,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+performed,perform,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+leading,lead,VERB,{'VerbForm': 'Ger'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+made,make,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+invited,invite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+conducting,conduct,VERB,{'VerbForm': 'Ger'}
+written,write,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+visiting,visit,VERB,{'VerbForm': 'Ger'}
+conducted,conduct,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+appointed,appoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+wrote,write,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+moved,move,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+became,become,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+wrote,write,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+spread,spread,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+regarded,regard,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+wrote,write,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+appreciated,appreciate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+increasing,increase,VERB,{'VerbForm': 'Ger'}
+led,lead,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+leave,leave,VERB,{'VerbForm': 'Inf'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+return,return,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+intended,intend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+convey,convey,VERB,{'VerbForm': 'Inf'}
+were,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+performed,perform,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+recorded,record,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+described,describe,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+specialized,specialize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+born,bear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+inspired,inspire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+taught,teach,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+entered,enter,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+studying,study,VERB,{'VerbForm': 'Ger'}
+forgetting,forget,VERB,{'VerbForm': 'Ger'}
+shifted,shift,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+earned,earn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+supported,support,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+traveled,travel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+meeting,meet,VERB,{'VerbForm': 'Ger'}
+attending,attend,VERB,{'VerbForm': 'Ger'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+returned,return,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+began,begin,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+defended,defend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+served,serve,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+focused,focus,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+advanced,advance,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+removes,remove,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+differentiates,differentiate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+honed,hone,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+defined,define,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+honed,hone,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+defined,define,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+applied,apply,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+expressed,express,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+rained,rain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+ran,run,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+qualified,qualify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+called,call,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+represents,represent,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+expressed,express,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+combines,combine,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+proved,prove,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+bringing,bring,VERB,{'VerbForm': 'Ger'}
+recognized,recognize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+considered,consider,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+concentrated,concentrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+published,publish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+presents,present,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+challenged,challenge,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+accepted,accept,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+proposed,propose,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+developed,develop,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+pioneering,pioneer,VERB,{'VerbForm': 'Ger'}
+visited,visit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+lectured,lecture,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+visited,visit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+study,study,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+published,publish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+wrote,write,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+denies,deny,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sees,see,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+feel,feel,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+express,express,VERB,{'VerbForm': 'Inf'}
+stand,stand,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+remained,remain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+continuing,continue,VERB,{'VerbForm': 'Ger'}
+write,write,VERB,{'VerbForm': 'Inf'}
+convened,convene,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+chaired,chair,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+acted,act,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+published,publish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+worked,work,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+received,receive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+elected,elect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+teach,teach,VERB,{'VerbForm': 'Inf'}
+gone,go,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+found,find,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+dance,dance,VERB,{'VerbForm': 'Inf'}
+helps,help,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+need,need,VERB,{'VerbForm': 'Inf'}
+go,go,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+swear,swear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+say,say,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+run,run,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+come,come,VERB,{'VerbForm': 'Inf'}
+mean,mean,VERB,{'VerbForm': 'Inf'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+dancing,dance,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+say,say,VERB,{'VerbForm': 'Inf'}
+remember,remember,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+went,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+want,want,VERB,{'VerbForm': 'Inf'}
+dance,dance,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+watch,watch,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+dance,dance,VERB,{'VerbForm': 'Inf'}
+come,come,VERB,{'VerbForm': 'Inf'}
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,{'VerbForm': 'Ger'}
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+thinking,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+waste,waste,VERB,{'VerbForm': 'Inf'}
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+turn,turn,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+moving,move,VERB,{'VerbForm': 'Ger'}
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+come,come,VERB,{'VerbForm': 'Inf'}
+learn,learn,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+find,find,VERB,{'VerbForm': 'Inf'}
+find,find,VERB,{'VerbForm': 'Inf'}
+go,go,VERB,{'VerbForm': 'Inf'}
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+went,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,{'VerbForm': 'Ger'}
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+come,come,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+think,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+dancing,dance,VERB,{'VerbForm': 'Ger'}
+looking,look,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+making,make,VERB,{'VerbForm': 'Ger'}
+went,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+takes,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+goes,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+figured,figure,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+assumed,assume,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+touching,touch,VERB,{'VerbForm': 'Ger'}
+cheering,cheer,VERB,{'VerbForm': 'Ger'}
+clapping,clap,VERB,{'VerbForm': 'Ger'}
+go,go,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+ended,end,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+set,set,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}"
+set,set,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Fin'}"
+danced,dance,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+thinking,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+sitting,sit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+thinking,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+wonder,wonder,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+take,take,VERB,{'VerbForm': 'Inf'}
+move,move,VERB,{'VerbForm': 'Inf'}
+think,think,VERB,{'VerbForm': 'Inf'}
+ask,ask,VERB,{'VerbForm': 'Inf'}
+dance,dance,VERB,{'VerbForm': 'Inf'}
+trying,try,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+figure,figure,VERB,{'VerbForm': 'Inf'}
+know,know,VERB,{'VerbForm': 'Inf'}
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+thinking,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+mean,mean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+comes,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+were,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,{'VerbForm': 'Ger'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+comes,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+talking,talk,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+kissing,kiss,VERB,{'VerbForm': 'Ger'}
+thinking,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+looks,look,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+going,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+thought,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+forbid,forbid,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+been,be,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+taken,take,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+surprises,surprise,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+begun,begin,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+listen,listen,VERB,{'VerbForm': 'Inf'}
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+used,use,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+read,read,VERB,{'VerbForm': 'Inf'}
+turn,turn,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+understand,understand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+getting,get,VERB,{'VerbForm': 'Ger'}
+going,go,VERB,{'VerbForm': 'Ger'}
+call,call,VERB,{'VerbForm': 'Inf'}
+ask,ask,VERB,{'VerbForm': 'Inf'}
+speaking,speak,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+noticed,notice,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+opened,open,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+objecting,object,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+having,have,VERB,{'VerbForm': 'Ger'}
+knew,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+opened,open,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+followed,follow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+approve,approve,VERB,{'VerbForm': 'Inf'}
+disapproving,disapprove,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+thinking,think,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+associating,associate,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+believe,believe,VERB,{'VerbForm': 'Inf'}
+know,know,VERB,{'VerbForm': 'Inf'}
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+topples,topple,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+say,say,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+loved,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+love,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+snapping,snap,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+asking,ask,VERB,{'VerbForm': 'Ger'}
+mentioned,mention,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+went,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+flare,flare,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+apologize,apologize,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+worry,worry,VERB,{'VerbForm': 'Inf'}
+wan,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+grow,grow,VERB,{'VerbForm': 'Inf'}
+'ve,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+grown,grow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+take,take,VERB,{'VerbForm': 'Inf'}
+l-,l-,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+learned,learn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+learned,learn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+went,go,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+think,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+comes,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+give,give,VERB,{'VerbForm': 'Inf'}
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+think,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+think,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+forgot,forget,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+plant,plant,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+dried,dry,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+smoked,smoke,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+smoked,smoke,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+like,like,VERB,{'VerbForm': 'Inf'}
+chokes,choke,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+smoke,smoke,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+moving,move,VERB,{'VerbForm': 'Ger'}
+see,see,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+leaning,lean,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+waiting,wait,VERB,{'VerbForm': 'Ger'}
+ask,ask,VERB,{'VerbForm': 'Inf'}
+watching,watch,VERB,{'VerbForm': 'Ger'}
+glittering,glitter,VERB,{'VerbForm': 'Ger'}
+arc,arc,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+flying,fly,VERB,{'VerbForm': 'Ger'}
+rewind,rewind,VERB,{'VerbForm': 'Inf'}
+flying,fly,VERB,{'VerbForm': 'Ger'}
+make,make,VERB,{'VerbForm': 'Inf'}
+run,run,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+watching,watch,VERB,{'VerbForm': 'Ger'}
+hung,hang,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+plucked,pluck,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+suspended,suspend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+wearing,wear,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+’s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+flapping,flap,VERB,{'VerbForm': 'Ger'}
+climbs,climb,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hanging,hang,VERB,{'VerbForm': 'Ger'}
+move,move,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hang,hang,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+encircle,encircle,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+notices,notice,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+noticing,notice,VERB,{'VerbForm': 'Ger'}
+attaches,attach,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+whispering,whisper,VERB,{'VerbForm': 'Ger'}
+weather,weather,VERB,{'VerbForm': 'Inf'}
+brush,brush,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+watching,watch,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+lean,lean,VERB,{'VerbForm': 'Inf'}
+whips,whip,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+ruffles,ruffle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+remember,remember,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+leaning,lean,VERB,{'VerbForm': 'Ger'}
+whirring,whir,VERB,{'VerbForm': 'Ger'}
+buzzing,buzz,VERB,{'VerbForm': 'Ger'}
+shoving,shove,VERB,{'VerbForm': 'Ger'}
+tries,try,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+clutch,clutch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+surges,surge,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+looks,look,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+smiles,smile,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lets,let,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+falls,fall,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+scream,scream,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+says,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+steps,step,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+moving,move,VERB,{'VerbForm': 'Ger'}
+making,make,VERB,{'VerbForm': 'Ger'}
+adorning,adorn,VERB,{'VerbForm': 'Ger'}
+swallow,swallow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hearing,hear,VERB,{'VerbForm': 'Ger'}
+scream,scream,VERB,{'VerbForm': 'Inf'}
+gives,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hooded,hood,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+infect,infect,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lets,let,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hack,hack,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,{'VerbForm': 'Inf'}
+jump,jump,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+watch,watch,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+swept,sweep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hung,hang,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+closing,close,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+coalesces,coalesce,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+vanishes,vanish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+vanishes,vanish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+disperses,disperse,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+standing,stand,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+waves,wave,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+crawls,crawl,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+says,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+causing,cause,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+drive,drive,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+find,find,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+saying,say,VERB,{'VerbForm': 'Ger'}
+quote,quote,VERB,{'VerbForm': 'Inf'}
+snaps,snap,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+find,find,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stares,stare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+meet,meet,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+talk,talk,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+paying,pay,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+talk,talk,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+trashed,trash,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+work,work,VERB,{'VerbForm': 'Inf'}
+party,party,VERB,{'VerbForm': 'Inf'}
+defriended,defriend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+got,get,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+sailing,sail,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+missed,miss,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+cuts,cut,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+deserted,desert,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+yellowed,yellow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+dumped,dump,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+realize,realize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+walk,walk,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stepping,step,VERB,{'VerbForm': 'Ger'}
+comes,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+says,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+infected,infect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+fly,fly,VERB,{'VerbForm': 'Inf'}
+nod,nod,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+closing,close,VERB,{'VerbForm': 'Ger'}
+leans,lean,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+wanted,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+bunched,bunch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+invited,invite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+saw,see,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+decorated,decorate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+setting,set,VERB,{'VerbForm': 'Ger'}
+coloured,colour,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+grinning,grin,VERB,{'VerbForm': 'Ger'}
+locked,lock,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+encourage,encourage,VERB,{'VerbForm': 'Inf'}
+shrugged,shrug,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+tolerate,tolerate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+says,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+play,play,VERB,{'VerbForm': 'Inf'}
+tried,try,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+pick,pick,VERB,{'VerbForm': 'Inf'}
+remained,remain,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+see,see,VERB,{'VerbForm': 'Inf'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+drawing,draw,VERB,{'VerbForm': 'Ger'}
+collecting,collect,VERB,{'VerbForm': 'Ger'}
+appeared,appear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+crossed,cross,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+see,see,VERB,{'VerbForm': 'Inf'}
+showing,show,VERB,{'VerbForm': 'Ger'}
+laid,lay,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+written,write,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+bother,bother,VERB,{'VerbForm': 'Inf'}
+suppose,suppose,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+picked,pick,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+held,hold,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+stained,stain,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+turned,turn,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+rinse,rinse,VERB,{'VerbForm': 'Inf'}
+scraping,scrape,VERB,{'VerbForm': 'Ger'}
+guaranteed,guarantee,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+splutter,splutter,VERB,{'VerbForm': 'Inf'}
+spit,spit,VERB,{'VerbForm': 'Inf'}
+percolated,percolate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+met,meet,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+became,become,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+making,make,VERB,{'VerbForm': 'Ger'}
+seeing,see,VERB,{'VerbForm': 'Ger'}
+ask,ask,VERB,{'VerbForm': 'Inf'}
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+mixing,mix,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+pouring,pour,VERB,{'VerbForm': 'Ger'}
+suppose,suppose,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+appeared,appear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+volunteered,volunteer,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+overcome,overcome,VERB,{'VerbForm': 'Inf'}
+set,set,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+bit,bite,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+flowed,flow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+filled,fill,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+imagined,imagine,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+seemed,seem,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+drowning,drown,VERB,{'VerbForm': 'Ger'}
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reminded,remind,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+breathe,breathe,VERB,{'VerbForm': 'Inf'}
+swallow,swallow,VERB,{'VerbForm': 'Inf'}
+watched,watch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+trotting,trot,VERB,{'VerbForm': 'Ger'}
+mouthing,mouth,VERB,{'VerbForm': 'Ger'}
+poking,poke,VERB,{'VerbForm': 'Ger'}
+setting,set,VERB,{'VerbForm': 'Ger'}
+check,check,VERB,{'VerbForm': 'Inf'}
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+tried,try,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+prise,prise,VERB,{'VerbForm': 'Inf'}
+thought,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+come,come,VERB,{'VerbForm': 'Inf'}
+giggled,giggle,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+jiggled,jiggle,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+stuck,stick,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+turning,turn,VERB,{'VerbForm': 'Ger'}
+twisting,twist,VERB,{'VerbForm': 'Ger'}
+murmuring,murmur,VERB,{'VerbForm': 'Ger'}
+sucking,suck,VERB,{'VerbForm': 'Ger'}
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+initiated,initiate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+revelled,revel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+retelling,retell,VERB,{'VerbForm': 'Ger'}
+having,have,VERB,{'VerbForm': 'Ger'}
+smelling,smell,VERB,{'VerbForm': 'Ger'}
+invade,invade,VERB,{'VerbForm': 'Inf'}
+waited,wait,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+mixed,mix,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+greeted,greet,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+receive,receive,VERB,{'VerbForm': 'Inf'}
+measured,measure,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+mixed,mix,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+prepared,prepare,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+build,build,VERB,{'VerbForm': 'Inf'}
+shoring,shore,VERB,{'VerbForm': 'Ger'}
+get,get,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'Typo': 'Yes', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+wait,wait,VERB,{'VerbForm': 'Inf'}
+set,set,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+visited,visit,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+marvel,marvel,VERB,{'VerbForm': 'Inf'}
+labelled,label,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+lined,line,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+wanting,want,VERB,{'VerbForm': 'Ger'}
+passed,pass,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+pointing,point,VERB,{'VerbForm': 'Ger'}
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+matter,matter,VERB,{'VerbForm': 'Inf'}
+bonded,bond,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+see,see,VERB,{'VerbForm': 'Inf'}
+interviews,interview,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+assist,assist,VERB,{'VerbForm': 'Inf'}
+executing,execute,VERB,{'VerbForm': 'Ger'}
+rooted,root,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+understood,understand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+profess,profess,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+pursue,pursue,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+reward,reward,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+serve,serve,VERB,{'VerbForm': 'Inf'}
+guided,guide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+run,run,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+run,run,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+win,win,VERB,{'VerbForm': 'Inf'}
+effect,effect,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+chosen,choose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+attend,attend,VERB,{'VerbForm': 'Inf'}
+called,call,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+selected,select,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+attend,attend,VERB,{'VerbForm': 'Inf'}
+volunteered,volunteer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+knew,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+wanted,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+graduated,graduate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+assigned,assign,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+fly,fly,VERB,{'VerbForm': 'Inf'}
+washed,wash,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+proven,prove,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,{'VerbForm': 'Inf'}
+speak,speak,VERB,{'VerbForm': 'Inf'}
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+wanted,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+choose,choose,VERB,{'VerbForm': 'Inf'}
+run,run,VERB,{'VerbForm': 'Inf'}
+date,date,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+volunteered,volunteer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+believed,believe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+understand,understand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hope,hope,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lead,lead,VERB,{'VerbForm': 'Inf'}
+plan,plan,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+make,make,VERB,{'VerbForm': 'Inf'}
+invited,invite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+raise,raise,VERB,{'VerbForm': 'Inf'}
+poll,poll,VERB,{'VerbForm': 'Inf'}
+listed,list,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+listed,list,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+receive,receive,VERB,{'VerbForm': 'Inf'}
+consider,consider,VERB,{'VerbForm': 'Inf'}
+running,run,VERB,{'VerbForm': 'Ger'}
+back,back,VERB,{'VerbForm': 'Inf'}
+reconsider,reconsider,VERB,{'VerbForm': 'Inf'}
+supported,support,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+represents,represent,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+further,further,VERB,{'VerbForm': 'Inf'}
+altering,alter,VERB,{'VerbForm': 'Ger'}
+passed,pass,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+accommodate,accommodate,VERB,{'VerbForm': 'Inf'}
+voting,vote,VERB,{'VerbForm': 'Ger'}
+enforce,enforce,VERB,{'VerbForm': 'Inf'}
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+elected,elect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+constitute,constitute,VERB,{'VerbForm': 'Inf'}
+achieving,achieve,VERB,{'VerbForm': 'Ger'}
+returning,return,VERB,{'VerbForm': 'Ger'}
+implementing,implement,VERB,{'VerbForm': 'Ger'}
+allows,allow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+working,work,VERB,{'VerbForm': 'Ger'}
+making,make,VERB,{'VerbForm': 'Ger'}
+keep,keep,VERB,{'VerbForm': 'Inf'}
+closing,close,VERB,{'VerbForm': 'Ger'}
+putting,put,VERB,{'VerbForm': 'Ger'}
+works,work,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+passing,pass,VERB,{'VerbForm': 'Ger'}
+lifting,lift,VERB,{'VerbForm': 'Ger'}
+returning,return,VERB,{'VerbForm': 'Ger'}
+like,like,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,{'VerbForm': 'Inf'}
+like,like,VERB,{'VerbForm': 'Inf'}
+bring,bring,VERB,{'VerbForm': 'Inf'}
+make,make,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+work,work,VERB,{'VerbForm': 'Inf'}
+had,have,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+immersed,immerse,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+like,like,VERB,{'VerbForm': 'Inf'}
+add,add,VERB,{'VerbForm': 'Inf'}
+endure,endure,VERB,{'VerbForm': 'Inf'}
+believe,believe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+pass,pass,VERB,{'VerbForm': 'Inf'}
+promised,promise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+intend,intend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+keep,keep,VERB,{'VerbForm': 'Inf'}
+interviews,interview,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+answered,answer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+submitted,submit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+accredited,accredit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+garnered,garner,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+placed,place,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+wins,win,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+replace,replace,VERB,{'VerbForm': 'Inf'}
+notes,note,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+favors,favor,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+discusses,discuss,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+implement,implement,VERB,{'VerbForm': 'Inf'}
+admires,admire,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+born,bear,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+raised,raise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+embodies,embody,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+growing,grow,VERB,{'VerbForm': 'Ger'}
+mixed,mix,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+studied,study,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+understand,understand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+facing,face,VERB,{'VerbForm': 'Ger'}
+offering,offer,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+appreciated,appreciate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+believes,believe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stands,stand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+pushing,push,VERB,{'VerbForm': 'Ger'}
+wanted,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+erred,err,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+accepting,accept,VERB,{'VerbForm': 'Ger'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+prioritizing,prioritize,VERB,{'VerbForm': 'Ger'}
+seeking,seek,VERB,{'VerbForm': 'Ger'}
+shown,show,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+pushing,push,VERB,{'VerbForm': 'Ger'}
+showed,show,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+compared,compare,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+attribute,attribute,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+become,become,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+see,see,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+exemplifying,exemplify,VERB,{'VerbForm': 'Ger'}
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+meet,meet,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hear,hear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+speak,speak,VERB,{'VerbForm': 'Inf'}
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+understand,understand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stand,stand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+like,like,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stand,stand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+elected,elect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+implement,implement,VERB,{'VerbForm': 'Inf'}
+dealing,deal,VERB,{'VerbForm': 'Ger'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+dealing,deal,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,{'VerbForm': 'Inf'}
+share,share,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+working,work,VERB,{'VerbForm': 'Ger'}
+get,get,VERB,{'VerbForm': 'Inf'}
+rejecting,reject,VERB,{'VerbForm': 'Ger'}
+electing,elect,VERB,{'VerbForm': 'Ger'}
+represents,represent,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+face,face,VERB,{'VerbForm': 'Inf'}
+changed,change,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+meaning,mean,VERB,{'VerbForm': 'Ger'}
+assume,assume,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+admire,admire,VERB,{'VerbForm': 'Inf'}
+learned,learn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+highlighted,highlight,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+celebrates,celebrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+announces,announce,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+retired,retire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+announces,announce,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+displayed,display,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+commemorating,commemorate,VERB,{'VerbForm': 'Ger'}
+celebrated,celebrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+lifted,lift,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+held,hold,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+commemorating,commemorate,VERB,{'VerbForm': 'Ger'}
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+prepped,prep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+announced,announce,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+remaining,remain,VERB,{'VerbForm': 'Ger'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+relocated,relocate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+take,take,VERB,{'VerbForm': 'Inf'}
+retired,retire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+undergoing,undergo,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+prepped,prep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+removing,remove,VERB,{'VerbForm': 'Ger'}
+looking,look,VERB,{'VerbForm': 'Ger'}
+lifts,lift,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+launch,launch,VERB,{'VerbForm': 'Inf'}
+sent,send,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+go,go,VERB,{'VerbForm': 'Inf'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+launches,launch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lost,lose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+disintegrated,disintegrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+killing,kill,VERB,{'VerbForm': 'Ger'}
+lost,lose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+exploded,explode,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+killing,kill,VERB,{'VerbForm': 'Ger'}
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+thank,thank,VERB,{'VerbForm': 'Inf'}
+expressed,express,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+gathered,gather,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+contained,contain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+made,make,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+provide,provide,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+share,share,VERB,{'VerbForm': 'Inf'}
+chosen,choose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+preserving,preserve,VERB,{'VerbForm': 'Ger'}
+providing,provide,VERB,{'VerbForm': 'Ger'}
+made,make,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+provide,provide,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+share,share,VERB,{'VerbForm': 'Inf'}
+lifting,lift,VERB,{'VerbForm': 'Ger'}
+approaches,approach,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+issued,issue,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+regarding,regard,VERB,{'VerbForm': 'Ger'}
+disappointed,disappoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+slight,slight,VERB,{'VerbForm': 'Inf'}
+played,play,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+trumped,trump,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+added,add,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+selected,select,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+stated,state,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+disappointed,disappoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+recieve,recieve,VERB,{'VerbForm': 'Inf'}
+proposed,propose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+going,go,VERB,{'VerbForm': 'Ger'}
+build,build,VERB,{'VerbForm': 'Inf'}
+house,house,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+put,put,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+landing,land,VERB,{'VerbForm': 'Ger'}
+retired,retire,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+transported,transport,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+disappointed,disappoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+choose,choose,VERB,{'VerbForm': 'Inf'}
+await,await,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+including,include,VERB,{'VerbForm': 'Ger'}
+trained,train,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+call,call,VERB,{'VerbForm': 'Inf'}
+allow,allow,VERB,{'VerbForm': 'Inf'}
+climb,climb,VERB,{'VerbForm': 'Inf'}
+experience,experience,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+allowed,allow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+help,help,VERB,{'VerbForm': 'Inf'}
+inspire,inspire,VERB,{'VerbForm': 'Inf'}
+disappointed,disappoint,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+include,include,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+offering,offer,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+share,share,VERB,{'VerbForm': 'Inf'}
+coincided,coincide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+manned,man,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+lifted,lift,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+stained,stain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+marked,mark,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+protected,protect,VERB,"{'Number': 'Sing', 'Tense': 'Past', 'VerbForm': 'Part'}"
+detailed,detail,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+track,track,VERB,{'VerbForm': 'Inf'}
+prosecute,prosecute,VERB,{'VerbForm': 'Inf'}
+shut,shut,VERB,{'VerbForm': 'Inf'}
+hack,hack,VERB,{'VerbForm': 'Inf'}
+delete,delete,VERB,{'VerbForm': 'Inf'}
+corrupt,corrupt,VERB,{'VerbForm': 'Inf'}
+affect,affect,VERB,{'VerbForm': 'Inf'}
+unveiled,unveil,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+referred,refer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+adding,add,VERB,{'VerbForm': 'Ger'}
+classified,classify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+apply,apply,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+deal,deal,VERB,{'VerbForm': 'Inf'}
+asked,ask,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+supposed,suppose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+stored,store,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+approved,approve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+wound,wind,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+classified,classify,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+told,tell,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+look,look,VERB,{'VerbForm': 'Inf'}
+take,take,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+refused,refuse,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+give,give,VERB,{'VerbForm': 'Inf'}
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+combined,combine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+raise,raise,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+secure,secure,VERB,{'VerbForm': 'Inf'}
+says,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+complained,complain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+share,share,VERB,{'VerbForm': 'Inf'}
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+says,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+consumed,consume,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+seem,seem,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+stuffed,stuff,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+forced,force,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+resign,resign,VERB,{'VerbForm': 'Inf'}
+became,become,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+left,leave,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+say,say,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+calls,call,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+misplaced,misplace,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+published,publish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+archived,archive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+confirmed,confirm,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+addressing,address,VERB,{'VerbForm': 'Ger'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+require,require,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+continues,continue,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+remain,remain,VERB,{'VerbForm': 'Inf'}
+witnessed,witness,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+expected,expect,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+met,meet,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+driven,drive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+choose,choose,VERB,{'VerbForm': 'Inf'}
+improve,improve,VERB,{'VerbForm': 'Inf'}
+started,start,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+pay,pay,VERB,{'VerbForm': 'Inf'}
+lost,lose,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+condemns,condemn,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+urge,urge,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stop,stop,VERB,{'VerbForm': 'Inf'}
+engage,engage,VERB,{'VerbForm': 'Inf'}
+supports,support,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+blocked,block,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+de-frozen,de-freeze,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+provided,provide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+needed,need,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+support,support,VERB,{'VerbForm': 'Inf'}
+assist,assist,VERB,{'VerbForm': 'Inf'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+does,do,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+last,last,VERB,{'VerbForm': 'Inf'}
+welcomes,welcome,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+undertaken,undertake,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+encourage,encourage,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+empowered,empower,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+create,create,VERB,{'VerbForm': 'Inf'}
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+fulfil,fulfil,VERB,{'VerbForm': 'Inf'}
+continue,continue,VERB,{'VerbForm': 'Inf'}
+focus,focus,VERB,{'VerbForm': 'Inf'}
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+build,build,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+foster,foster,VERB,{'VerbForm': 'Inf'}
+negotiated,negotiate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+achieved,achieve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+living,live,VERB,{'VerbForm': 'Ger'}
+recognized,recognize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+return,return,VERB,{'VerbForm': 'Inf'}
+shown,show,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+do,do,VERB,{'VerbForm': 'Inf'}
+proposed,propose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+supports,support,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lose,lose,VERB,{'VerbForm': 'Inf'}
+welcomes,welcome,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+appreciate,appreciate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+reminded,remind,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+maintaining,maintain,VERB,{'VerbForm': 'Ger'}
+including,include,VERB,{'VerbForm': 'Ger'}
+come,come,VERB,{'VerbForm': 'Inf'}
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+intensify,intensify,VERB,{'VerbForm': 'Inf'}
+let,let,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+mention,mention,VERB,{'VerbForm': 'Inf'}
+inviting,invite,VERB,{'VerbForm': 'Ger'}
+managed,manage,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+offer,offer,VERB,{'VerbForm': 'Inf'}
+continue,continue,VERB,{'VerbForm': 'Inf'}
+do,do,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+shared,share,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+resolve,resolve,VERB,{'VerbForm': 'Inf'}
+remaining,remain,VERB,{'VerbForm': 'Ger'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+serves,serve,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+announce,announce,VERB,{'VerbForm': 'Inf'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+open,open,VERB,{'VerbForm': 'Inf'}
+set,set,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+established,establish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+stands,stand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+launched,launch,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+achieve,achieve,VERB,{'VerbForm': 'Inf'}
+support,support,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+doubling,double,VERB,{'VerbForm': 'Ger'}
+provides,provide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+undertaken,undertake,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+hosted,host,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+discussed,discuss,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reach,reach,VERB,{'VerbForm': 'Inf'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+become,become,VERB,{'VerbForm': 'Inf'}
+owe,owe,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+come,come,VERB,{'VerbForm': 'Inf'}
+using,use,VERB,{'VerbForm': 'Ger'}
+decided,decide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+forgo,forgo,VERB,{'VerbForm': 'Inf'}
+adopted,adopt,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+welcome,welcome,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+wish,wish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+confirmed,confirm,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+recorded,record,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+becoming,become,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,{'VerbForm': 'Inf'}
+confirmed,confirm,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+entered,enter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+spending,spend,VERB,{'VerbForm': 'Ger'}
+experiencing,experience,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+report,report,VERB,{'VerbForm': 'Inf'}
+improving,improve,VERB,{'VerbForm': 'Ger'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+presenting,present,VERB,{'VerbForm': 'Ger'}
+expect,expect,VERB,{'VerbForm': 'Inf'}
+working,work,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+contain,contain,VERB,{'VerbForm': 'Inf'}
+limit,limit,VERB,{'VerbForm': 'Inf'}
+began,begin,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+gone,go,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+seated,seat,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+traced,trace,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+told,tell,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+isolate,isolate,VERB,{'VerbForm': 'Inf'}
+remain,remain,VERB,{'VerbForm': 'Inf'}
+monitor,monitor,VERB,{'VerbForm': 'Inf'}
+give,give,VERB,{'VerbForm': 'Inf'}
+remaining,remain,VERB,{'VerbForm': 'Ger'}
+considered,consider,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+contacted,contact,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+provide,provide,VERB,{'VerbForm': 'Inf'}
+answer,answer,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,{'VerbForm': 'Inf'}
+contacted,contact,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+provide,provide,VERB,{'VerbForm': 'Inf'}
+advised,advise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+continues,continue,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+develop,develop,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+remain,remain,VERB,{'VerbForm': 'Inf'}
+taking,take,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+including,include,VERB,{'VerbForm': 'Ger'}
+highlighting,highlight,VERB,{'VerbForm': 'Ger'}
+taken,take,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+keeping,keep,VERB,{'VerbForm': 'Ger'}
+decided,decide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+extend,extend,VERB,{'VerbForm': 'Inf'}
+played,play,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+keeping,keep,VERB,{'VerbForm': 'Ger'}
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+understand,understand,VERB,{'VerbForm': 'Inf'}
+ramp,ramp,VERB,{'VerbForm': 'Inf'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+decided,decide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+arriving,arrive,VERB,{'VerbForm': 'Ger'}
+registered,register,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+based,base,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+recognises,recognize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+developed,develop,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+located,locate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+works,work,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+managing,manage,VERB,{'VerbForm': 'Ger'}
+proven,prove,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+stepped,step,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+flying,fly,VERB,{'VerbForm': 'Ger'}
+requested,request,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+read,read,VERB,{'VerbForm': 'Inf'}
+landing,land,VERB,{'VerbForm': 'Ger'}
+receive,receive,VERB,{'VerbForm': 'Inf'}
+taken,take,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+meeting,meet,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+landing,land,VERB,{'VerbForm': 'Ger'}
+ramping,ramp,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+designed,design,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+limit,limit,VERB,{'VerbForm': 'Inf'}
+arrive,arrive,VERB,{'VerbForm': 'Inf'}
+continues,continue,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+thank,thank,VERB,{'VerbForm': 'Inf'}
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+protect,protect,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+continue,continue,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+work,work,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,{'VerbForm': 'Inf'}
+arrives,arrive,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+state,state,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+use,use,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+explain,explain,VERB,{'VerbForm': 'Inf'}
+recorded,record,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+comes,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+argued,argue,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+composed,compose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+called,call,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+derived,derive,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+thought,think,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+moving,move,VERB,{'VerbForm': 'Ger'}
+differed,differ,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+join,join,VERB,{'VerbForm': 'Inf'}
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+consisted,consist,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+divided,divide,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+thought,think,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+considered,consider,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+performing,perform,VERB,{'VerbForm': 'Ger'}
+test,test,VERB,{'VerbForm': 'Inf'}
+held,hold,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+helped,help,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+revolutionize,revolutionize,VERB,{'VerbForm': 'Inf'}
+explained,explain,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+using,use,VERB,{'VerbForm': 'Ger'}
+published,publish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+composed,compose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+called,call,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+participate,participate,VERB,{'VerbForm': 'Inf'}
+consists,consist,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+contains,contain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+contains,contain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+represented,represent,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+differ,differ,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+consists,consist,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+combined,combine,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+results,result,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+created,create,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+rearranged,rearrange,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+yield,yield,VERB,{'VerbForm': 'Inf'}
+shown,show,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+shown,show,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+react,react,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+rearrange,rearrange,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+form,form,VERB,{'VerbForm': 'Inf'}
+containing,contain,VERB,{'VerbForm': 'Ger'}
+provides,provide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+learned,learn,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+consists,consist,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+broken,break,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+composed,compose,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+created,create,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+changes,change,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+remain,remain,VERB,{'VerbForm': 'Inf'}
+testing,test,VERB,{'VerbForm': 'Ger'}
+following,follow,VERB,{'VerbForm': 'Ger'}
+represent,represent,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+represent,represent,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+touch,touch,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+represented,represent,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+violate,violate,VERB,{'VerbForm': 'Inf'}
+consist,consist,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+consist,consist,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+violates,violate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+created,create,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+redistributed,redistribute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+appear,appear,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+check,check,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+represent,represent,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+represent,represent,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+touch,touch,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+represented,represent,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+violate,violate,VERB,{'VerbForm': 'Inf'}
+consist,consist,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+consist,consist,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+violate,violate,VERB,{'VerbForm': 'Inf'}
+created,create,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+redistributed,redistribute,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+describe,describe,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+doubted,doubt,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+reelected,reelect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+explain,explain,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+overpowered,overpower,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+describe,describe,VERB,"{'Person': '2', 'VerbForm': 'Inf'}"
+serving,serve,VERB,{'VerbForm': 'Ger'}
+mobilized,mobilize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+overseen,oversee,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+used,use,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+standardized,standardize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+allowed,allow,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+move,move,VERB,{'VerbForm': 'Inf'}
+shifted,shift,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+mobilized,mobilize,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+secure,secure,VERB,{'VerbForm': 'Inf'}
+maintain,maintain,VERB,{'VerbForm': 'Inf'}
+experienced,experience,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+faced,face,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+compared,compare,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+undercut,undercut,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+sustain,sustain,VERB,{'VerbForm': 'Inf'}
+wage,wage,VERB,{'VerbForm': 'Inf'}
+lowered,lower,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+placed,place,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+recognized,recognize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+supported,support,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+remained,remain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+occur,occur,VERB,{'VerbForm': 'Inf'}
+anticipated,anticipate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+believed,believe,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+presented,present,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+restore,restore,VERB,{'VerbForm': 'Inf'}
+united,unite,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+preoccupied,preoccupy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+seemed,seem,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+took,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+moved,move,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+capture,capture,VERB,{'VerbForm': 'Inf'}
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+defeated,defeat,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+conquer,conquer,VERB,{'VerbForm': 'Inf'}
+establishing,establish,VERB,{'VerbForm': 'Ger'}
+lasted,last,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+coming,come,VERB,{'VerbForm': 'Ger'}
+used,use,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+provide,provide,VERB,{'VerbForm': 'Inf'}
+reestablish,reestablish,VERB,{'VerbForm': 'Inf'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+find,find,VERB,{'VerbForm': 'Inf'}
+hoped,hope,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+keep,keep,VERB,{'VerbForm': 'Inf'}
+proved,prove,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+build,build,VERB,{'VerbForm': 'Inf'}
+sell,sell,VERB,{'VerbForm': 'Inf'}
+intended,intend,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+smash,smash,VERB,{'VerbForm': 'Inf'}
+raised,raise,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+purchased,purchase,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+worked,work,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+abolished,abolish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+ended,end,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+cheered,cheer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+disappointed,disappoint,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+leaving,leave,VERB,{'VerbForm': 'Ger'}
+outnumbered,outnumber,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+left,leave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+fend,fend,VERB,{'VerbForm': 'Inf'}
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+enslaved,enslave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+led,lead,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+enslaved,enslave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+enlisted,enlist,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+swelled,swell,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+ran,run,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+fueling,fuel,VERB,{'VerbForm': 'Ger'}
+feared,fear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+captured,capture,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+saw,see,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+affected,affect,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+assigned,assign,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+limited,limit,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+hauling,haul,VERB,{'VerbForm': 'Ger'}
+serving,serve,VERB,{'VerbForm': 'Ger'}
+digging,dig,VERB,{'VerbForm': 'Ger'}
+doing,do,VERB,{'VerbForm': 'Ger'}
+serving,serve,VERB,{'VerbForm': 'Ger'}
+illustrates,illustrate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+received,receive,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+deducted,deduct,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+received,receive,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+worked,work,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+correct,correct,VERB,{'VerbForm': 'Inf'}
+began,begin,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+receive,receive,VERB,{'VerbForm': 'Inf'}
+pose,pose,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+kept,keep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+welcomed,welcome,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+prove,prove,VERB,{'VerbForm': 'Inf'}
+enslaved,enslave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+fighting,fight,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+enslaved,enslave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+given,give,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+serve,serve,VERB,{'VerbForm': 'Inf'}
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+distinguished,distinguish,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+fighting,fight,VERB,{'VerbForm': 'Ger'}
+entrenched,entrench,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+gave,give,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+showed,show,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+attempted,attempt,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+take,take,VERB,{'VerbForm': 'Inf'}
+captured,capture,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+overran,overrun,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+surrendered,surrender,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+taking,take,VERB,{'VerbForm': 'Ger'}
+did,do,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+executed,execute,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+outraged,outrage,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+refused,refuse,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+engage,engage,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+requested,request,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+living,live,VERB,{'VerbForm': 'Ger'}
+feel,feel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+made,make,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+decorated,decorate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+show,show,VERB,{'VerbForm': 'Inf'}
+let,let,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+start,start,VERB,{'VerbForm': 'Inf'}
+redoing,redo,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+liked,like,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,{'VerbForm': 'Inf'}
+fit,fit,VERB,{'VerbForm': 'Inf'}
+changed,change,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+following,follow,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+match,match,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+fits,fit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+staying,stay,VERB,{'VerbForm': 'Ger'}
+opens,open,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+put,put,VERB,{'VerbForm': 'Inf'}
+playing,play,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+sit,sit,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,{'VerbForm': 'Inf'}
+lay,lie,VERB,{'VerbForm': 'Inf'}
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+keep,keep,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+keep,keep,VERB,{'VerbForm': 'Inf'}
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+got,get,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+wear,wear,VERB,{'VerbForm': 'Inf'}
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+fixing,fix,VERB,{'VerbForm': 'Ger'}
+want,want,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,{'VerbForm': 'Inf'}
+laid,lay,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+love,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lets,let,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+come,come,VERB,{'VerbForm': 'Inf'}
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+take,take,VERB,{'VerbForm': 'Inf'}
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sit,sit,VERB,{'VerbForm': 'Inf'}
+enjoy,enjoy,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,{'VerbForm': 'Ger'}
+close,close,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+filming,film,VERB,{'VerbForm': 'Ger'}
+fit,fit,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+got,get,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+changed,change,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+makes,make,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+waking,wake,VERB,{'VerbForm': 'Ger'}
+getting,get,VERB,{'VerbForm': 'Ger'}
+waking,wake,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+wake,wake,VERB,{'VerbForm': 'Inf'}
+talking,talk,VERB,{'VerbForm': 'Ger'}
+bought,buy,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+liked,like,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+kept,keep,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+managed,manage,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+put,put,VERB,{'VerbForm': 'Inf'}
+look,look,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+feel,feel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+turned,turn,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+left,leave,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+mind,mind,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+look,look,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+woke,wake,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+left,leave,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+starting,start,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+planned,plan,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+getting,get,VERB,{'VerbForm': 'Ger'}
+going,go,VERB,"{'Typo': 'Yes', 'VerbForm': 'Ger'}"
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+do,do,VERB,{'VerbForm': 'Inf'}
+created,create,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+left,leave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+study,study,VERB,{'VerbForm': 'Inf'}
+typed,type,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+laying,lay,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+left,leave,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+review,review,VERB,{'VerbForm': 'Inf'}
+hate,hate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+come,come,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+take,take,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+studying,study,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+going,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+getting,get,VERB,{'VerbForm': 'Ger'}
+think,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+decorating,decorate,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+study,study,VERB,{'VerbForm': 'Inf'}
+thought,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+show,show,VERB,{'VerbForm': 'Inf'}
+mapping,map,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+do,do,VERB,{'VerbForm': 'Inf'}
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+doing,do,VERB,{'VerbForm': 'Ger'}
+work,work,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+going,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+made,make,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+printed,print,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+include,include,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+going,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+add,add,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+studying,study,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+stressed,stress,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+bought,buy,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+know,know,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+wear,wear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+perforated,perforate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+love,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+messed,mess,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+think,think,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+feels,feel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+exchange,exchange,VERB,{'VerbForm': 'Inf'}
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+finished,finish,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+sat,sit,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+studied,study,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+go,go,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,{'VerbForm': 'Inf'}
+exchange,exchange,VERB,{'VerbForm': 'Inf'}
+came,come,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+feel,feel,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+watching,watch,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+thank,thank,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+coming,come,VERB,{'VerbForm': 'Ger'}
+saying,say,VERB,{'VerbForm': 'Ger'}
+made,make,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+watches,watch,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+loves,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+love,love,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+making,make,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,{'VerbForm': 'Inf'}
+go,go,VERB,{'VerbForm': 'Inf'}
+see,see,VERB,{'VerbForm': 'Inf'}
+feel,feel,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+say,say,VERB,{'VerbForm': 'Inf'}
+make,make,VERB,{'VerbForm': 'Inf'}
+got,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+spent,spend,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+do,do,VERB,{'VerbForm': 'Inf'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+scan,scan,VERB,{'VerbForm': 'Inf'}
+go,go,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+have,have,VERB,{'VerbForm': 'Inf'}
+ended,end,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+having,have,VERB,{'VerbForm': 'Ger'}
+order,order,VERB,{'VerbForm': 'Inf'}
+said,say,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+was,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+do,do,VERB,{'VerbForm': 'Inf'}
+had,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+give,give,VERB,{'VerbForm': 'Inf'}
+re-ring,re-ring,VERB,{'VerbForm': 'Inf'}
+do,do,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+send,send,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+wait,wait,VERB,{'VerbForm': 'Inf'}
+gon,go,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+understand,understand,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+including,include,VERB,{'VerbForm': 'Ger'}
+overshadowed,overshadow,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+lying,lie,VERB,{'VerbForm': 'Ger'}
+began,begin,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+step,step,VERB,{'VerbForm': 'Inf'}
+playing,play,VERB,{'VerbForm': 'Ger'}
+nurtured,nurture,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+reflects,reflect,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+visit,visit,VERB,{'VerbForm': 'Inf'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+start,start,VERB,{'VerbForm': 'Inf'}
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+wants,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+branch,branch,VERB,{'VerbForm': 'Inf'}
+walking,walk,VERB,{'VerbForm': 'Ger'}
+continuing,continue,VERB,{'VerbForm': 'Ger'}
+get,get,VERB,{'VerbForm': 'Inf'}
+reflect,reflect,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+seen,see,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+venture,venture,VERB,{'VerbForm': 'Inf'}
+take,take,VERB,{'VerbForm': 'Inf'}
+come,come,VERB,{'VerbForm': 'Inf'}
+makes,make,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+visit,visit,VERB,{'VerbForm': 'Inf'}
+explore,explore,VERB,{'VerbForm': 'Inf'}
+preserved,preserve,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+standing,stand,VERB,{'VerbForm': 'Ger'}
+buzzes,buzz,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+coming,come,VERB,{'VerbForm': 'Ger'}
+see,see,VERB,{'VerbForm': 'Inf'}
+mixed,mix,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+ranging,range,VERB,{'VerbForm': 'Ger'}
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+referring,refer,VERB,{'VerbForm': 'Ger'}
+seek,seek,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lies,lie,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+centered,center,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+including,include,VERB,{'VerbForm': 'Ger'}
+lies,lie,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+mixed,mix,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lies,lie,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+extending,extend,VERB,{'VerbForm': 'Ger'}
+bordered,border,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+rated,rate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+complete,complete,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+separated,separate,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+share,share,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stands,stand,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+bears,bear,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+burgeoning,burgeon,VERB,{'VerbForm': 'Ger'}
+working,work,VERB,{'VerbForm': 'Ger'}
+tracing,trace,VERB,{'VerbForm': 'Ger'}
+opening,open,VERB,{'VerbForm': 'Ger'}
+seen,see,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+seen,see,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+relocated,relocate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+saw,see,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}"
+destroyed,destroy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+seen,see,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+burgeoning,burgeon,VERB,{'VerbForm': 'Ger'}
+growing,grow,VERB,{'VerbForm': 'Ger'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+working,work,VERB,{'VerbForm': 'Ger'}
+raised,raise,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+sailing,sail,VERB,{'VerbForm': 'Ger'}
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+said,say,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+see,see,VERB,{'VerbForm': 'Inf'}
+attracts,attract,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+organising,organise,VERB,{'VerbForm': 'Ger'}
+see,see,VERB,{'VerbForm': 'Inf'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+stay,stay,VERB,{'VerbForm': 'Inf'}
+suit,suit,VERB,{'VerbForm': 'Inf'}
+understand,understand,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+suggest,suggest,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+living,live,VERB,{'VerbForm': 'Ger'}
+surrounding,surround,VERB,{'VerbForm': 'Ger'}
+living,live,VERB,{'VerbForm': 'Ger'}
+coming,come,VERB,{'VerbForm': 'Ger'}
+attracts,attract,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+shelters,shelter,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+come,come,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+protected,protect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+give,give,VERB,{'VerbForm': 'Inf'}
+visit,visit,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+close,close,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+offers,offer,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+including,include,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,{'VerbForm': 'Inf'}
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+occur,occur,VERB,{'VerbForm': 'Inf'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+provides,provide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+contains,contain,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+remaining,remain,VERB,{'VerbForm': 'Ger'}
+includes,include,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+seen,see,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+connected,connect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+protected,protect,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+provides,provide,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+lies,lie,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sheltered,shelter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+provide,provide,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+grow,grow,VERB,{'VerbForm': 'Inf'}
+found,find,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+grow,grow,VERB,{'VerbForm': 'Inf'}
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+look,look,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+yields,yield,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+growing,grow,VERB,{'VerbForm': 'Ger'}
+done,do,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+scattering,scatter,VERB,{'VerbForm': 'Ger'}
+planting,plant,VERB,{'VerbForm': 'Ger'}
+ensuring,ensure,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+read,read,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+following,follow,VERB,{'VerbForm': 'Ger'}
+find,find,VERB,{'VerbForm': 'Inf'}
+grow,grow,VERB,{'VerbForm': 'Inf'}
+purchase,purchase,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+bought,buy,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+purchased,purchase,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+scatter,scatter,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+scatter,scatter,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+'s,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+cover,cover,VERB,{'VerbForm': 'Inf'}
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+use,use,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+germinate,germinate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+grow,grow,VERB,{'VerbForm': 'Inf'}
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+growing,grow,VERB,{'VerbForm': 'Ger'}
+takes,take,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+growing,grow,VERB,{'VerbForm': 'Ger'}
+take,take,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+obtain,obtain,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+purchase,purchase,VERB,{'VerbForm': 'Inf'}
+own,own,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,{'VerbForm': 'Inf'}
+do,do,VERB,{'VerbForm': 'Inf'}
+choose,choose,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+shaped,shape,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+make,make,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+cut,cut,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+form,form,VERB,{'VerbForm': 'Inf'}
+prevent,prevent,VERB,{'VerbForm': 'Inf'}
+cure,cure,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+sitting,sit,VERB,{'VerbForm': 'Ger'}
+plant,plant,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+prepare,prepare,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+fill,fill,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+make,make,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+allow,allow,VERB,{'VerbForm': 'Inf'}
+set,set,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+plant,plant,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+rot,rot,VERB,{'VerbForm': 'Inf'}
+put,put,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+anchor,anchor,VERB,{'VerbForm': 'Inf'}
+choose,choose,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+live,live,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+position,position,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+face,face,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+face,face,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+prevent,prevent,VERB,{'VerbForm': 'Inf'}
+burning,burn,VERB,{'VerbForm': 'Ger'}
+make,make,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+sheltered,shelter,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+wait,wait,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+water,water,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+provide,provide,VERB,{'VerbForm': 'Inf'}
+grow,grow,VERB,{'VerbForm': 'Inf'}
+cause,cause,VERB,{'VerbForm': 'Inf'}
+sprouted,sprout,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+water,water,VERB,{'VerbForm': 'Inf'}
+let,let,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+dry,dry,VERB,{'VerbForm': 'Inf'}
+water,water,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+rooted,root,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+fertilize,fertilize,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+grows,grow,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+benefit,benefit,VERB,{'VerbForm': 'Inf'}
+balanced,balance,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+let,let,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+grow,grow,VERB,{'VerbForm': 'Inf'}
+form,form,VERB,{'VerbForm': 'Inf'}
+bear,bear,VERB,{'VerbForm': 'Inf'}
+wait,wait,VERB,{'VerbForm': 'Inf'}
+harvesting,harvest,VERB,{'VerbForm': 'Ger'}
+affect,affect,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,{'VerbForm': 'Inf'}
+having,have,VERB,{'VerbForm': 'Ger'}
+cause,cause,VERB,{'VerbForm': 'Inf'}
+create,create,VERB,{'VerbForm': 'Inf'}
+produce,produce,VERB,{'VerbForm': 'Inf'}
+repelling,repel,VERB,{'VerbForm': 'Ger'}
+removing,remove,VERB,{'VerbForm': 'Ger'}
+know,know,VERB,{'VerbForm': 'Inf'}
+doing,do,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+use,use,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+discouraging,discourage,VERB,{'VerbForm': 'Ger'}
+keep,keep,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+drawn,draw,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+is,be,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+eat,eat,VERB,{'VerbForm': 'Inf'}
+stay,stay,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+stored,store,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+apply,apply,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+try,try,VERB,{'VerbForm': 'Inf'}
+go,go,VERB,{'VerbForm': 'Inf'}
+helps,help,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+mask,mask,VERB,{'VerbForm': 'Inf'}
+missed,miss,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+cleaning,clean,VERB,{'VerbForm': 'Ger'}
+gives,give,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+place,place,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+place,place,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+deter,deter,VERB,{'VerbForm': 'Inf'}
+getting,get,VERB,{'VerbForm': 'Ger'}
+place,place,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+enter,enter,VERB,{'VerbForm': 'Inf'}
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+replaced,replace,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+depending,depend,VERB,{'VerbForm': 'Ger'}
+put,put,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+try,try,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+growing,grow,VERB,{'VerbForm': 'Ger'}
+use,use,VERB,{'VerbForm': 'Inf'}
+serving,serve,VERB,{'VerbForm': 'Ger'}
+use,use,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+dried,dry,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+visit,visit,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+ask,ask,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+dried,dry,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+find,find,VERB,{'VerbForm': 'Inf'}
+owns,own,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+place,place,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+seem,seem,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+go,go,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,{'VerbForm': 'Inf'}
+zap,zap,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+sold,sell,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+emit,emit,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hate,hate,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+work,work,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+need,need,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+know,know,VERB,{'VerbForm': 'Inf'}
+taking,take,VERB,"{'Tense': 'Pres', 'VerbForm': 'Part'}"
+work,work,VERB,{'VerbForm': 'Inf'}
+become,become,VERB,{'VerbForm': 'Inf'}
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+use,use,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+specialize,specialize,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+make,make,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+use,use,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+known,know,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+kill,kill,VERB,{'VerbForm': 'Inf'}
+keep,keep,VERB,{'VerbForm': 'Inf'}
+applied,apply,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+want,want,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+try,try,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+doing,do,VERB,{'VerbForm': 'Ger'}
+see,see,VERB,{'VerbForm': 'Inf'}
+get,get,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+take,take,VERB,{'VerbForm': 'Inf'}
+spend,spend,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hunt,hunt,VERB,{'VerbForm': 'Inf'}
+find,find,VERB,{'VerbForm': 'Inf'}
+track,track,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+hunt,hunt,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+taught,teach,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+become,become,VERB,{'VerbForm': 'Inf'}
+food,feed,VERB,"{'Tense': 'Past', 'Typo': 'Yes', 'VerbForm': 'Part'}"
+see,see,VERB,{'VerbForm': 'Inf'}
+grow,grow,VERB,{'VerbForm': 'Inf'}
+scaring,scare,VERB,{'VerbForm': 'Ger'}
+know,know,VERB,{'VerbForm': 'Inf'}
+test,test,VERB,{'VerbForm': 'Inf'}
+are,be,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+socialized,socialize,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+hunting,hunt,VERB,{'VerbForm': 'Ger'}
+have,have,VERB,{'VerbForm': 'Inf'}
+use,use,VERB,{'VerbForm': 'Inf'}
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+deter,deter,VERB,{'VerbForm': 'Inf'}
+place,place,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+used,use,VERB,"{'Tense': 'Past', 'VerbForm': 'Part'}"
+sniff,sniff,VERB,{'VerbForm': 'Inf'}
+clear,clear,VERB,{'VerbForm': 'Inf'}
+have,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+get,get,VERB,{'VerbForm': 'Inf'}
+eliminate,eliminate,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+prevent,prevent,VERB,{'VerbForm': 'Inf'}
+put,put,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+smell,smell,VERB,"{'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+attracted,attract,VERB,"{'Tense': 'Past', 'VerbForm': 'Part', 'Voice': 'Pass'}"
+keep,keep,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+take,take,VERB,{'VerbForm': 'Inf'}
+promote,promote,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+build,build,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+attract,attract,VERB,{'VerbForm': 'Inf'}
+take,take,VERB,{'VerbForm': 'Inf'}
+attract,attract,VERB,{'VerbForm': 'Inf'}
+make,make,VERB,"{'Mood': 'Imp', 'Person': '2', 'VerbForm': 'Fin'}"
+has,have,VERB,"{'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}"
+eat,eat,VERB,{'VerbForm': 'Inf'}
+attract,attract,VERB,{'VerbForm': 'Inf'}
