@@ -3,6 +3,7 @@ train
 """
 import os
 from functools import partial
+import numpy as np
 
 import torch
 from tqdm import tqdm
@@ -13,6 +14,7 @@ import transformer
 import util
 from decoding import Decode, get_decode_fn
 from trainer import BaseTrainer
+import transformer_regressor
 
 tqdm.monitor_interval = 0
 
@@ -28,6 +30,7 @@ class Data(util.NamedEnum):
     sigmorphon17task1 = "sigmorphon17task1"
     sigmorphon19task1 = "sigmorphon19task1"
     sigmorphon19task2 = "sigmorphon19task2"
+    regression = "regression"
     lemma = "lemma"
     lemmanotag = "lemmanotag"
     lematus = "lematus"
@@ -50,7 +53,7 @@ class Arch(util.NamedEnum):
     universaltransformer = "universaltransformer"
     tagtransformer = "tagtransformer"
     taguniversaltransformer = "taguniversaltransformer"
-
+    transformerregressor = "transformerregressor"
 
 class Trainer(BaseTrainer):
     """docstring for Trainer."""
@@ -85,7 +88,7 @@ class Trainer(BaseTrainer):
         parser.add_argument('--bestacc', default=False, action='store_true', help='select model by accuracy only')
         # fmt: on
 
-    def load_data(self, dataset, train, dev, test):
+    def load_data(self, dataset, train, dev, test, src_c2i=None, attr_c2i=None):
         assert self.data is None
         logger = self.logger
         params = self.params
@@ -136,6 +139,9 @@ class Trainer(BaseTrainer):
                     self.data = dataloader.Lemmatization(train, dev, test, params.shuffle)
             elif dataset == Data.lemmanotag:
                 self.data = dataloader.LemmatizationNotag(train, dev, test, params.shuffle)
+            elif dataset == Data.regression:
+                self.data = transformer_regressor.RegressionDataLoader(train, dev, test, params.shuffle,
+                                                                       src_c2i=src_c2i, attr_c2i=attr_c2i)
             else:
                 raise ValueError
         # fmt: on
@@ -192,6 +198,7 @@ class Trainer(BaseTrainer):
             Arch.universaltransformer: transformer.UniversalTransformer,
             Arch.tagtransformer: transformer.TagTransformer,
             Arch.taguniversaltransformer: transformer.TagUniversalTransformer,
+            Arch.transformerregressor: transformer_regressor.TransformerRegressor,
         }
         # fmt: on
         if params.indtag or params.mono:
@@ -262,7 +269,6 @@ class Trainer(BaseTrainer):
         return results
 
     def decode(self, mode, batch_size, write_fp, decode_fn):
-        # print("decode_fn",decode_fn)
         self.model.eval()
         cnt = 0
         # input(batch_size)
@@ -284,17 +290,35 @@ class Trainer(BaseTrainer):
                 data = (src, src_mask, trg, trg_mask)
                 losses = self.model.get_loss(data, reduction=False).cpu()
 
+                # print("BATCH INFO")
+                # print(src, src.size())
+                # print(trg, trg.size())
+                # print(pred, pred.size())
+
                 pred = util.unpack_batch(pred)
                 trg = util.unpack_batch(trg)
+                if trg.is_floating_point:
+                    trg = trg.transpose(0, 1)
+
                 # input(pred)
                 # input(trg)
                 for p, t, loss in zip(pred, trg, losses):
                     dist = util.edit_distance(p, t)
                     p = self.data.decode_target(p)
                     t = self.data.decode_target(t)
+                    if isinstance(p, np.ndarray):
+                        pStr = ";".join([str(xx) for xx in p])
+                    else:
+                        pStr = " ".join(p)
+
+                    if isinstance(t, np.ndarray):
+                        tStr = ";".join([str(xx) for xx in t])
+                    else:
+                        tStr = " ".join(t)
+
                     # input(p)
                     # input(t)
-                    fp.write(f'{" ".join(p)}\t{" ".join(t)}\t{loss.item()}\t{dist}\n')
+                    fp.write(f'{pStr}\t{tStr}\t{loss.item()}\t{dist}\n')
                     cnt += 1
         self.logger.info(f"finished decoding {cnt} {mode} instance")
         results = self.evaluator.compute(reset=True)
@@ -352,17 +376,57 @@ def main():
     decode_fn = get_decode_fn(
         params.decode, params.max_decode_len, params.decode_beam_size
     )
-    trainer.load_data(params.dataset, params.train, params.dev, params.test)
-    trainer.setup_evalutator()
-    if params.load and params.load != "0":
+    src_c2i = None
+    attr_c2i = None
+
+    if (params.load and params.load != "0") or params.load_previous:
+        load_model = params.model
+        if params.load_previous != None:
+            load_model = params.load_previous
+            params.load = "smart"
         if params.load == "smart":
-            start_epoch = trainer.smart_load_model(params.model) + 1
+            start_epoch = trainer.smart_load_model(load_model) + 1
         else:
-            start_epoch = trainer.load_model(params.load) + 1
+            start_epoch = trainer.load_model(load_model) + 1
+
+        prevM = trainer.model
+        src_c2i = prevM.src_c2i
+        attr_c2i = prevM.attr_c2i
+        print("Forcing vocabulary:", src_c2i)
+        trainer.model = None
+
+    trainer.load_data(params.dataset, params.train, params.dev, params.test,
+                      src_c2i=src_c2i, attr_c2i=attr_c2i)
+    trainer.setup_evalutator()
+
+    if (params.load and params.load != "0") or params.load_previous:
+        load_model = params.model
+        if params.load_previous != None:
+            load_model = params.load_previous
+            params.load = "smart"
+        if params.load == "smart":
+            start_epoch = trainer.smart_load_model(load_model) + 1
+        else:
+            start_epoch = trainer.load_model(load_model) + 1
         trainer.logger.info("continue training from epoch %d", start_epoch)
+
+        if params.arch == Arch.transformerregressor:
+            print("Copying layers from previous model...")
+            prevM = trainer.model
+            trainer.model = None
+            trainer.models = []
+            trainer.build_model()
+            trainer.model.src_embed = prevM.src_embed
+            trainer.model.encoder = prevM.encoder
+            trainer.model.position_embed = prevM.position_embed
+            trainer.model.src_c2i = prevM.src_c2i
+            trainer.model.attr_c2i = prevM.attr_c2i
+            src_c2i = prevM.src_c2i
+            attr_c2i = prevM.attr_c2i
+
         trainer.setup_training()
-        trainer.load_training(params.model)
-    else:  # start from scratch
+        trainer.load_training(load_model)
+    else:
         start_epoch = 0
         trainer.build_model()
         if params.init:

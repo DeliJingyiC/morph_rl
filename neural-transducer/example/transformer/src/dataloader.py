@@ -32,6 +32,9 @@ class Seq2SeqDataLoader(Dataloader):
         dev_file: List[str],
         test_file: Optional[List[str]] = None,
         shuffle=False,
+            src_c2i=None,
+            attr_c2i=None,
+            trg_c2i=None,
     ):
         super().__init__()
         self.   train_file = train_file[0] if len(train_file) == 1 else train_file
@@ -43,10 +46,12 @@ class Seq2SeqDataLoader(Dataloader):
         self.batch_data: Dict[str, List] = dict()
         self.nb_train, self.nb_dev, self.nb_test = 0, 0, 0
         self.nb_attr = 0
+
         self.source, self.target = self.build_vocab()
         self.source_vocab_size = len(self.source)
         self.target_vocab_size = len(self.target)
         self.attr_c2i: Optional[Dict]
+        self.target_c2i = {c: i for i, c in enumerate(self.target)}
         if self.nb_attr > 0:
             self.source_c2i = {c: i for i, c in enumerate(self.source[: -self.nb_attr])}
             self.attr_c2i = {
@@ -56,7 +61,20 @@ class Seq2SeqDataLoader(Dataloader):
         else:
             self.source_c2i = {c: i for i, c in enumerate(self.source)}
             self.attr_c2i = None
-        self.target_c2i = {c: i for i, c in enumerate(self.target)}
+
+        if src_c2i != None:
+            self.source_c2i = src_c2i
+            self.source = list(self.source_c2i.keys())
+            self.source_vocab_size = len(self.source)
+
+        if trg_c2i != None:
+            self.target_c2i = trg_c2i
+            self.target = list(self.target_c2i.keys())
+            self.target_vocab_size = len(self.target)
+
+        if attr_c2i != None:
+            self.attr_c2i = attr_c2i
+
         self.sanity_check()
 
     def sanity_check(self):
@@ -173,10 +191,18 @@ class Seq2SeqDataLoader(Dataloader):
         return [self.source[x] for x in sent]
 
     def decode_target(self, sent):
+        if sent.is_floating_point:
+            return sent.cpu().numpy()
         if isinstance(sent, torch.Tensor):
             assert sent.size(1) == 1
             sent = sent.view(-1)
-        return [self.target[x] for x in sent]
+        #return [self.target[x] for x in sent]
+        def chc(x):
+            if x < len(self.target):
+                return self.target[x]
+            return "<U%s>" % str(x)
+
+        return [chc(x) for x in sent]
 
     def _sample(self, file):
         for src, trg in self._iter_helper(file):

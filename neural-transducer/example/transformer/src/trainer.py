@@ -91,6 +91,7 @@ class BaseTrainer(object):
         parser.add_argument('--test', default=None, type=str, nargs='+')
         parser.add_argument('--model', required=True, help='dump model filename')
         parser.add_argument('--load', default='', help='load model and continue training; with `smart`, recover training automatically')
+        parser.add_argument('--load_previous', default=None, help='load a different model and continue training')
         parser.add_argument('--bs', default=20, type=int, help='training batch size')
         parser.add_argument('--epochs', default=20, type=int, help='maximum training epochs')
         parser.add_argument('--max_steps', default=0, type=int, help='maximum training steps')
@@ -142,6 +143,8 @@ class BaseTrainer(object):
     def smart_load_model(self, model_prefix):
         assert self.model is None
         models = []
+        print("searching for models at", f"{model_prefix}.nll*")
+        print(list(glob.glob(f"{model_prefix}.nll*")))
         for model in glob.glob(f"{model_prefix}.nll*"):
             res = re.findall(r"\w*_\d+\.?\d*", model[len(model_prefix) :])
             loss_ = res[0].split("_")

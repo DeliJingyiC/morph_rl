@@ -52,9 +52,9 @@ class SinusoidalPositionalEmbedding(nn.Module):
         """Input is expected to be of size [bsz x seqlen]."""
         bsz, seq_len = input.shape
         max_pos = self.padding_idx + 1 + seq_len
-        print("seq_len",seq_len)
-        print("bsz",bsz)
-        print("max_pos",max_pos)
+        # print("seq_len",seq_len)
+        # print("bsz",bsz)
+        # print("max_pos",max_pos)
         # input()
         if self.weights is None or max_pos > self.weights.size(0):
             # recompute/expand embeddings if needed
@@ -64,13 +64,13 @@ class SinusoidalPositionalEmbedding(nn.Module):
                 self.padding_idx,
             )
         self.weights = self.weights.to(self._float_tensor)
-        print("weight",self.weights.shape)
+        # print("weight",self.weights.shape)
         mask = input.ne(self.padding_idx).long()
-        print("mask",mask.shape)
+        # print("mask",mask.shape)
         positions = torch.cumsum(mask, dim=0) * mask + self.padding_idx
-        print("positions",positions.shape)
-        print("positions.view(-1)",positions.view(-1).shape)
-        print("view(bsz, seq_len, -1)",self.weights.index_select(0, positions.view(-1)).view(bsz, seq_len, -1).shape)
+        # print("positions",positions.shape)
+        # print("positions.view(-1)",positions.view(-1).shape)
+        # print("view(bsz, seq_len, -1)",self.weights.index_select(0, positions.view(-1)).view(bsz, seq_len, -1).shape)
         # print("indexline72",self.weights.index_select(0, positions.view(-1)).view(bsz, seq_len, -1)
         #     .detach())
         # input()
@@ -109,7 +109,7 @@ class TransformerEncoderLayer(nn.Module):
 
         self.activation = {"relu": F.relu, "gelu": F.gelu}[activation]
 
-    def forward(self, src, src_mask=None, src_key_padding_mask=None):
+    def forward(self, src, src_mask=None, src_key_padding_mask=None, is_causal=False):
         r"""Pass the input through the endocder layer.
 
         Args:
@@ -122,7 +122,7 @@ class TransformerEncoderLayer(nn.Module):
         if self.normalize_before:
             src = self.norm1(src)
         src = self.self_attn(
-            src, src, src, attn_mask=src_mask, key_padding_mask=src_key_padding_mask
+            src, src, src, attn_mask=src_mask, key_padding_mask=src_key_padding_mask, is_causal=is_causal,
         )[0]
         src = residual + self.dropout(src)
         if not self.normalize_before:
@@ -178,6 +178,8 @@ class TransformerDecoderLayer(nn.Module):
         memory_mask=None,
         tgt_key_padding_mask=None,
         memory_key_padding_mask=None,
+        tgt_is_causal=False,
+        memory_is_causal=False,
     ):
         r"""Pass the inputs (and mask) through the decoder layer.
 
@@ -194,7 +196,7 @@ class TransformerDecoderLayer(nn.Module):
         if self.normalize_before:
             tgt = self.norm1(tgt)
         tgt = self.self_attn(
-            tgt, tgt, tgt, attn_mask=tgt_mask, key_padding_mask=tgt_key_padding_mask
+            tgt, tgt, tgt, attn_mask=tgt_mask, key_padding_mask=tgt_key_padding_mask, is_causal=tgt_is_causal,
         )[0]
         tgt = residual + self.dropout(tgt)
         if not self.normalize_before:
@@ -209,6 +211,7 @@ class TransformerDecoderLayer(nn.Module):
             memory,
             attn_mask=memory_mask,
             key_padding_mask=memory_key_padding_mask,
+            is_causal=memory_is_causal,
         )[0]
         tgt = residual + self.dropout(tgt)
         if not self.normalize_before:
@@ -399,8 +402,8 @@ class TagTransformer(Transformer):
         word_embed = self.embed_scale * self.src_embed(src_batch)
         char_mask = (src_batch < (self.src_vocab_size - self.nb_attr)).long()
         special_embed = self.embed_scale * self.special_embeddings(char_mask)
-        print("src_batch",src_batch.shape)
-        print("char_mask",char_mask.shape)
+        # print("src_batch",src_batch.shape)
+        # print("char_mask",char_mask.shape)
         # input()
         pos_embed = self.position_embed(src_batch * char_mask)
         embed = self.dropout(word_embed + pos_embed + special_embed)

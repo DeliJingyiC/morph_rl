@@ -6,6 +6,7 @@ import util
 from dataloader import BOS_IDX, EOS_IDX, STEP_IDX
 from model import HardMonoTransducer, HMMTransducer, dummy_mask
 from transformer import Transformer
+from transformer_regressor import TransformerRegressor
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -38,6 +39,8 @@ class Decoder(object):
                 decode_fn = decode_greedy_mono
             elif isinstance(transducer, HMMTransducer):
                 decode_fn = decode_greedy_hmm
+            elif isinstance(transducer, TransformerRegressor):
+                decode_fn = decode_regressor_trivial
             elif isinstance(transducer, Transformer):
                 decode_fn = decode_greedy_transformer
             else:
@@ -244,6 +247,32 @@ def decode_greedy_transformer(
             break
     return output, None
 
+def decode_regressor_trivial(
+    transducer, src_sentence, src_mask, max_len=100, trg_bos=BOS_IDX, trg_eos=EOS_IDX
+):
+    """
+    src_sentence: [seq_len]
+    """
+    # print("**********welcome to trivial decoder*************")
+
+    assert isinstance(transducer, Transformer)
+    transducer.eval()
+    src_mask = (src_mask == 0).transpose(0, 1)
+    enc_hs = transducer.encode(src_sentence, src_mask)
+
+    _, bs = src_sentence.shape
+    output = torch.tensor([trg_bos] * bs, device=DEVICE)
+    output = output.view(1, bs)
+
+    trg_mask = dummy_mask(output)
+    trg_mask = (trg_mask == 0).transpose(0, 1)
+
+    activations = transducer.decode(enc_hs, src_mask, output, trg_mask)
+
+    # print("******trivial decoder is done*****")
+    activations = activations.view(activations.size()[1:])
+
+    return activations, None
 
 Beam = namedtuple("Beam", "log_prob hidden input partial_sent")
 

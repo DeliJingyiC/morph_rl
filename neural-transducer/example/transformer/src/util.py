@@ -123,6 +123,9 @@ def unpack_batch(batch):
             [char for char in seq if char != BOS_IDX and char != EOS_IDX]
             for seq in batch
         ]
+    if batch.is_floating_point:
+        return batch
+
     batch = batch.transpose(0, 1).cpu().numpy()
     bs, seq_len = batch.shape
     output = []
