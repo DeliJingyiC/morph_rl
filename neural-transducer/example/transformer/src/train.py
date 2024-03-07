@@ -295,17 +295,19 @@ class Trainer(BaseTrainer):
                 # print(trg, trg.size())
                 # print(pred, pred.size())
 
-                pred = util.unpack_batch(pred)
-                trg = util.unpack_batch(trg)
-                if trg.is_floating_point:
+                regress = (self.params.dataset == Data.regression)
+
+                pred = util.unpack_batch(pred, regressor=regress)
+                trg = util.unpack_batch(trg, regressor=regress)
+                if isinstance(trg, torch.Tensor) and trg.is_floating_point:
                     trg = trg.transpose(0, 1)
 
                 # input(pred)
                 # input(trg)
                 for p, t, loss in zip(pred, trg, losses):
                     dist = util.edit_distance(p, t)
-                    p = self.data.decode_target(p)
-                    t = self.data.decode_target(t)
+                    p = self.data.decode_target(p, regressor=regress)
+                    t = self.data.decode_target(t, regressor=regress)
                     if isinstance(p, np.ndarray):
                         pStr = ";".join([str(xx) for xx in p])
                     else:
@@ -408,6 +410,7 @@ def main():
             start_epoch = trainer.smart_load_model(load_model) + 1
         else:
             start_epoch = trainer.load_model(load_model) + 1
+        start_epoch = 0 #prevents all sorts of frustrating relative-epoch buggery
         trainer.logger.info("continue training from epoch %d", start_epoch)
 
         if params.arch == Arch.transformerregressor:
@@ -426,6 +429,7 @@ def main():
 
         trainer.setup_training()
         trainer.load_training(load_model)
+        trainer.models = [] #prevent the trainer from purging the previous models?
     else:
         start_epoch = 0
         trainer.build_model()

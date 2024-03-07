@@ -117,13 +117,13 @@ def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
     return "".join(random.choice(chars) for _ in range(size))
 
 
-def unpack_batch(batch):
+def unpack_batch(batch, regressor=False):
     if isinstance(batch, list) and isinstance(batch[0], list):
         return [
             [char for char in seq if char != BOS_IDX and char != EOS_IDX]
             for seq in batch
         ]
-    if batch.is_floating_point:
+    if regressor:
         return batch
 
     batch = batch.transpose(0, 1).cpu().numpy()

@@ -28,6 +28,7 @@ source activate torch5
 #cwd=$(pwd)
 
 lang=$1
+devset=$2
 arch=tagtransformer
 
 lr=0.001
@@ -47,16 +48,16 @@ layers=4
 hs=1024
 embed_dim=256
 nb_heads=4
-dropout=${2:-0.3}
+dropout=0.3
 
 data_dir=$SLURM_SUBMIT_DIR/data/reinf_inst
 ckpt_dir=$SLURM_SUBMIT_DIR/checkpoints/$1
 
-python -u $SLURM_SUBMIT_DIR/example/transformer/src/train.py \
+python -u $SLURM_SUBMIT_DIR/example/transformer/src/infer.py \
     --dataset sigmorphon17task1 \
     --train $data_dir/$lang-train \
-    --dev $data_dir/$lang-test \
-    --test $data_dir/$lang-dev \
+    --dev $data_dir/$devset \
+    --test $data_dir/$lang-test \
     --model $ckpt_dir/$arch/sigmorphon17-task1-dropout$dropout/$lang-$decode \
     --embed_dim $embed_dim --src_hs $hs --trg_hs $hs --dropout $dropout --nb_heads $nb_heads \
     --label_smooth $label_smooth --total_eval $total_eval \

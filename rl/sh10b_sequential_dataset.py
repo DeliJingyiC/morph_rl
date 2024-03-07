@@ -14,9 +14,10 @@ def powerset(s):
     return lis
 
 class DataGenerator:
-    def __init__(self, data, rtData):
+    def __init__(self, data, rtData, logFreqCol="Log_Freq_HAL"):
         super(__class__, self).__init__()
         self.data = data.copy()
+        self.logFreqCol = logFreqCol
 
         allFeats = set()
         for fset in self.data.feats:
@@ -30,7 +31,7 @@ class DataGenerator:
         #print(self.data[:5])
 
         self.regressor, self.y1_std = self.computeRegressor(rtData)
-        self.low_bound_log_freq = self.data['Log_Freq_HAL'].sum()
+        self.low_bound_log_freq = self.data[self.logFreqCol].sum()
         self.low_bound_rt = self.regressor(self.low_bound_log_freq)
 
     def computeRegressor(self, elp):
@@ -101,7 +102,7 @@ class DataGenerator:
         if matches is None:
             return 0
         #print(matches)
-        sumLogFreq = matches["Log_Freq_HAL"].sum()
+        sumLogFreq = matches[self.logFreqCol].sum()
         mean_rt_predict = self.regressor(sumLogFreq)
         #print("sampled mean", mean_rt_predict)
         item_rt = np.random.normal(mean_rt_predict, self.y1_std)
@@ -124,10 +125,11 @@ class DataGenerator:
 if __name__ == '__main__':
     args = parseArgs()
     dataDir = Path(args.project) / "rl/dataset/"
+    language = args.language
 
     dsets = []
     for split in ["train", "dev", "test"]:
-        dataPath = dataDir / ("ud_inflection_split_%s.csv" % split)
+        dataPath = dataDir / (f"{language}_inflection_split_{split}.csv")
         data = pd.read_csv(dataPath)
         data.feats = data.feats.map(eval)
         dsets.append(data)
@@ -136,8 +138,12 @@ if __name__ == '__main__':
     #print(data)
     rtPath = Path(args.project) / "rl/dataset/elp_withsublex.csv"
     rtData = pd.read_csv(rtPath)
-    datagenerator = DataGenerator(data, rtData)
+    if "Log_Freq_HAL" in data:
+        col = "Log_Freq_HAL"
+    else:
+        col = "local_log_freq"
+    datagenerator = DataGenerator(data, rtData, logFreqCol=col)
 
     for split, dset in zip(["train", "dev", "test"], dsets):
         dset = datagenerator.allQueries(dset)
-        dset.to_csv(dataDir / ("query_df_%s.csv" % split), index=False)
+        dset.to_csv(dataDir / (f"query_{language}_{split}.csv"), index=False)

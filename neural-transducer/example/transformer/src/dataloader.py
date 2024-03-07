@@ -190,8 +190,8 @@ class Seq2SeqDataLoader(Dataloader):
             sent = sent.view(-1)
         return [self.source[x] for x in sent]
 
-    def decode_target(self, sent):
-        if sent.is_floating_point:
+    def decode_target(self, sent, regressor=False):
+        if regressor:
             return sent.cpu().numpy()
         if isinstance(sent, torch.Tensor):
             assert sent.size(1) == 1

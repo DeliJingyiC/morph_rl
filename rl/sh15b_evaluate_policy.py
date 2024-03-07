@@ -36,12 +36,15 @@ def describePolicy(data, policy="predicted", verbose=False):
     corrects = []
     times = []
     steps = []
+    byFeats = defaultdict(list)
 
     for ind, ((inp, feats, trg), block) in enumerate(data.groupby(["lemma", "feats", "form"])):
-        block.sort_values("response_time", inplace=True)
+        block = block.sort_values("response_time")
         correct, time, step = policyResult(block, policy=policy)
-        if step > 0 and verbose:
+        if step > 0 and verbose is True:
             print("\t", "waited till step", step, "for", inp, feats, trg)
+        if verbose == "features":
+            byFeats[feats].append(step)
         corrects.append(correct)
         times.append(time)
         steps.append(step)
@@ -55,6 +58,25 @@ def describePolicy(data, policy="predicted", verbose=False):
     print(np.mean(times), "time taken")
     print(np.sum((steps > 0)), "steps > 0")
     print(np.mean(steps), "avg step")
+
+    if verbose == "features":
+        def rate1(item):
+            key, lst = item
+            nPlus = len([xx for xx in lst if xx > 0])
+            return nPlus / len(lst)
+
+        for ft, ts in sorted(byFeats.items(), key=rate1, reverse=True):
+            if len(ts) <= 1:
+                continue
+
+            ftS = ";".join(sorted(ft))
+
+            nPlus = len([xx for xx in ts if xx > 0])
+            m1 = np.mean(ts)
+            m2 = np.median(ts)
+            print(f"{ftS}\t#: {len(ts)}\t#>0: {nPlus} ({nPlus / len(ts)})\tavg: {m1}\tmed: {m2}")
+        print()
+
     print()
 
 if __name__ == '__main__':
@@ -63,12 +85,16 @@ if __name__ == '__main__':
 
     outputDir = Path(args.transformer_output) / "transformerregressor/sigmorphon17-task1-dropout0.3"
 
-    dataPath = dataDir / "rewards_test.csv"
+    language = args.language
+
+    dataPath = dataDir / f"rewards_{language}_test.csv"
     data = pd.read_csv(dataPath)
     data.feats = data.feats.map(lambda xx: frozenset(eval(xx)))
     data.source_feats = data.source_feats.map(eval)
 
-    partition_out = outputDir / "ud_reward-.decode.dev.tsv"
+    run = Path(args.transformer_output).name.strip("ud_")    
+
+    partition_out = outputDir / f"ud_{language}_reward-.decode.dev.tsv"
     with open(partition_out) as pfh:
         decode = pfh.readlines()
         decode = [line.strip("\n").split("\t") for line in decode]
@@ -83,9 +109,11 @@ if __name__ == '__main__':
     data.loc[data["predicted_reward_wait"] <= data["predicted_reward_stop"], "predicted_optimal_action"] = "wait"
     data.loc[data["predicted_reward_wait"] > data["predicted_reward_stop"], "predicted_optimal_action"] = "stop"
 
-    data.to_csv(dataDir / "policy_output.csv", index=False)
+    data.to_csv(dataDir / f"{language}_policy_output.csv", index=False)
 
-    describePolicy(data, "predicted")
-    describePolicy(data, "optimal")
-    describePolicy(data, "stop")
-    describePolicy(data, "wait")
+    verbose = "features"
+
+    describePolicy(data, "predicted", verbose=verbose)
+    describePolicy(data, "optimal", verbose=verbose)
+    describePolicy(data, "stop", verbose=verbose)
+    describePolicy(data, "wait", verbose=verbose)

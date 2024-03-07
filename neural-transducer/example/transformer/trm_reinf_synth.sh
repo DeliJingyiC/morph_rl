@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=multi_x
+#SBATCH --job-name=single_x
 #SBATCH --account=PAS1957
 #SBATCH --output=output/%x.out
 #SBATCH --error=output/%x.err
@@ -34,7 +34,7 @@ lr=0.001
 scheduler=warmupinvsqr
 #max_steps=20000
 max_steps=0 #set so that epochs flag actually does something
-epochs=3
+epochs=300
 
 warmup=4000
 beta2=0.98       # 0.999
@@ -62,5 +62,4 @@ python -u $SLURM_SUBMIT_DIR/example/transformer/src/train.py \
     --label_smooth $label_smooth --total_eval $total_eval \
     --src_layer $layers --trg_layer $layers --max_norm 1 --lr $lr --shuffle \
     --arch $arch --gpuid 0 --estop 1e-8 --bs $bs --max_steps $max_steps \
-    --scheduler $scheduler --warmup_steps $warmup --cleanup_anyway --beta2 $beta2 --bestacc --epochs $epochs \
-	--load_previous $SLURM_SUBMIT_DIR/checkpoints/ud_UD_Turkish-Kenet_synthetic_char/tagtransformer/sigmorphon17-task1-dropout0.3/ud_UD_Turkish-Kenet_synthetic_char-
+    --scheduler $scheduler --warmup_steps $warmup --cleanup_anyway --beta2 $beta2 --bestacc --epochs $epochs 

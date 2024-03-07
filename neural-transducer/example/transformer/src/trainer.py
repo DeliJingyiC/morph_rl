@@ -157,6 +157,9 @@ class BaseTrainer(object):
                 ev = ev.split("_")
                 evals.append(util.Eval(ev[0], ev[0], float(ev[1])))
             models.append((epoch, Evaluation(model, loss, evals)))
+
+        print("models")
+        print(models)
         self.models = [x[1] for x in sorted(models)]
         return self.load_model(self.models[-1].filepath)
 

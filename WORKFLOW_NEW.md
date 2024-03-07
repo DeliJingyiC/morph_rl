@@ -64,3 +64,5 @@
 	
 9: Evaluate policy
    python rl/sh15b_evaluate_policy.py `pwd`
+    --transformer_output neural-transducer/checkpoints/ud_[corpus]_reward
+    --language [ud_...]
