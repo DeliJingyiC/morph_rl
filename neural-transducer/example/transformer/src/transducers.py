@@ -1,3 +1,5 @@
+import re
+import itertools
 import pynini
 
 #https://stackoverflow.com/questions/48651891/longest-common-subsequence-in-python
@@ -16,6 +18,86 @@ def lcs(s1, s2):
     cs = matrix[-1][-1]
 
     return cs
+
+def formatInputs(lemma, form, exemplars):
+    diffedExes = []
+    for (src, targ) in exemplars:
+        lc = lcs(src, targ)
+        diff = multitapeMatch([lc, targ], targ).split()
+        diffStr = diffToString(diff)
+        # print("diffing", src, "with", targ)
+        # print("lcs:", lc)
+        # print("edit seq", diff)
+        # print("diff str", diffStr)
+
+        diffedExes.append((src, diffStr))
+
+    analysis = multitapeMatch([lemma,] + [d1 for (d0, d1) in diffedExes], form)
+    analysis = analysis.split()
+    edits = convertToEdits(analysis)
+    # print("the analysis of", lemma, form, exemplars)
+    # print("the diffed exes", diffedExes)
+    # print(analysis)
+    # print("the edit seq")
+    # print(edits)
+    # print()
+
+    return "".join(edits), diffedExes
+
+def diffToString(syms):
+    res = []
+    reading = 0
+    for si in syms:
+        if si.startswith("<S>"):
+            reading = si.replace("<S>", "")
+
+        elif reading == "1" and not si.startswith("-"):
+            res.append(si)
+
+    return "".join(res)
+
+def convertToEdits(syms):
+    res = []
+    reading = 0
+    for si in syms:
+        if si.startswith("<S>"):
+            reading = si.replace("<S>", "")
+
+        else:
+            if si.startswith("-"):
+                res.append("-" + reading)
+            elif si.startswith("+"):
+                res.append(si)
+            else:
+                res.append(reading)
+
+    return res
+
+def convertFromEdits(pred, lemma, diffed):
+    sources = [lemma,] + [diff for (src, feats, diff) in diffed]
+    iters = [itertools.chain(list(xx), itertools.repeat(None)) for xx in sources]
+    predC = re.split("([+-]?.)", pred)
+    predC = [xx for xx in predC if xx != ""]
+    res = []
+    for ci in predC:
+        if ci.startswith("-") and len(ci) == 2:
+            try:
+                digit = int(ci[1:])
+                next(iters[digit])
+            except (ValueError, IndexError):
+                pass #malformed deletion or attempt to read invalid source
+        elif ci.startswith("+") and len(ci) == 2:
+            res.append(ci[1:]) #could be a bogus char; meh
+        else:
+            try:
+                digit = int(ci[1:])
+                nxt = next(iters[digit])
+                if nxt != None:
+                    res.append(nxt)
+            except (ValueError, IndexError):
+                pass #malformed copy or attempt to read invalid source
+
+    return "".join(res)
 
 #desired:
 #given s1, s2...sn and target t, produce t by copying characters
@@ -186,7 +268,8 @@ def makeMachine(strs, extraChars=""):
 
     return fst            
 
-print(multitapeMatch(["dress", "es"], "dresses"))
-print(multitapeMatch(["dress", "er", "hairy"], "hairdressers"))
-print(multitapeMatch(["undresses", "er", "hairy"], "hairdressers"))
-print(multitapeMatch(["undresses", "er", "hairy"], "hairdresers"))
+if __name__ == "__main__":
+    print(multitapeMatch(["dress", "es"], "dresses"))
+    print(multitapeMatch(["dress", "er", "hairy"], "hairdressers"))
+    print(multitapeMatch(["undresses", "er", "hairy"], "hairdressers"))
+    print(multitapeMatch(["undresses", "er", "hairy"], "hairdresers"))
