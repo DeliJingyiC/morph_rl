@@ -67,7 +67,7 @@ def convertToEdits(syms):
             if si.startswith("-"):
                 res.append("-" + reading)
             elif si.startswith("+"):
-                res.append(si)
+                res.append(si[1:])
             else:
                 res.append(reading)
 
@@ -86,16 +86,21 @@ def convertFromEdits(pred, lemma, diffed):
                 next(iters[digit])
             except (ValueError, IndexError):
                 pass #malformed deletion or attempt to read invalid source
-        elif ci.startswith("+") and len(ci) == 2:
-            res.append(ci[1:]) #could be a bogus char; meh
         else:
             try:
-                digit = int(ci[1:])
+                digit = int(ci)
                 nxt = next(iters[digit])
                 if nxt != None:
                     res.append(nxt)
-            except (ValueError, IndexError):
-                pass #malformed copy or attempt to read invalid source
+            except IndexError:
+                pass #attempt to read invalid source
+            except ValueError:
+                #non-digit interpreted as insertion
+                res.append(ci)
+
+    # print("converting", pred, "from", sources)
+    # print("full diffs:", diffed)
+    # print(res)
 
     return "".join(res)
 
@@ -140,6 +145,9 @@ def crossproduct(vs):
 def getnext(state):
     vec, active = state
     nxt = list(vec)
+    if active == len(nxt):
+        #cannot advance pointer in insert state
+        return None, None
     nxt[active] += 1
     nextState = (tuple(nxt), active)
     return nextState, nxt[active] - 1
@@ -165,10 +173,11 @@ def makeMachine(strs, extraChars=""):
             
     #states in our machine will be vectors of string indices
     #plus an active string designation
+    #active string n-1 is the insert state
     stateToInd = { "START" : 0 }
     for vec in crossproduct([list(range(len(xx) + 1)) for xx in strs]):
         vec = tuple(vec)
-        for si in range(len(strs)):
+        for si in range(len(strs) + 1):
             stateToInd[(vec, si)] = len(stateToInd)
 
     # print(stateToInd)
@@ -217,12 +226,15 @@ def makeMachine(strs, extraChars=""):
 
     #add INSERT arcs which consume a random character without
     #advancing the pointer
-    #cost 3 makes a single insert worse than two switches and a copy
+    #but only from the insert state
     for state, ind in stateToInd.items():
         if state == "START":
             continue
 
         (vec, active) = state
+        if active != len(strs):
+            continue
+
         for char in realChars:
             arc = pynini.Arc(syms.find(char),
                              syms.find("+" + char),
@@ -236,14 +248,21 @@ def makeMachine(strs, extraChars=""):
             continue
 
         (vec, active) = state
-        for ai in range(len(strs)):
+        for ai in range(len(strs) + 1):
             if ai != active:
                 nextState = (vec, ai)
                 nextInd = stateToInd[nextState]
-                arc = pynini.Arc(syms.find("<eps>"),
-                                 syms.find("<S>" + str(ai)),
-                                 1,
-                                 nextInd)
+                if ai < len(strs):
+                    arc = pynini.Arc(syms.find("<eps>"),
+                                     syms.find("<S>" + str(ai)),
+                                     1,
+                                     nextInd)
+                else:
+                    #don't bother outputting a switch for insertions
+                    arc = pynini.Arc(syms.find("<eps>"),
+                                     syms.find("<eps>"),
+                                     1,
+                                     nextInd)
                 fst.add_arc(ind, arc)
 
     #connect the start state to all 0 states
@@ -257,7 +276,7 @@ def makeMachine(strs, extraChars=""):
         fst.add_arc(0, arc)
 
     #designate all states at which the entire string is consumed as final
-    for active in range(len(strs)):
+    for active in range(len(strs) + 1):
         state = tuple([len(xi) for xi in strs]), active
         nextInd = stateToInd[state]
         fst.set_final(nextInd, weight=0)

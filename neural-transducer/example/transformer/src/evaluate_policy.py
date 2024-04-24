@@ -36,16 +36,16 @@ class PolStats:
         self.times.append(time)
         self.steps.append(step)
 
-    def report(self):
+    def report(self, ofh=sys.stdout):
         self.corrects = np.array(self.corrects)
         self.times = np.array(self.times)
         self.steps = np.array(self.steps)
 
-        print("results of policy", self.name)
-        print(np.sum(self.corrects), "/", len(self.corrects), np.mean(self.corrects), "items correct")
-        print(np.mean(self.times), "time taken")
-        print(np.sum((self.steps > 0)), "steps > 0")
-        print(np.mean(self.steps), "avg step")
+        print("results of policy", self.name, file=ofh)
+        print(np.sum(self.corrects), "/", len(self.corrects), np.mean(self.corrects), "items correct", file=ofh)
+        print(np.mean(self.times), "time taken", file=ofh)
+        print(np.sum((self.steps > 0)), "steps > 0", file=ofh)
+        print(np.mean(self.steps), "avg step", file=ofh)
 
     def toDataframe(self):
         res = []
@@ -59,14 +59,14 @@ class PolStats:
 
         return pd.DataFrame.from_records(res)
 
-    def featureReport(self):
+    def featureReport(self, ofh=None):
         def rate1(item):
             key, lst = item
             lst = [time for (time, correct) in lst]
             nPlus = len([xx for xx in lst if xx > 0])
             return nPlus / len(lst)
 
-        print("featural analysis of", self.name)
+        print("featural analysis of", self.name, file=ofh)
         for ft, ts in sorted(self.byFeats.items(), key=rate1, reverse=True):
             ts = [time for (time, correct) in ts]
             if len(ts) <= 1:
@@ -77,10 +77,10 @@ class PolStats:
             nPlus = len([xx for xx in ts if xx > 0])
             m1 = np.mean(ts)
             m2 = np.median(ts)
-            print(f"{ftS}\t#: {len(ts)}\t#>0: {nPlus} ({nPlus / len(ts)})\tavg: {m1}\tmed: {m2}")
-        print()
+            print(f"{ftS}\t#: {len(ts)}\t#>0: {nPlus} ({nPlus / len(ts)})\tavg: {m1}\tmed: {m2}", file=ofh)
+        print(file=ofh)
 
-def describePolicies(aql, verbose=False, outfile=None):
+def describePolicies(aql, verbose=False, outfile=None, reportfile=None):
     policies = ["predicted", "optimal", "stop", "wait"]
     polStats = {}
     for policy in policies:
@@ -95,7 +95,7 @@ def describePolicies(aql, verbose=False, outfile=None):
             prs = np.exp(prs) / (np.exp(prs) + np.exp(prw))
             rewards["pred_reward_stop"] = prs
             rewards["pred_reward_wait"] = 1 - prs
-            print(rewards.loc[:,["correct", "pred_reward_stop", "pred_reward_wait", "predicted_action", "optimal_action"]])
+            #print(rewards.loc[:,["correct", "pred_reward_stop", "pred_reward_wait", "predicted_action", "optimal_action"]])
 
         for policy in policies:
             (step, time, correct) = aql.simulator.evaluatePolicy(rewards, policy)
@@ -110,6 +110,16 @@ def describePolicies(aql, verbose=False, outfile=None):
         print()
         print()
         polStats["optimal"].featureReport()
+
+    if reportfile != None:
+        for policy in policies:
+            polStats[policy].report(ofh=reportfile)
+            print(file=reportfile)
+
+        polStats["predicted"].featureReport(ofh=reportfile)
+        print(file=reportfile)
+        print(file=reportfile)
+        polStats["optimal"].featureReport(ofh=reportfile)
 
     if outfile:
         dfs = [stats.toDataframe() for stats in polStats.values()]
@@ -143,5 +153,6 @@ if __name__ == '__main__':
     verbose = "features"
 
     outfile = checkpoint / (f"statistics_{epoch}_{split}.csv")
+    report = open(checkpoint / (f"report_{epoch}_{split}.txt"), "w")
 
-    describePolicies(aql, verbose=verbose, outfile=outfile)
+    describePolicies(aql, verbose=verbose, outfile=outfile, reportfile=report)

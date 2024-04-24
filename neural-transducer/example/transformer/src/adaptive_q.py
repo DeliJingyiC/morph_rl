@@ -59,11 +59,14 @@ class Simulator:
         # print("raw predictions", predictions)
         rawPredictions = self.spacePrunedValues(rawPredictions, instances)
         predictions = self.data.decipherPredictions(lemma, form, feats, block, rawPredictions)
+        valInstances = self.data.blockToValueInstances(lemma, form, feats, block, predictions)
         # print("deciphered", predictions)
         self.data.updateDynamicTargets(lemma, form, feats, block, rawPredictions, predictions)
-        qpreds = self.model.valuePredictions(tensors)
+        valTensors = self.data.instancesToTensors(valInstances)
+        qpreds = self.model.valuePredictions(valTensors)
         qpreds = pd.DataFrame(qpreds, columns=["reward_stop", "reward_wait"])
         rewards = self.calcRewards(block, instances, predictions)
+        rewards["value_instance"] = valInstances
         rewards["pred_reward_stop"] = qpreds["reward_stop"]
         rewards["pred_reward_wait"] = qpreds["reward_wait"]
 
@@ -453,6 +456,21 @@ class DataHandler:
             sources.append((source["source_lemma"], sourceFeats, source["source_form"]))
             inst = self.writeRow(lemma, feats, sources)
             instances.append((inst, trg, "0", len(inst) >= self.cutoff))
+
+        return instances
+
+    def blockToValueInstances(self, lemma, trg, feats, block, predictions):
+        if self.featToChar != None:
+            feats = self.mapFeatsToChars(feats)
+
+        instances = []
+        for (index, source), pred in zip(block.iterrows(), predictions):
+            sources = [("", "", pred)]
+            inst = self.writeRow("", feats, sources)
+            #apply truncation--- should be harmless, because all truncated
+            #instances will be wrong
+            inst = inst[:self.maxLenSrc - 4]
+            instances.append((inst, "", "0", len(inst) >= self.cutoff))
 
         return instances
 
@@ -939,7 +957,7 @@ class AdaptiveQLearner:
         return inds
 
     def learnValues(self, batch):
-        instances = self.stateBuffer.loc[batch, "instance"]
+        instances = self.stateBuffer.loc[batch, "value_instance"]
         tensors = self.dataHandler.instancesToTensors(instances)
         (src, srcMask, trg, trgMask) = tensors
         if self.modelParams["value_mode"] == "regress":

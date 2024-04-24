@@ -98,7 +98,7 @@ class TransformerEncoderLayer(nn.Module):
 
         self.activation = {"relu": F.relu, "gelu": F.gelu}[activation]
 
-    def forward(self, src, src_mask=None, src_key_padding_mask=None):
+    def forward(self, src, src_mask=None, src_key_padding_mask=None, is_causal=False):
         r"""Pass the input through the endocder layer.
 
         Args:
@@ -111,7 +111,7 @@ class TransformerEncoderLayer(nn.Module):
         if self.normalize_before:
             src = self.norm1(src)
         src = self.self_attn(
-            src, src, src, attn_mask=src_mask, key_padding_mask=src_key_padding_mask
+            src, src, src, attn_mask=src_mask, key_padding_mask=src_key_padding_mask, is_causal=is_causal,
         )[0]
         src = residual + self.dropout(src)
         if not self.normalize_before:

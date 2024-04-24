@@ -317,6 +317,10 @@ class Transformer(nn.Module):
 
         trg_seq_len = trg_batch.size(0)
         causal_mask = self.generate_square_subsequent_mask(trg_seq_len)
+
+        # print("shape of causal mask", causal_mask.size())
+        # print("shape of target mask", trg_mask.size())
+
         dec_hs = self.decoder(
             embed,
             enc_hs,
@@ -330,10 +334,14 @@ class Transformer(nn.Module):
         """
         only for training
         """
+        # print("transformer forward sizes:", src_batch.shape, src_mask.shape, trg_batch.shape, trg_mask.shape)
         src_mask = (src_mask == 0).transpose(0, 1)
         trg_mask = (trg_mask == 0).transpose(0, 1)
         # trg_seq_len, batch_size = trg_batch.size()
         enc_hs = self.encode(src_batch, src_mask)
+
+        # print("transformer forward enc", enc_hs.shape)
+
         # output: [trg_seq_len, batch_size, vocab_siz]
         output = self.decode(enc_hs, src_mask, trg_batch, trg_mask)
         return output
@@ -359,6 +367,10 @@ class Transformer(nn.Module):
 
         # nll_loss = F.nll_loss(predict, target.view(-1), ignore_index=PAD_IDX)
         target = target.view(-1, 1)
+
+        # print("transformed prediction", predict.shape)
+        # print("transformed target", target.shape)
+
         non_pad_mask = target.ne(PAD_IDX)
         nll_loss = -predict.gather(dim=-1, index=target)[non_pad_mask].mean()
         smooth_loss = -predict.sum(dim=-1, keepdim=True)[non_pad_mask].mean()
@@ -375,6 +387,8 @@ class Transformer(nn.Module):
         # input()
         out = self.forward(src, src_mask, trg, trg_mask)
         #out is word output
+        # print("dimensions of the fwd prediction", out.shape)
+
         loss = self.loss(out[:-1], trg[1:], reduction=reduction)
         return loss
 

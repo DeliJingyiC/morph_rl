@@ -124,8 +124,8 @@ class RegressionDataLoader(Seq2SeqDataLoader):
             trg_data_b = trg_data[:, idx_].to(self.device)
             trg_mask_b = trg_mask_b.to(self.device)
 
-            # print("src mask sizes and data sizes", src_data_b.size(), src_mask_b.size())
-            # print("trg mask sizes and data sizes", trg_data_b.size(), trg_mask_b.size())
+            print("src mask sizes and data sizes", src_data_b.size(), src_mask_b.size())
+            print("trg mask sizes and data sizes", trg_data_b.size(), trg_mask_b.size())
             # print("target literal data", trg_data_b)
 
             yield (src_data_b, src_mask_b, trg_data_b, trg_mask_b)
