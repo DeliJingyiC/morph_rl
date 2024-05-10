@@ -22,253 +22,9 @@ import util
 from transformer_adaptors import *
 
 from transducers import formatInputs, convertFromEdits
+from simulators import *
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-class Simulator:
-    def __init__(self, dataHandler, model, train):
-        self.data = dataHandler
-        self.model = model
-        self.worst = -train["response_time"].max()
-        self.best = -train.loc[train["response_time"] > 0, "response_time"].min()
-
-        self.mean = 0
-        self.nn = 0
-        self.msq = 0
-
-        self.responseTimes = -train["response_time"].to_numpy()
-        self.responseTimes[self.responseTimes > 0] = self.best
-        self.responseTimes = np.sort(self.responseTimes)
-
-        # print("first 50 response times", self.responseTimes[:50])
-        # print("last 50 response times", self.responseTimes[-50:])
-
-    def simulate(self, block):
-        (lemma, form, feats), block = block
-        block = block.reset_index()
-        instances = self.data.blockToInstances(lemma, form, feats, block)
-
-        # print("encoded instances")
-        # for xx in instances:
-        #    print(xx)
-        # print()
-        # assert(0)
-
-        tensors = self.data.instancesToTensors(instances)
-        rawPredictions = self.model.stringPredictions(tensors)
-        # print("raw predictions", predictions)
-        rawPredictions = self.spacePrunedValues(rawPredictions, instances)
-        predictions = self.data.decipherPredictions(lemma, form, feats, block, rawPredictions)
-        valInstances = self.data.blockToValueInstances(lemma, form, feats, block, predictions)
-        # print("deciphered", predictions)
-        self.data.updateDynamicTargets(lemma, form, feats, block, rawPredictions, predictions)
-        valTensors = self.data.instancesToTensors(valInstances)
-        qpreds = self.model.valuePredictions(valTensors)
-        qpreds = pd.DataFrame(qpreds, columns=["reward_stop", "reward_wait"])
-        rewards = self.calcRewards(block, instances, predictions)
-        rewards["value_instance"] = valInstances
-        rewards["pred_reward_stop"] = qpreds["reward_stop"]
-        rewards["pred_reward_wait"] = qpreds["reward_wait"]
-
-        rewards.loc[rewards["pred_reward_wait"] > rewards["pred_reward_stop"], "predicted_action"] = "wait"
-        rewards.loc[rewards["pred_reward_wait"] <= rewards["pred_reward_stop"], "predicted_action"] = "stop"
-
-        # if (rewards["predicted_action"] != rewards["optimal_action"]).all():
-        #     rewards["raw"] = rawPredictions
-        #     print(lemma, form, feats)
-        #     print(rewards)
-        #     normR = self.normalizeReward(rewards, verbose=True)
-        #     print("normed reward")
-        #     print(normR)
-
-        stateProbs = self.rewardsToProbs(qpreds)
-
-        rewards["pr_state"] = stateProbs
-        rewards["instance"] = instances
-
-        wait, time, correct = self.evaluatePolicy(rewards, policy="predicted")
-
-        return rewards, (wait, correct)
-
-    def calcRewards(self, block, instances, predictions):
-        correct = (predictions == block["form"])
-
-        # print("correct?", correct)
-
-        rewardDF = pd.DataFrame({ "correct" : correct, "prediction" : predictions})
-
-        rewardDF["reward_stop"] = [None for xx in correct]
-        rewardDF.loc[~correct, "reward_stop"] = self.worst
-        rewardDF.loc[correct, "reward_stop"] = -block.loc[correct, "response_time"]
-
-        # print(block["response_time"])
-        # print(rewardDF) ##.loc[:, ["prediction", "correct", "reward_stop"]])
-
-        maxvals = rewardDF["reward_stop"][::-1].cummax()[::-1]
-        maxvals = maxvals[1:].tolist() + [self.worst,]
-
-        # print("cumulative max rewards", maxvals)
-
-        rewardDF["reward_wait"] = maxvals
-        rewardDF.loc[rewardDF["reward_wait"] > rewardDF["reward_stop"], "optimal_action"] = "wait"
-        rewardDF.loc[rewardDF["reward_wait"] <= rewardDF["reward_stop"], "optimal_action"] = "stop"
-
-        return rewardDF
-
-    def spacePrunedValues(self, predictions, instances):
-        pruned = [xx[-1] for xx in instances]
-        pred = iter(predictions)
-
-        # print("spacing values:", pruned, len(predictions), len(pruned))
-
-        augmented = [next(pred) if not prune else None for prune in pruned]
-        return augmented
-
-    def rewardsToProbs(self, rewards):
-        norms = rewards["reward_wait"] + rewards["reward_stop"]
-        rewards["pr_stop"] = np.clip(rewards["reward_stop"] / norms, .05, .95)
-        rewards.loc[len(rewards) - 1, "pr_stop"] = 1
-        prReachState = pd.concat([pd.Series(1), (1 - rewards["pr_stop"]).cumprod()],
-                                 ignore_index=True)
-
-        rewards["pr_reach_state"] = prReachState
-
-        prEndState = prReachState[:-1] * rewards["pr_stop"]
-
-        # print(rewards)
-
-        return prEndState
-
-    def normalizeReward(self, data, verbose=False):
-        return self.normalizeRewardCopula(data, verbose)
-
-    def normalizeRewardWhiten(self, data, verbose=False):
-        #make sure all rewards are negative and lie between worst and best
-        #update sufficient stats to whiten
-        #apply whitening transform
-        rw = data["reward_wait"].to_numpy(dtype="float32")
-        rw[rw >= 0] = self.best
-        rs = data["reward_stop"].to_numpy(dtype="float32")
-        rs[rs >= 0] = self.best
-
-        allR = np.concatenate([rw, rs])
-        for xi in allR:
-            self.updateRewardMoments(xi)
-
-        mu, sigma = self.rewardMoments()
-
-        if verbose == True:
-            print("rw", rw)
-            print("rs", rs)
-            print(self.best)
-            print("moments reported", mu, sigma)
-
-        rw = (rw - mu) / sigma
-        rs = (rs - mu) / sigma
-
-        # print("stacking", rw.shape, rs.shape)
-        res = np.stack([rs, rw], axis=-1)
-        # print(res.shape, res.dtype)
-
-        return res
-
-    def normalizeRewardCopula(self, data, verbose=False):
-        #make sure all rewards are negative and lie between worst and best
-        #update sufficient stats to whiten
-        #apply whitening transform
-        rw = data["reward_wait"].to_numpy(dtype="float32")
-        rw[rw > 0] = self.best
-        rs = data["reward_stop"].to_numpy(dtype="float32")
-        rs[rs > 0] = self.best
-
-        indW = np.searchsorted(self.responseTimes, rw)
-        indS = np.searchsorted(self.responseTimes, rs)
-        nn = self.responseTimes.shape[0]
-        propW = (indW / nn).astype("float32")
-        propS = (indS / nn).astype("float32")
-
-        #order must match dataframe construction around l65
-        #which must also match model target invocation in learnValues
-        #would be better to return this as a named structure?
-        res = np.stack([propS, propW], axis=-1)
-
-        if verbose == True:
-            print("rw", rw)
-            print("rs", rs)
-            print(self.best)
-            print("index in sorted list of w", indW)
-            print("converted to 0-1", propW)
-            print("index in sorted list of s", indS)
-            print("converted to 0-1", propS)
-
-        return res        
-
-    def actionVector(self, data, verbose=False):
-        rW = data["reward_wait"].to_numpy(dtype="float32")
-        rS = data["reward_stop"].to_numpy(dtype="float32")
-
-        optS = (rS > rW).astype("float32")
-        optS[rS == rW] = .5
-        optW = (1 - optS)
-
-        #order must match dataframe construction around l65
-        #which must also match model target invocation in learnValues
-        #would be better to return this as a named structure?
-        res = np.stack([optS, optW], axis=-1)
-
-        return res        
-
-    def evaluatePolicy(self, rewards, policy):
-        if policy == "predicted":
-            stop = "pred_reward_stop"
-            wait = "pred_reward_wait"
-
-            crit = lambda ri: ri[stop] > ri[wait]
-        elif policy == "optimal":
-            stop = "reward_stop"
-            wait = "reward_wait"
-
-            crit = lambda ri: ri[stop] > ri[wait]
-        elif policy == "stop":
-            crit = lambda ri: True
-        elif policy == "wait":
-            crit = lambda ri: False
-        else:
-            assert(0), "unknown policy type"
-
-        for step, ri in rewards.iterrows():
-            if crit(ri):
-                return step, ri["reward_stop"], ri["correct"]
-
-        return step, ri["reward_stop"], ri["correct"]
-
-    def updateRewardMoments(self, sample):
-        # rns = np.random.uniform(size=10)
-        # for ii in rns:
-        #     self.dataHandler.updateRewardMoments(ii)
-        # mean, var = self.dataHandler.rewardMoments()
-        # print(mean, var)
-        # print(np.mean(rns), np.var(rns, ddof=1))
-        # assert(0)
-        # https://stats.stackexchange.com/questions/235129/online-estimation-of-variance-with-limited-memory
-
-        self.nn += 1
-        if self.nn == 1:
-            self.mean = sample
-        else:
-            delta = (sample - self.mean)
-            self.mean += delta / self.nn
-            self.msq += delta * (sample - self.mean)
-
-        #print("reward moments:", self.nn, self.mean, self.msq)
-
-    def rewardMoments(self):
-        if self.nn > 1:
-            var = self.msq / (self.nn - 1)
-            var = np.maximum(.1, var)
-            return self.mean, var
-        else:
-            return self.mean, 1
 
 class DataHandler:
     def __init__(self, mode="create", train=None, cumulative=False, cutoff=600, settings=None):
@@ -370,8 +126,15 @@ class DataHandler:
 
     def decode(self, inds, c2i):
         i2c = dict({ vv : kk for (kk, vv) in c2i.items() })
-        #print("i2c", i2c)
-        chs = [[i2c.get(ind, "?") for ind in seq] for seq in inds]
+        chs = [[i2c.get(ind, "<UNK>") for ind in seq] for seq in inds]
+
+        # debugging code only--- legit models do produce UNK early in training but trained models should learn not to
+        # if any(["<UNK>" in ch for ch in chs]):
+        #     print("i2c", i2c)
+        #     print("c2i", c2i)
+        #     print(inds.tolist())
+        #     print(chs)
+        #     assert(0)
         #print(chs)
 
         chs = [self.stripEOS(ch) for ch in chs]
@@ -420,7 +183,18 @@ class DataHandler:
 
     def processFeats(self, feats, lemma, featsep):
         # return featsep.join([xx for xx in feats])
+        if feats == False:
+            return ""
         return featsep.join([xx for xx in sorted(feats) if xx != lemma])
+
+    def writeValues(self, feats, product, sources,
+             featsep=";", lsep=".", infsep=">", instsep=":"):
+        sourceStrings = [
+            f"{lsep}{self.processFeats(srcFeats, srcLemma, featsep)}{infsep}{srcForm}" for
+            (srcLemma, srcFeats, srcForm)
+            in sources if srcFeats is not False]
+        fullStr = f"{lsep}{self.processFeats(feats, '', featsep)}{infsep}{product}{instsep}{instsep.join(sourceStrings)}"
+        return fullStr
 
     def writeRow(self, lemma, feats, sources,
              featsep=";", lsep=".", infsep=">", instsep=":"):
@@ -432,6 +206,8 @@ class DataHandler:
         return fullStr
 
     def mapFeatsToChars(self, feats):
+        if feats == False:
+            return False
         res = []
         for feat in feats:
             if feat in self.featToChar:
@@ -491,10 +267,15 @@ class EditHandler(DataHandler):
     def __init__(self, mode="create", train=None, cumulative=False, cutoff=600, settings=None):
         super(EditHandler, self).__init__(mode, train, cumulative, cutoff, settings)
         self.analyses = {}
+        self.diffs = {}
     
+    def clearCache(self):
+        self.analyses = {}
+        self.diffs = {}
+
     def readCharset(self, train):
         super().readCharset(train)
-        for sym in ["0", "1", "-0", "-1"]:
+        for sym in ["0", "1", "2", "-0", "-1", "-2"]:
             if sym not in self.targC2I:
                 self.targC2I[sym] = len(self.targC2I)
 
@@ -529,10 +310,19 @@ class EditHandler(DataHandler):
         res = []
         unk = c2i["<UNK>"]
         for si in strings:
-            chrs = [xx for xx in re.split("([+-]?.)", si) if xx != ""]
+            chrs = [xx for xx in re.split("((?:<[^>]*>)|(?:[+-]?.))", si) if xx != ""]
             si = ["<BOS>"] + chrs + ["<EOS>"]
             inds = [c2i.get(ci, unk) for ci in si]
             res.append(inds)
+
+            # this can't be on in production code because value instances contain
+            # output from the transformer, which can contain UNK
+            # if unk in inds:
+            #     print("created unknown in string encoding:", si)
+            #     print(chrs)
+            #     print(inds)
+            #     print(c2i)
+            #     assert(0)
 
             # print("indices for", si)
             # print("split into", chrs)
@@ -543,7 +333,8 @@ class EditHandler(DataHandler):
 
     def createInstance(self, lemma, trg, feats, sources):
         analysis, diffedExes = formatInputs(lemma, trg, 
-                                            [(srcL, srcT) for (srcL, srcF, srcT) in sources])
+                                            [(srcL, srcT) for (srcL, srcF, srcT) in sources],
+                                            self.diffs)
         diffedSources = [(si, sf, diff) for ((si, sf, st), (diffSrc, diff)) in zip(sources, diffedExes)]
         inst = self.writeRow(lemma, feats, diffedSources)
 
@@ -616,6 +407,7 @@ class Model:
                  lr=0.001,
                  beta1=0.9,
                  beta2=0.98,
+                 batch_size=32,
                  value_mode="regress",
                  **kwargs
              ):
@@ -636,6 +428,7 @@ class Model:
         self.n_actions = n_actions
         self.max_norm = max_norm
         self.value_mode = value_mode
+        self.batch_size = batch_size
 
         self.stringLosses = []
         self.valueLosses = []
@@ -767,28 +560,58 @@ class Model:
 
     def stringPredictions(self, tensors):
         # for ind, tns in enumerate(tensors):
-        #     print("device check", ind, tns.get_device())
+        #     print("device check", ind, tns.get_device(), "shape", tns.shape)
 
-        preds = self.stringTransformer.forward(*tensors)
+        nn = tensors[0].shape[1]
+        batchSize = self.batch_size
+        batches = np.ceil(nn / batchSize)
+        # print("dividing up", nn, "data points into", batches, "batches")
 
-        #seq length x instances x charset
-        #print("shape of preds", preds.shape)
-        preds = preds.transpose(0, 1)
-        ams = np.argmax(preds.cpu().detach().numpy(), axis=-1)
-        decs = self.data.decode(ams, self.data.targC2I)
-        return decs
+        allDecs = []
+        for batch in np.arange(0, batches * batchSize, batchSize):
+            batch = int(batch)
+            # print("batch goes from", batch, "to", batch + batchSize)
+            tns = [ti[:, batch : batch + batchSize] for ti in tensors]
+            # for ind, ti in enumerate(tns):
+            #     print("\tbatch device check", ind, ti.get_device(), "shape", ti.shape)
+            
+            preds = self.stringTransformer.forward(*tns)
+
+            #seq length x instances x charset
+            # print("shape of preds", preds.shape)
+            preds = preds.transpose(0, 1)
+            ams = np.argmax(preds.cpu().detach().numpy(), axis=-1)
+            decs = self.data.decode(ams, self.data.targC2I)
+            allDecs += decs
+
+        return allDecs
 
     def valuePredictions(self, tensors):
         (src, srcMask, _, _) = tensors
         trg = torch.ones((1, src.shape[1]), dtype=torch.long).to(DEVICE)
         trgMask = torch.ones((1, src.shape[1])).to(DEVICE)
 
-        preds = self.valueTransformer.forward(src, srcMask, trg, trgMask)
-        #squeeze sequence dimension yielding batch x actions
-        preds = preds.squeeze().cpu().detach().numpy()
-        #print("preds", preds.shape)
-        #print(preds)
-        return preds
+        tensors = (src, srcMask, trg, trgMask)
+
+        nn = tensors[0].shape[1]
+        batchSize = self.batch_size
+        batches = np.ceil(nn / batchSize)
+
+        allPreds = []
+        for batch in np.arange(0, batches * batchSize, batchSize):
+            batch = int(batch)
+            # print("batch goes from", batch, "to", batch + batchSize)
+            tns = [ti[:, batch : batch + batchSize] for ti in tensors]
+            preds = self.valueTransformer.forward(*tns)
+            #squeeze sequence dimension yielding batch x actions
+            preds = preds.squeeze(dim=0).cpu().detach().numpy()
+            #print("preds", preds.shape)
+            #print(preds)
+            allPreds.append(preds)
+
+        allPreds = np.concatenate(allPreds, axis=0)
+
+        return allPreds
 
     def trainStringBatch(self, tensors):
         # for ii, ti in enumerate(tensors):
@@ -837,7 +660,7 @@ class Model:
             self.valueLosses.pop(0)
 
 class AdaptiveQLearner:
-    def __init__(self, mode="create", bufferSize=1024, train=None, modelParams={}, load_model=None, load_epoch=None):
+    def __init__(self, mode="create", train=None, settings={}, load_model=None, load_epoch=None):
         self.train = pd.read_csv(train)
         self.train.feats = self.train.feats.map(lambda xx: frozenset(eval(xx)))
         self.train.source_feats = self.train.source_feats.map(eval)
@@ -851,47 +674,67 @@ class AdaptiveQLearner:
             block.sort_values("response_time", inplace=True)
 
         if mode == "create":
-            self.bufferSize = bufferSize
+            self.bufferSize = settings["buffer_size"]
+            self.nSources = settings["n_sources"]
+            self.nExplore = settings["n_explore"]
 
             self.dataHandler = EditHandler(mode=mode, train=self.train) #DataHandler(mode=mode, train=self.train)
-            self.modelParams = modelParams
+            self.settings = settings
             self.model = Model(mode=mode, 
-                               n_actions=2, 
+                               n_actions=1 + self.nSources, 
                                src_vocab_size=self.dataHandler.sourceVocabSize(),
                                trg_vocab_size=self.dataHandler.targVocabSize(),
                                data=self.dataHandler,
-                               **modelParams)
+                               **settings)
 
-            self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
+            if self.nSources > 1:
+                self.simulator = StochasticMultisourceSimulator(dataHandler=self.dataHandler, model=self.model, 
+                                                                train=self.train, nSources=self.nSources,
+                                                                nExplore=self.nExplore)
+                self.dataHandler.maxLenSrc *= 2 #look back at this
+            else:
+                self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
         else:
             assert(mode == "load" and load_model != None)
             fSettings = f"{load_model}-.settings"
             with open(fSettings, "rb") as fh:
                 settings = pickle.load(fh)
             
-            self.bufferSize = settings["bufferSize"]
+            self.settings = settings["settings"]
+            self.bufferSize = self.settings["buffer_size"]
+            self.nSources = self.settings["n_sources"]
+            self.nExplore = self.settings["n_explore"]
+
             self.dataHandler = EditHandler(mode=mode, settings=settings) #DataHandler(mode=mode, settings=settings)
-            self.modelParams = settings["modelParams"]
-            modelParams["load_model"] = f"{load_model}-{load_epoch}-"
+            self.settings["load_model"] = f"{load_model}-{load_epoch}-"
             self.model = Model(mode=mode,
                                src_vocab_size=self.dataHandler.sourceVocabSize(),
                                trg_vocab_size=self.dataHandler.targVocabSize(),
                                data=self.dataHandler,
-                               **modelParams)
+                               **self.settings)
 
-            self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
+            if self.nSources > 1:
+                self.simulator = StochasticMultisourceSimulator(dataHandler=self.dataHandler, model=self.model, train=self.train,
+                                                                nSources=self.nSources, nExplore=self.nExplore)
+            else:
+                self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
 
     def epoch(self):
         self.fillBuffer()
-        self.learn()
+        for ii in range(self.settings["epochs_per_buffer"]):
+            self.learn()
+        self.dataHandler.clearCache()
 
     def fillBuffer(self):
         self.stateBuffer = None
         self.stats = []
+        self.cmats = []
+
         while self.stateBuffer is None or len(self.stateBuffer) < self.bufferSize:
             block = self.sampleBlock()
-            sim, stts = self.simulator.simulate(block)
+            sim, stts, cmat = self.simulator.simulate(block)
             self.stats.append(stts)
+            self.cmats.append(cmat)
 
             if self.stateBuffer is None:
                 self.stateBuffer = sim
@@ -900,15 +743,25 @@ class AdaptiveQLearner:
 
             #print("buffer contains", len(self.stateBuffer))
 
-        waits = [xx[0] for xx in self.stats]
-        corrs = [xx[1] for xx in self.stats]
-        print(f"mean wait {np.mean(waits)}, mean correct {np.mean(corrs)}")
+        waits = [xx["steps"] for xx in self.stats]
+        corrs = [xx["correct"] for xx in self.stats]
+        if "stored" in self.stats[0]:
+            storeds = [xx["stored"] for xx in self.stats]
+        else:
+            storeds = 0
+
+        print(f"mean wait {np.mean(waits)}, mean correct {np.mean(corrs)} mean stored {np.mean(storeds)}")
+
+        final = self.cmats[0]
+        for cm in self.cmats[1:]:
+            final = final.add(cm, fill_value=0)
+        print(final)
 
     def printOutputs(self):
         block = self.sampleBlock()
         (lemma, form, feats), _ = block
         print(f"Lemma: {lemma} target form: {form}")
-        sim, stts = self.simulator.simulate(block)
+        sim, stts, _ = self.simulator.simulate(block)
         for ind, row in sim.iterrows():
             source, target, _, _ = row["instance"]
             source = self.dataHandler.defeaturize(source)
@@ -923,8 +776,9 @@ class AdaptiveQLearner:
             self.keyIter = iter(self.trainKeys)
             return next(self.keyIter)
 
-    def learn(self, batchSize=128):
+    def learn(self):
         # print("learning")
+        batchSize = self.settings["batch_size"]
         batches = len(self.stateBuffer) // batchSize
         indices = np.arange(0, len(self.stateBuffer))
         np.random.shuffle(indices)
@@ -960,10 +814,15 @@ class AdaptiveQLearner:
         instances = self.stateBuffer.loc[batch, "value_instance"]
         tensors = self.dataHandler.instancesToTensors(instances)
         (src, srcMask, trg, trgMask) = tensors
-        if self.modelParams["value_mode"] == "regress":
-            reward = self.simulator.normalizeReward(self.stateBuffer.loc[batch, ["reward_stop", "reward_wait"]])
+
+        rcs = ["reward_stop", "reward_wait"]
+        if self.nSources == 2:
+            rcs = ["reward_stop", "reward_wait", "reward_store"]
+
+        if self.settings["value_mode"] == "regress":
+            reward = self.simulator.normalizeReward(self.stateBuffer.loc[batch, rcs])
         else:
-            reward = self.simulator.actionVector(self.stateBuffer.loc[batch, ["reward_stop", "reward_wait"]])
+            reward = self.simulator.actionVector(self.stateBuffer.loc[batch, rcs])
         reward, rewardMask = self.dataHandler.rewardToTensors(reward)
         tensors = (src, srcMask, reward, rewardMask)
         self.model.trainValueBatch(tensors)
@@ -971,13 +830,12 @@ class AdaptiveQLearner:
     def writeSettings(self, fstem):
         fOut = f"{fstem}.settings"
         settings = {
-            "modelParams" : self.modelParams,
-            "bufferSize" : self.bufferSize,
+            "settings" : self.settings,
             "sourceVocab" : self.dataHandler.sourceC2I,
             "targVocab" : self.dataHandler.targC2I,
             "maxLenSrc" : self.dataHandler.maxLenSrc,
             "maxLenTarg" : self.dataHandler.maxLenTarg,
-            "featToChar" : self.dataHandler.featToChar
+            "featToChar" : self.dataHandler.featToChar,
         }
         with open(fOut, "wb") as fh:
             pickle.dump(settings, fh)            
@@ -1007,7 +865,7 @@ if __name__ == '__main__':
     split = "train"
     dataPath = dataDir / (f"query_{language}_{split}.csv")
 
-    modelParams = {
+    settings = {
         "src_nb_layers" : 4,
         "src_hid_size" : 1024,
         "trg_nb_layers" : 4,
@@ -1017,10 +875,15 @@ if __name__ == '__main__':
         "dropout_p" : .3,
         "label_smooth" : .1,
         "tie_trg_embed" : False,
-        "value_mode" : "classify"
+        "value_mode" : "classify",
+        "batch_size" : 768,
+        "n_sources" : 2,
+        "buffer_size" : 1024,
+        "n_explore" : 3,
+        "epochs_per_buffer" : 1
     }
 
-    aql = AdaptiveQLearner(mode="create", train=dataPath, modelParams=modelParams)
+    aql = AdaptiveQLearner(mode="create", train=dataPath, settings=settings)
     aql.writeSettings(checkpoint/f"{language}-")
     for epoch in range(50000):
         print(f"Epoch {epoch}")

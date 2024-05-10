@@ -25,59 +25,74 @@ class PolStats:
         self.corrects = []
         self.times = []
         self.steps = []
+        self.stores = []
         self.byFeats = defaultdict(list)
 
-    def addStats(self, step, time, correct, feats, verbose=False):
-        if step > 0 and verbose is True:
+    def addStats(self, stats, feats, verbose=False):
+        if stats["steps"] > 0 and verbose is True:
             print("\t", "waited till step", step, "for", inp, feats, trg)
 
-        self.byFeats[feats].append((step, correct))
-        self.corrects.append(correct)
-        self.times.append(time)
-        self.steps.append(step)
+        self.byFeats[feats].append(stats)
+        self.corrects.append(stats["correct"])
+        self.times.append(stats["time"])
+        self.steps.append(stats["steps"])
+        self.stores.append(stats["stored"])
 
     def report(self, ofh=sys.stdout):
         self.corrects = np.array(self.corrects)
         self.times = np.array(self.times)
         self.steps = np.array(self.steps)
+        self.stores = np.array(self.stores, dtype="int")
 
         print("results of policy", self.name, file=ofh)
         print(np.sum(self.corrects), "/", len(self.corrects), np.mean(self.corrects), "items correct", file=ofh)
         print(np.mean(self.times), "time taken", file=ofh)
         print(np.sum((self.steps > 0)), "steps > 0", file=ofh)
+        print(np.sum((self.stores > 0)), "stored anything", file=ofh)
         print(np.mean(self.steps), "avg step", file=ofh)
 
     def toDataframe(self):
         res = []
         for feats, outcomes in self.byFeats.items():
-            for step, correct in outcomes:
+            for stats in outcomes:
+                sources = stats["sources"]
+                source1 = sources[0]
+                source2 = None
+                if len(sources) > 1:
+                    source2 = sources[1]
+
                 row = { "features" : set(feats), 
                         "policy" : self.name,
-                        "step" : step,
-                        "correct" : correct }
+                        "step" : stats["steps"],
+                        "correct" : stats["correct"],
+                        "stored" : stats["stored"],
+                        "source1" : source1,
+                        "source2" : source2,
+                }
                 res.append(row)
 
         return pd.DataFrame.from_records(res)
 
     def featureReport(self, ofh=None):
         def rate1(item):
-            key, lst = item
-            lst = [time for (time, correct) in lst]
+            key, stts = item
+            lst = [si["steps"] for si in stts]
             nPlus = len([xx for xx in lst if xx > 0])
             return nPlus / len(lst)
 
         print("featural analysis of", self.name, file=ofh)
-        for ft, ts in sorted(self.byFeats.items(), key=rate1, reverse=True):
-            ts = [time for (time, correct) in ts]
+        for ft, stats in sorted(self.byFeats.items(), key=rate1, reverse=True):
+            ts = [si["time"] for si in stats]
             if len(ts) <= 1:
                 continue
 
             ftS = ";".join(sorted(ft))
 
-            nPlus = len([xx for xx in ts if xx > 0])
+            nPlus = len([si["steps"] for si in stats if si["steps"] > 0])
             m1 = np.mean(ts)
             m2 = np.median(ts)
-            print(f"{ftS}\t#: {len(ts)}\t#>0: {nPlus} ({nPlus / len(ts)})\tavg: {m1}\tmed: {m2}", file=ofh)
+            store = len([si["stored"] for si in stats if si["stored"]])
+            print(f"{ftS}\t#: {len(ts)}\t#>0: {nPlus} ({nPlus / len(ts)})\tstore: {store}\tavg: {m1}\tmed: {m2}", file=ofh)
         print(file=ofh)
 
 def describePolicies(aql, verbose=False, outfile=None, reportfile=None):
@@ -88,18 +103,24 @@ def describePolicies(aql, verbose=False, outfile=None, reportfile=None):
 
     for ind, key in enumerate(aql.trainKeys):
         (lemma, form, feats), block = key
-        rewards, _ = aql.simulator.simulate(key)
-        if rewards.loc[0, "optimal_action"] == "wait":
-            prs = rewards.loc[:, "pred_reward_stop"].to_numpy()
-            prw = rewards.loc[:, "pred_reward_wait"].to_numpy()
-            prs = np.exp(prs) / (np.exp(prs) + np.exp(prw))
-            rewards["pred_reward_stop"] = prs
-            rewards["pred_reward_wait"] = 1 - prs
-            #print(rewards.loc[:,["correct", "pred_reward_stop", "pred_reward_wait", "predicted_action", "optimal_action"]])
+        rewards, _, _ = aql.simulator.simulate(key, train=False)
+
+        # I don't understand why I wrote this block
+        # It converts reward logits to probabilities, which should not affect policy rollout at all
+        # if rewards.loc[0, "optimal_action"] == "wait":
+        #     prs = rewards.loc[:, "pred_reward_stop"].to_numpy()
+        #     prw = rewards.loc[:, "pred_reward_wait"].to_numpy()
+        #     prs = np.exp(prs) / (np.exp(prs) + np.exp(prw))
+        #     rewards["pred_reward_stop"] = prs
+        #     rewards["pred_reward_wait"] = 1 - prs
+        #     #print(rewards.loc[:,["correct", "pred_reward_stop", "pred_reward_wait", "predicted_action", "optimal_action"]])
 
         for policy in policies:
-            (step, time, correct) = aql.simulator.evaluatePolicy(rewards, policy)
-            polStats[policy].addStats(step, time, correct, feats, verbose)
+            if isinstance(aql.simulator, MultisourceSimulator):
+                stats = aql.simulator.evaluatePolicy(policy)
+            else:
+                stats = aql.simulator.evaluatePolicy(rewards, policy)
+            polStats[policy].addStats(stats, feats, verbose)
 
     for policy in policies:
         polStats[policy].report()
@@ -149,6 +170,7 @@ if __name__ == '__main__':
 
     aql = AdaptiveQLearner(mode="load", train=dataPath,
                            load_model=checkpoint/language, load_epoch=epoch)
+    aql.model.batch_size = 256 #harmless but annoying
 
     verbose = "features"
 
