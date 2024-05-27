@@ -14,6 +14,7 @@ def parseArgs():
     parser.add_argument("--synthetic_multitask", action="store_true")
     parser.add_argument("--multitask_only", action="store_true")
     parser.add_argument("--char_encode_features", action="store_true")
-    parser.add_argument("--epoch")
+    parser.add_argument("--epoch", default=0, type=int)
+    parser.add_argument("--cache_section", type=int)
     args = parser.parse_args()
     return args

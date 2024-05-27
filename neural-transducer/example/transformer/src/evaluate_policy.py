@@ -177,4 +177,6 @@ if __name__ == '__main__':
     outfile = checkpoint / (f"statistics_{epoch}_{split}.csv")
     report = open(checkpoint / (f"report_{epoch}_{split}.txt"), "w")
 
+    # print("Writing outputs to:", outfile, checkpoint / (f"report_{epoch}_{split}.txt"))
+
     describePolicies(aql, verbose=verbose, outfile=outfile, reportfile=report)

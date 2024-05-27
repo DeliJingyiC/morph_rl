@@ -362,3 +362,66 @@ def edit_distance(str1, str2):
                 table[i - 1][j] + 1, table[i][j - 1] + 1, table[i - 1][j - 1] + dg
             )
     return int(table[len(str2)][len(str1)])
+
+def batcher(args, batchSize=1):
+    batchGenerators = [monobatcher(ai, batchSize=batchSize, infinite=True) for ai in args]
+    while True:
+        batches = [next(bi) for bi in batchGenerators]
+        if all([bi is None or bi[0] is None for bi in batches]):
+            return
+        else:
+            yield batches
+
+def monobatcher(arg, batchSize=1, infinite=False):
+    if isinstance(arg, tuple):
+        xs, ys = arg
+    else:
+        xs = arg
+        ys = None
+
+    nn = len(xs)
+    batches = int(np.ceil(nn / batchSize))
+    indices = np.arange(0, nn)
+    np.random.shuffle(indices)
+
+    for batch in np.arange(0, batches * batchSize, batchSize):
+        batchInds = indices[batch : batch + batchSize]
+        if batchInds.shape[0] == 0:
+            if ys is None:
+                yield None
+            else:
+                yield (None, None)
+
+        else:
+            if ys is None:
+                yield [xs[bi] for bi in batchInds]
+            else:
+                yield [xs[bi] for bi in batchInds], [ys[bi] for bi in batchInds]
+
+    if infinite:
+        while True:
+            if ys is None:
+                yield None
+            else:
+                yield (None, None)
+
+def rgetsizeof(obj):
+    size = sys.getsizeof(obj)
+    if type(obj) in (list, tuple):
+        for xi in obj:
+            size += rgetsizeof(xi)
+
+    if type(obj) == dict:
+        for kk, vv in obj.items():
+            size += rgetsizeof(kk) + rgetsizeof(vv)
+
+    return size
+
+#https://stackoverflow.com/questions/1094841/get-a-human-readable-version-of-a-file-size
+def sizeof_fmt(num, suffix="B"):
+    for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
+        if abs(num) < 1024.0:
+            return f"{num:3.1f}{unit}{suffix}"
+        num /= 1024.0
+    return f"{num:.1f}Yi{suffix}"
+

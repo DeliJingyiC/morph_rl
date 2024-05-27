@@ -1,6 +1,7 @@
 import sys
 import os
 import re
+import functools
 import math
 import pandas as pd
 from collections import *
@@ -22,15 +23,17 @@ import util
 from transformer_adaptors import *
 
 from transducers import formatInputs, convertFromEdits
+from models import *
 from simulators import *
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class DataHandler:
-    def __init__(self, mode="create", train=None, cumulative=False, cutoff=600, settings=None):
+    def __init__(self, mode="create", train=None, cumulative=False, cutoff=600, settings=None, harmony=False):
         self.startCP=0x2100
         self.cumulative = cumulative
         self.cutoff = cutoff
+        self.harmony = harmony
 
         if mode == "create":
             self.readCharset(train)
@@ -142,8 +145,8 @@ class DataHandler:
 
     def defeaturize(self, chrs):
         f2name = dict({ vv : kk for (kk, vv) in self.featToChar.items() })
-        chrs = [f2name.get(ch, ch) for ch in chrs]
-        return "".join(chrs)
+        chrs = [f2name.get(ch, ch) for ch in sorted(list(chrs))]
+        return ";".join(chrs)
 
     def listToTensor(self, inds, maxLen):
         data = torch.zeros((maxLen, len(inds)), dtype=torch.long).to(DEVICE)
@@ -181,6 +184,66 @@ class DataHandler:
 
         return srcTensor, srcMask, targTensor, targMask
 
+    def valueInstancesToTensors(self, instances):
+        sources = [src for src, fs, _, prune in instances if not prune]
+        feats = [fs for src, fs, _, prune in instances if not prune]
+
+        srcInds = self.padAndEncode(sources, self.sourceC2I)
+        featsV = self.multihot(feats, self.sourceC2I)
+
+        #debug block in case strlengths were calculated wrongly
+        for si, ii in zip(srcInds, sources):
+            if len(si) >= self.maxLenSrc:
+                print("long seq:", len(si), len(ii), self.maxLenSrc)
+                print(si, ii)
+
+        srcTensor, srcMask = self.listToTensor(srcInds, self.maxLenSrc)
+        featTensor = self.multihotToTensor(featsV)
+
+        #transformer wants this backwards, conv net has the normal order
+        srcTensor = torch.permute(srcTensor, (1, 0))
+
+        return srcTensor, featTensor
+
+    def multihot(self, strings, c2i):
+        res = []
+        unk = c2i["<UNK>"]
+        for si in strings:
+            inds = [c2i.get(ci, unk) for ci in si]
+            res.append(inds)
+
+        return res
+
+    def multihotToTensor(self, inds):
+        maxLen = self.sourceVocabSize()
+        data = np.zeros((len(inds), maxLen), dtype="float32")
+        # print("DEVICE is", DEVICE)
+        # for dev in range(torch.cuda.device_count()):
+        #     print(torch.cuda.get_device_name(dev))
+        # print("device check for new tensor", data.get_device())
+        for ii, seq in enumerate(inds):
+            for si in seq:
+                data[ii, si] = 1
+
+        data = torch.from_numpy(data).to(DEVICE)
+
+        return data
+
+    def selectionInstancesToTensors(self, instances):
+        sources = [src for src, store, trg in instances]
+        stores = [store for src, store, trg in instances]
+        targs = [trg for src, store, trg in instances]
+
+        srcInds = self.multihot(sources, self.sourceC2I)
+        storeInds = self.multihot(stores, self.sourceC2I)
+        targInds = self.multihot(targs, self.sourceC2I)
+
+        srcTensor = self.multihotToTensor(srcInds)
+        storeTensor = self.multihotToTensor(storeInds)
+        targTensor = self.multihotToTensor(targInds)
+
+        return srcTensor, storeTensor, targTensor
+
     def processFeats(self, feats, lemma, featsep):
         # return featsep.join([xx for xx in feats])
         if feats == False:
@@ -213,7 +276,7 @@ class DataHandler:
             if feat in self.featToChar:
                 res.append(self.featToChar[feat])
 
-        return tuple(res)
+        return tuple(sorted(res))
 
     def blockToInstances(self, lemma, trg, feats, block):
         if self.featToChar != None:
@@ -264,18 +327,39 @@ class DataHandler:
         return
 
 class EditHandler(DataHandler):
-    def __init__(self, mode="create", train=None, cumulative=False, cutoff=600, settings=None):
+    def __init__(self, mode="create", train=None, cumulative=False, cutoff=600, settings=None, harmony=False,
+                 cacheDump=None):
         super(EditHandler, self).__init__(mode, train, cumulative, cutoff, settings)
         self.analyses = {}
         self.diffs = {}
-    
+        self.harmony = harmony
+
+        if cacheDump is not None:
+            self.readCache(cacheDump)
+
     def clearCache(self):
-        self.analyses = {}
-        self.diffs = {}
+        pass
+        # print("should I clear the cache?")
+        # print("size of analyses:", util.sizeof_fmt(util.rgetsizeof(self.analyses)), len(self.analyses))
+        # print("size of diffs:", util.sizeof_fmt(util.rgetsizeof(self.diffs)), len(self.diffs))
+        #self.analyses = {}
+        #self.diffs = {}
+
+    def writeCache(self, ofh):
+        pickle.dump([self.analyses, self.diffs], ofh)
+
+    def readCache(self, ifn):
+        for cacheDump in os.listdir(ifn):
+            with open(Path(ifn) / cacheDump, "rb") as ifile:
+                [anas, diffs] = pickle.load(ifile)
+                self.analyses.update(anas)
+                self.diffs.update(diffs)
+        
+        print("Successfully loaded", len(self.analyses), len(self.diffs), "items from caches")
 
     def readCharset(self, train):
         super().readCharset(train)
-        for sym in ["0", "1", "2", "-0", "-1", "-2"]:
+        for sym in ["0", "1", "2", "-0", "-1", "-2", "@0", "@1", "@2"]:
             if sym not in self.targC2I:
                 self.targC2I[sym] = len(self.targC2I)
 
@@ -310,7 +394,7 @@ class EditHandler(DataHandler):
         res = []
         unk = c2i["<UNK>"]
         for si in strings:
-            chrs = [xx for xx in re.split("((?:<[^>]*>)|(?:[+-]?.))", si) if xx != ""]
+            chrs = [xx for xx in re.split("((?:<[^>]*>)|(?:[@+-]?.))", si) if xx != ""]
             si = ["<BOS>"] + chrs + ["<EOS>"]
             inds = [c2i.get(ci, unk) for ci in si]
             res.append(inds)
@@ -334,7 +418,8 @@ class EditHandler(DataHandler):
     def createInstance(self, lemma, trg, feats, sources):
         analysis, diffedExes = formatInputs(lemma, trg, 
                                             [(srcL, srcT) for (srcL, srcF, srcT) in sources],
-                                            self.diffs)
+                                            self.diffs,
+                                            harmony=self.harmony)
         diffedSources = [(si, sf, diff) for ((si, sf, st), (diffSrc, diff)) in zip(sources, diffedExes)]
         inst = self.writeRow(lemma, feats, diffedSources)
 
@@ -355,7 +440,7 @@ class EditHandler(DataHandler):
             key = (lemma, form, feats, index)
             (instance, diffedSources) = self.analyses[key]
             if pred != None:
-                stringResult = convertFromEdits(pred, lemma, diffedSources)
+                stringResult = convertFromEdits(pred, lemma, diffedSources, harmony=self.harmony)
                 (src, targ, _, _) = instance
                 # print("tc2i", self.targC2I)
                 # print("src:", src)
@@ -386,284 +471,13 @@ class EditHandler(DataHandler):
         #             instance = (inst, raw, ftField, pruned)
         #             self.analyses[key] = (instance, diffedSources)
 
-class Model:
-    def __init__(self, mode="create",
-                 *,
-                 src_vocab_size,
-                 trg_vocab_size,
-                 embed_dim=0,
-                 nb_heads=None,
-                 src_hid_size=None,
-                 src_nb_layers=None,
-                 trg_hid_size=None,
-                 trg_nb_layers=None,
-                 dropout_p=None,
-                 tie_trg_embed=None,
-                 label_smooth=None,
-                 n_actions=None,
-                 data,
-                 max_norm=0,
-                 warmup=4000,
-                 lr=0.001,
-                 beta1=0.9,
-                 beta2=0.98,
-                 batch_size=32,
-                 value_mode="regress",
-                 **kwargs
-             ):
-        super().__init__()
-        self.data = data
-        self.src_vocab_size = src_vocab_size
-        self.trg_vocab_size = trg_vocab_size
-        self.embed_dim = embed_dim
-        self.embed_scale = math.sqrt(embed_dim)
-        self.nb_heads = nb_heads
-        self.src_hid_size = src_hid_size
-        self.src_nb_layers = src_nb_layers
-        self.trg_hid_size = trg_hid_size
-        self.trg_nb_layers = trg_nb_layers
-        self.dropout_p = dropout_p
-        self.tie_trg_embed = tie_trg_embed
-        self.label_smooth = label_smooth
-        self.n_actions = n_actions
-        self.max_norm = max_norm
-        self.value_mode = value_mode
-        self.batch_size = batch_size
-
-        self.stringLosses = []
-        self.valueLosses = []
-
-        if mode == "create":
-            self.src_embed = Embedding(src_vocab_size, embed_dim, padding_idx=PAD_IDX)
-            self.trg_embed = Embedding(trg_vocab_size, embed_dim, padding_idx=PAD_IDX)
-            self.position_embed = SinusoidalPositionalEmbedding(embed_dim, PAD_IDX)
-
-            encoder_layer = TransformerEncoderLayer(
-                d_model=embed_dim,
-                nhead=nb_heads,
-                dim_feedforward=src_hid_size,
-                dropout=dropout_p,
-                attention_dropout=dropout_p,
-                activation_dropout=dropout_p,
-                normalize_before=True,
-            )
-            self.encoder = nn.TransformerEncoder(
-                encoder_layer, num_layers=src_nb_layers, norm=nn.LayerNorm(embed_dim)
-            )
-            decoder_layer = TransformerDecoderLayer(
-                d_model=embed_dim,
-                nhead=nb_heads,
-                dim_feedforward=trg_hid_size,
-                dropout=dropout_p,
-                attention_dropout=dropout_p,
-                activation_dropout=dropout_p,
-                normalize_before=True,
-            )
-            self.decoder = nn.TransformerDecoder(
-                decoder_layer, num_layers=trg_nb_layers, norm=nn.LayerNorm(embed_dim)
-            )
-            self.final_out = Linear(embed_dim, trg_vocab_size)
-            if tie_trg_embed:
-                self.final_out.weight = self.trg_embed.weight
-            self.dropout = nn.Dropout(dropout_p)
-    
-            r_decoder_layer = TransformerDecoderLayer(
-                d_model=embed_dim,
-                nhead=nb_heads,
-                dim_feedforward=trg_hid_size,
-                dropout=dropout_p,
-                attention_dropout=dropout_p,
-                activation_dropout=dropout_p,
-                normalize_before=True,
-            )
-            self.regressor_decoder = nn.TransformerDecoder(
-                r_decoder_layer, num_layers=trg_nb_layers, norm=nn.LayerNorm(embed_dim)
-            )
-            self.r_final_out = Linear(embed_dim, self.n_actions)
-    
-            self.stringTransformer = TransformerFromLayers(encoder=self.encoder,
-                                                           src_embed=self.src_embed,
-                                                           decoder=self.decoder,
-                                                           trg_embed=self.trg_embed,
-                                                           position_embed=self.position_embed,
-                                                           final_out=self.final_out,
-                                                           dropout=self.dropout,
-                                                           embed_scale=self.embed_scale,
-                                                           trg_vocab_size=trg_vocab_size)
-            self.stringTransformer.to(DEVICE)
-    
-            self.stringOptimizer = torch.optim.Adam(
-                    self.stringTransformer.parameters(), lr, betas=(beta1, beta2)
-                )
-    
-            self.stringScheduler = util.WarmupInverseSquareRootSchedule(
-                    self.stringOptimizer, warmup
-                )
-
-            if self.value_mode == "regress":
-                self.valueTransformer = TransformerRegressorFromLayers(encoder=self.encoder,
-                                                                       src_embed=self.src_embed,
-                                                                       decoder=self.regressor_decoder,
-                                                                       trg_embed=self.trg_embed,
-                                                                       position_embed=self.position_embed,
-                                                                       final_out=self.r_final_out,
-                                                                       dropout=self.dropout,
-                                                                       embed_scale=self.embed_scale)
-            elif self.value_mode == "classify":
-                self.valueTransformer = TransformerClassifierFromLayers(encoder=self.encoder,
-                                                                       src_embed=self.src_embed,
-                                                                       decoder=self.regressor_decoder,
-                                                                       trg_embed=self.trg_embed,
-                                                                       position_embed=self.position_embed,
-                                                                       final_out=self.r_final_out,
-                                                                       dropout=self.dropout,
-                                                                       embed_scale=self.embed_scale)
-
-
-            self.valueTransformer.to(DEVICE)
-    
-            self.valueOptimizer = torch.optim.Adam(
-                    self.valueTransformer.parameters(), lr, betas=(beta1, beta2)
-                )
-    
-            self.valueScheduler = util.WarmupInverseSquareRootSchedule(
-                    self.valueOptimizer, warmup
-                )
-        else:
-            assert(mode == "load" and kwargs["load_model"] != None)
-            loadf = kwargs["load_model"]
-            self.stringTransformer = torch.load(f"{loadf}.params.string", map_location=DEVICE)
-            self.valueTransformer = torch.load(f"{loadf}.params.value", map_location=DEVICE)
-
-            self.valueTransformer.encoder = self.stringTransformer.encoder
-            self.valueTransformer.src_embed = self.stringTransformer.src_embed
-
-            self.stringTransformer.to(DEVICE)
-    
-            self.stringOptimizer = torch.optim.Adam(
-                    self.stringTransformer.parameters(), lr, betas=(beta1, beta2)
-                )
-    
-            self.stringScheduler = util.WarmupInverseSquareRootSchedule(
-                    self.stringOptimizer, warmup
-                )
-
-            self.valueTransformer.to(DEVICE)
-
-            self.valueOptimizer = torch.optim.Adam(
-                    self.valueTransformer.parameters(), lr, betas=(beta1, beta2)
-                )
-    
-            self.valueScheduler = util.WarmupInverseSquareRootSchedule(
-                    self.valueOptimizer, warmup
-                )
-
-    def stringPredictions(self, tensors):
-        # for ind, tns in enumerate(tensors):
-        #     print("device check", ind, tns.get_device(), "shape", tns.shape)
-
-        nn = tensors[0].shape[1]
-        batchSize = self.batch_size
-        batches = np.ceil(nn / batchSize)
-        # print("dividing up", nn, "data points into", batches, "batches")
-
-        allDecs = []
-        for batch in np.arange(0, batches * batchSize, batchSize):
-            batch = int(batch)
-            # print("batch goes from", batch, "to", batch + batchSize)
-            tns = [ti[:, batch : batch + batchSize] for ti in tensors]
-            # for ind, ti in enumerate(tns):
-            #     print("\tbatch device check", ind, ti.get_device(), "shape", ti.shape)
-            
-            preds = self.stringTransformer.forward(*tns)
-
-            #seq length x instances x charset
-            # print("shape of preds", preds.shape)
-            preds = preds.transpose(0, 1)
-            ams = np.argmax(preds.cpu().detach().numpy(), axis=-1)
-            decs = self.data.decode(ams, self.data.targC2I)
-            allDecs += decs
-
-        return allDecs
-
-    def valuePredictions(self, tensors):
-        (src, srcMask, _, _) = tensors
-        trg = torch.ones((1, src.shape[1]), dtype=torch.long).to(DEVICE)
-        trgMask = torch.ones((1, src.shape[1])).to(DEVICE)
-
-        tensors = (src, srcMask, trg, trgMask)
-
-        nn = tensors[0].shape[1]
-        batchSize = self.batch_size
-        batches = np.ceil(nn / batchSize)
-
-        allPreds = []
-        for batch in np.arange(0, batches * batchSize, batchSize):
-            batch = int(batch)
-            # print("batch goes from", batch, "to", batch + batchSize)
-            tns = [ti[:, batch : batch + batchSize] for ti in tensors]
-            preds = self.valueTransformer.forward(*tns)
-            #squeeze sequence dimension yielding batch x actions
-            preds = preds.squeeze(dim=0).cpu().detach().numpy()
-            #print("preds", preds.shape)
-            #print(preds)
-            allPreds.append(preds)
-
-        allPreds = np.concatenate(allPreds, axis=0)
-
-        return allPreds
-
-    def trainStringBatch(self, tensors):
-        # for ii, ti in enumerate(tensors):
-        #     print("shape of tensor", ii, "\t", ti.shape)
-
-        loss = self.stringTransformer.get_loss(tensors)
-        self.stringOptimizer.zero_grad()
-        loss.backward()
-
-        if self.max_norm > 0:
-            torch.nn.utils.clip_grad_norm_(self.stringTransformer.parameters(), max_norm)
-
-        self.stringOptimizer.step()
-        if not isinstance(self.stringScheduler, ReduceLROnPlateau):
-            self.stringScheduler.step()
-        self.stringLosses.append(loss.item())
-
-        if len(self.stringLosses) > 1000:
-            self.stringLosses.pop(0)
-
-    def trainValueBatch(self, tensors):
-        (src, srcMask, actualTrg, actualTrgMask) = tensors
-
-        trg = torch.ones((1, src.shape[1]), dtype=torch.long).to(DEVICE)
-        trgMask = torch.ones((1, src.shape[1])).to(DEVICE)
-        tensors = (src, srcMask, trg, trgMask)
-
-        # for ii, ti in enumerate(tensors):
-        #     print("shape of tensor", ii, "\t", ti.shape)
-
-        out = self.valueTransformer.forward(src, srcMask, trg, trgMask)
-        # print("shape of predictions", out.shape)
-        loss = self.valueTransformer.loss(out, actualTrg, reduction=True)
-        self.valueOptimizer.zero_grad()
-        loss.backward()
-
-        if self.max_norm > 0:
-            torch.nn.utils.clip_grad_norm_(self.valueTransformer.parameters(), max_norm)
-
-        self.valueOptimizer.step()
-        if not isinstance(self.valueScheduler, ReduceLROnPlateau):
-            self.valueScheduler.step()
-        self.valueLosses.append(loss.item())
-
-        if len(self.valueLosses) > 1000:
-            self.valueLosses.pop(0)
-
 class AdaptiveQLearner:
     def __init__(self, mode="create", train=None, settings={}, load_model=None, load_epoch=None):
         self.train = pd.read_csv(train)
         self.train.feats = self.train.feats.map(lambda xx: frozenset(eval(xx)))
         self.train.source_feats = self.train.source_feats.map(eval)
+        self.batches = 0
+        self.passes = 0
 
         self.trainKeys = list(self.train.groupby(["lemma", "form", "feats"]))
         np.random.shuffle(self.trainKeys)
@@ -677,18 +491,24 @@ class AdaptiveQLearner:
             self.bufferSize = settings["buffer_size"]
             self.nSources = settings["n_sources"]
             self.nExplore = settings["n_explore"]
+            cacheDump = settings["aligner_cache"]
 
-            self.dataHandler = EditHandler(mode=mode, train=self.train) #DataHandler(mode=mode, train=self.train)
+            self.dataHandler = EditHandler(mode=mode, train=self.train, harmony=settings["harmony"], cacheDump=cacheDump)
             self.settings = settings
+            self.selectionModel = None
             self.model = Model(mode=mode, 
-                               n_actions=1 + self.nSources, 
+                               n_actions=2,
                                src_vocab_size=self.dataHandler.sourceVocabSize(),
                                trg_vocab_size=self.dataHandler.targVocabSize(),
                                data=self.dataHandler,
                                **settings)
 
             if self.nSources > 1:
-                self.simulator = StochasticMultisourceSimulator(dataHandler=self.dataHandler, model=self.model, 
+                self.selectionModel = SelectionModel(mode=mode,
+                                                     src_vocab_size=self.dataHandler.sourceVocabSize(),
+                                                     **settings)
+
+                self.simulator = MemorySelectSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel,
                                                                 train=self.train, nSources=self.nSources,
                                                                 nExplore=self.nExplore)
                 self.dataHandler.maxLenSrc *= 2 #look back at this
@@ -699,13 +519,17 @@ class AdaptiveQLearner:
             fSettings = f"{load_model}-.settings"
             with open(fSettings, "rb") as fh:
                 settings = pickle.load(fh)
-            
+
+            self.batches = settings["batches"]
+            self.passes = settings["passes"]
+
             self.settings = settings["settings"]
             self.bufferSize = self.settings["buffer_size"]
             self.nSources = self.settings["n_sources"]
             self.nExplore = self.settings["n_explore"]
+            self.selectionModel = None
 
-            self.dataHandler = EditHandler(mode=mode, settings=settings) #DataHandler(mode=mode, settings=settings)
+            self.dataHandler = EditHandler(mode=mode, settings=settings, harmony=self.settings["harmony"], cacheDump=None)
             self.settings["load_model"] = f"{load_model}-{load_epoch}-"
             self.model = Model(mode=mode,
                                src_vocab_size=self.dataHandler.sourceVocabSize(),
@@ -714,8 +538,11 @@ class AdaptiveQLearner:
                                **self.settings)
 
             if self.nSources > 1:
-                self.simulator = StochasticMultisourceSimulator(dataHandler=self.dataHandler, model=self.model, train=self.train,
-                                                                nSources=self.nSources, nExplore=self.nExplore)
+                self.selectionModel = SelectionModel(mode=mode,
+                                                     src_vocab_size=self.dataHandler.sourceVocabSize(),
+                                                     **self.settings)
+                self.simulator = MemorySelectSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel,
+                                                       train=self.train, nSources=self.nSources, nExplore=self.nExplore)
             else:
                 self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
 
@@ -724,6 +551,7 @@ class AdaptiveQLearner:
         for ii in range(self.settings["epochs_per_buffer"]):
             self.learn()
         self.dataHandler.clearCache()
+        #sys.exit(1) #place exit statement here when profiling
 
     def fillBuffer(self):
         self.stateBuffer = None
@@ -772,6 +600,7 @@ class AdaptiveQLearner:
         try:
             return next(self.keyIter)
         except StopIteration:
+            self.passes += 1
             np.random.shuffle(self.trainKeys)
             self.keyIter = iter(self.trainKeys)
             return next(self.keyIter)
@@ -779,53 +608,78 @@ class AdaptiveQLearner:
     def learn(self):
         # print("learning")
         batchSize = self.settings["batch_size"]
-        batches = len(self.stateBuffer) // batchSize
-        indices = np.arange(0, len(self.stateBuffer))
-        np.random.shuffle(indices)
+        strings = self.stateBuffer["instance"].to_list()
+        if isinstance(strings[0], list):
+            strings = functools.reduce(list.__add__, strings, [])
 
-        # print(self.stateBuffer)
+        #prune the strings we aren't going to run
+        strings = [xi for xi in strings if not xi[-1]]
 
-        norm = self.stateBuffer["pr_state"].sum()
-        self.stateBuffer.loc[:, ["pr_state"]] /= norm
+        values = self.stateBuffer["value_instance"]
+        reward = self.simulator.actionVector(self.stateBuffer)
+        if isinstance(values[0], list):
+            values = functools.reduce(list.__add__, values, [])
 
-        for batch in np.arange(0, batches * batchSize, batchSize):
-            self.learnStrings(batchSize)
-            batchInds = indices[batch : batch + batchSize]
-            self.learnValues(batchInds)
+        #prune the values we aren't going to run
+        vz = [(val, rew) for (val, rew) in zip(values, reward) if not val[-1]]
+        values = [vi[0] for vi in vz]
+        reward = [vi[1] for vi in vz]
+
+        selections = None
+        selectionTargets = None
+        if "selection_instances" in self.stateBuffer.columns:
+            selections, selectionTargets = self.simulator.debufferSelections(self.stateBuffer)
+
+        for stringBatch, valBatch, selBatch in util.batcher([strings, (values, reward), (selections, selectionTargets)], batchSize=batchSize):
+            self.learnStrings(stringBatch)
+            self.learnValues(*valBatch)
+            self.learnSelections(*selBatch)
 
         print("Mean string loss:", np.mean(self.model.stringLosses))
         print("Mean value loss:", np.mean(self.model.valueLosses))
+        if self.selectionModel is not None:
+            print("Mean selection loss:", np.mean(self.selectionModel.losses))
+        print(self.batches, "batches", self.passes, "complete runs")
 
-    def learnStrings(self, batchSize):
-        batch = self.sampleStringBatch(batchSize)
-        #print("sampled batch for string learning:", batch)
-        instances = self.stateBuffer.loc[batch, "instance"]
-        tensors = self.dataHandler.instancesToTensors(instances)
-        self.model.trainStringBatch(tensors)
+    def learnStrings(self, instances):
+        if instances is not None:
+            self.batches += 1
+            tensors = self.dataHandler.instancesToTensors(instances)
+            self.model.trainStringBatch(tensors)
 
-    def sampleStringBatch(self, batchSize):
-        #uniform weighting of states?
-        prs = self.stateBuffer["pr_state"]
-        #inds = np.random.choice(len(prs), replace=False, p=prs, size=batchSize)
-        inds = np.random.choice(len(prs), replace=False, size=batchSize)
-        return inds
+    def learnValues(self, instances, reward):
+        if instances is None:
+            return
 
-    def learnValues(self, batch):
-        instances = self.stateBuffer.loc[batch, "value_instance"]
-        tensors = self.dataHandler.instancesToTensors(instances)
-        (src, srcMask, trg, trgMask) = tensors
-
-        rcs = ["reward_stop", "reward_wait"]
-        if self.nSources == 2:
-            rcs = ["reward_stop", "reward_wait", "reward_store"]
-
-        if self.settings["value_mode"] == "regress":
-            reward = self.simulator.normalizeReward(self.stateBuffer.loc[batch, rcs])
+        if isinstance(instances[0][0], tuple):
+            assert(0), "not implemented anymore"
         else:
-            reward = self.simulator.actionVector(self.stateBuffer.loc[batch, rcs])
-        reward, rewardMask = self.dataHandler.rewardToTensors(reward)
-        tensors = (src, srcMask, reward, rewardMask)
-        self.model.trainValueBatch(tensors)
+            tensors = self.dataHandler.valueInstancesToTensors(instances)
+            if self.settings["value_predictor"] == "conv":
+                (src, feats) = tensors
+                reward, rewardMask = self.dataHandler.rewardToTensors(np.array(reward))
+                tensors = (src, feats, reward)
+                self.model.trainValueBatch(tensors)
+            else:
+                (src, srcMask, trg, trgMask) = tensors
+                reward, rewardMask = self.dataHandler.rewardToTensors(np.array(reward))
+                tensors = (src, srcMask, reward, rewardMask)
+                self.model.trainValueBatch(tensors)
+
+    def learnSelections(self, instances, targets):
+        if self.selectionModel is None or instances is None:
+            return
+
+        tensors = self.dataHandler.selectionInstancesToTensors(instances)
+        targets = np.array(targets, dtype="int")
+
+        # print("selection instances", instances)
+        # print("selection targets", targets)
+
+        #for integer targets
+        #targetTensor = torch.tensor(targets, dtype=torch.long).to(DEVICE)
+        targetTensor = torch.tensor(targets, dtype=torch.float).to(DEVICE)
+        self.selectionModel.trainBatch(tensors, targetTensor)
 
     def writeSettings(self, fstem):
         fOut = f"{fstem}.settings"
@@ -836,6 +690,8 @@ class AdaptiveQLearner:
             "maxLenSrc" : self.dataHandler.maxLenSrc,
             "maxLenTarg" : self.dataHandler.maxLenTarg,
             "featToChar" : self.dataHandler.featToChar,
+            "batches" : self.batches,
+            "passes" : self.passes,
         }
         with open(fOut, "wb") as fh:
             pickle.dump(settings, fh)            
@@ -844,7 +700,10 @@ class AdaptiveQLearner:
         fOut = f"{fstem}.params.string"
         torch.save(self.model.stringTransformer, fOut)
         fOut = f"{fstem}.params.value"
-        torch.save(self.model.valueTransformer, fOut)
+        torch.save(self.model.valueModel, fOut)
+        if self.selectionModel != None:
+            fOut = f"{fstem}.params.map"
+            torch.save(self.selectionModel.featureSelector, fOut)
 
 if __name__ == '__main__':
     args = parseArgs()
@@ -876,19 +735,29 @@ if __name__ == '__main__':
         "label_smooth" : .1,
         "tie_trg_embed" : False,
         "value_mode" : "classify",
-        "batch_size" : 768,
+        "batch_size" : 128,
+        "inference_batch_size" : 768,
         "n_sources" : 2,
-        "buffer_size" : 1024,
+        "buffer_size" : 8192,
         "n_explore" : 3,
-        "epochs_per_buffer" : 1
+        "epochs_per_buffer" : 1,
+        "tie_value_predictor" : False,
+        "value_predictor" : "conv",
+        "harmony" : True,
+        "aligner_cache" : Path(args.project) / f"neural-transducer/aligner_cache/{split}",
     }
 
-    aql = AdaptiveQLearner(mode="create", train=dataPath, settings=settings)
-    aql.writeSettings(checkpoint/f"{language}-")
-    for epoch in range(50000):
+    if args.epoch > 0:
+        aql = AdaptiveQLearner(mode="load", train=dataPath, 
+                               load_model=checkpoint/language, load_epoch=args.epoch)
+    else:
+        aql = AdaptiveQLearner(mode="create", train=dataPath, settings=settings)
+        aql.writeSettings(checkpoint/f"{language}-")
+
+    for epoch in range(args.epoch, 50000):
         print(f"Epoch {epoch}")
         aql.epoch()
-        if epoch % 500 == 0:
-            aql.printOutputs()
+        if epoch % 10 == 0:
+            #aql.printOutputs()
 
             aql.writeParams(checkpoint/f"{language}-{epoch}-")

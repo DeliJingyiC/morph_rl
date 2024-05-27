@@ -1,6 +1,7 @@
 import sys
 import os
 import re
+import functools
 import math
 import pandas as pd
 from collections import *
@@ -329,7 +330,7 @@ class State:
         #wait action moves to the next query, if it exists
         if self.row < len(self.block) - 1:
             if "wait" in actions:
-                sWait = factory.getState(State(self.inflect, self.block, self.row + 1, self.store, nStore=self.nStore))
+                sWait = factory.getState(self.__class__(self.inflect, self.block, self.row + 1, self.store, nStore=self.nStore))
                 self.successors["wait"] = sWait
 
             #store action updates the stored content
@@ -343,7 +344,7 @@ class State:
                         newStore = self.store[:-1] + (newSource,)
                     else:
                         newStore = self.store[:] + (newSource,)
-                    sStore = factory.getState(State(self.inflect, self.block, self.row + 1, newStore, nStore=self.nStore),
+                    sStore = factory.getState(self.__class__(self.inflect, self.block, self.row + 1, newStore, nStore=self.nStore),
                                               create=("store" in actions))
                     if sStore is not None:
                         self.successors["store"] = sStore
@@ -406,13 +407,25 @@ class State:
                 print("no prediction", self.strInstance, self.prediction)
                 assert(0)
 
-            inst = handler.writeValues(iFeats, self.prediction, sources)
-            inst = inst[:handler.maxLenSrc - 4]
-            self.valInstance = (inst, "", "0", len(inst) > handler.cutoff)
+            inst1 = handler.writeValues(iFeats, self.prediction, [])
+            inst1 = inst1[:handler.maxLenSrc - 4]
+            inst1 = (inst1, "", "0", len(inst1) > handler.cutoff)
 
-            # print(self.valInstance)
+            inst2 = handler.writeValues(iFeats, "", sources, lsep="")
+            inst2 = inst2[:handler.maxLenSrc - 4]
+            inst2 = (inst2, "", "0", len(inst2) > handler.cutoff)
+
+            self.valInstance = (inst1, inst2)
 
         return self.valInstance
+
+    def normalizeValues(self):
+        raw = self.values
+        pStop, pWait = softmax(raw[0])
+        pNoStore, pStore = softmax(raw[1])
+        self.values = np.array([pStop, pWait * pNoStore, pWait * pStore])
+        # print("raw values", raw)
+        # print("normalized", self.values)
 
     def decipher(self, handler):
         currSource = self.block.loc[self.row, ["source_lemma", "source_feats", "source_form"]].to_list()
@@ -480,7 +493,10 @@ class State:
         if self.values[2] >= self.values[0] and "store" in self.successors:
             self.predictedAction = "store"
         if self.values[1] >= max(self.values[0], self.values[2]) and "wait" in self.successors:
-            self.predictedAction = "wait"        
+            self.predictedAction = "wait"
+
+        # print("computing policy from", self.values)
+        # print("action:", self.predictedAction, "optimal", self.action)
 
     def evaluatePolicy(self, policy, steps):
         if policy == "stop":
@@ -540,6 +556,7 @@ class MultisourceSimulator(Simulator):
     def __init__(self, dataHandler, model, train, nSources=2):
         super(MultisourceSimulator, self).__init__(dataHandler, model, train)
         self.nSources = nSources
+        self.stateClass = State
 
     def simulate(self, block, train=True):
         (lemma, form, feats), block = block
@@ -654,7 +671,7 @@ class MultisourceSimulator(Simulator):
                 return state
 
     def buildStates(self, inflect, block, actions=["wait", "store"]):
-        state0 = State(inflect, block, 0, tuple(), nStore=(self.nSources - 1))
+        state0 = self.stateClass(inflect, block, 0, tuple(), nStore=(self.nSources - 1))
         self.states = { state0.key() : state0 }
         queue = [state0]
         ctr = 0
@@ -677,7 +694,6 @@ class MultisourceSimulator(Simulator):
     def statesToDF(self):
         data = []
         for si in sorted(self.states.values(), key=lambda xx: xx.row):
-            distr = softmax(si.values)
             vals = {
                 "value_instance" : si.valInstance,
                 "instance" : si.strInstance,
@@ -685,9 +701,9 @@ class MultisourceSimulator(Simulator):
                 "reward_wait" : si.rewardWait,
                 "reward_store" : si.rewardStore,
                 "optimal_action" : si.action,
-                "pred_reward_stop" : distr[0],
-                "pred_reward_wait" : distr[1],
-                "pred_reward_store" : distr[2],
+                "pred_reward_stop" : si.values[0],
+                "pred_reward_wait" : si.values[1],
+                "pred_reward_store" : si.values[2],
                 "predicted_action" : si.predictedAction,
                 "pr_state" : si.prob,
                 "correct" : si.correct,
@@ -702,18 +718,16 @@ class MultisourceSimulator(Simulator):
         rS = data["reward_stop"].to_numpy(dtype="float32")
         rW = data["reward_wait"].to_numpy(dtype="float32")
         rT = data["reward_store"].to_numpy(dtype="float32")
+        rOther = np.maximum(rW, rT)
 
-        opt = np.zeros((rS.shape[0], 3), dtype="float32")
-        vv = np.stack((rS, rW, rT), axis=1)
-        mx = np.max(vv, axis=1)
+        opt = np.zeros((2, rS.shape[0], 2), dtype="float32")
+        #if stop and wait are equivalent, wait
+        opt[0, rS > rOther, 0] = 1
+        opt[0, rS <= rOther, 1] = 1
+        #if wait and store are equivalent, wait
+        opt[1, np.logical_and(rS <= rOther, rW >= rT), 0] = 1
+        opt[1, np.logical_and(rS <= rOther, rW < rT), 1] = 1
 
-        opt[rS == mx, 0] = 1
-        opt[rW == mx, 1] = 1
-        opt[rT == mx, 2] = 1
-
-        opt /= np.sum(opt, axis=1, keepdims=True)
-
-        #order must match dataframe construction around l65
         return opt
     
     def evaluatePolicy(self, policy):
@@ -814,7 +828,7 @@ class StochasticMultisourceSimulator(MultisourceSimulator):
                 row[si] = ct
 
         cmat = pd.DataFrame.from_records(rows, index="index")
-        print(cmat)
+        return cmat
 
     def buildWaitStates(self, inflect, block):
         self.buildStates(inflect, block, actions=["wait"])
@@ -822,38 +836,42 @@ class StochasticMultisourceSimulator(MultisourceSimulator):
     def predictValues(self):
         unprocessed = [ state for state in self.states.values() if state.values is None ]
         stateToVal = { state.key() : state.valueInstance(self.data) for state in unprocessed }
-        valInstances = list(set(stateToVal.values()))
-
-        # print("generated", len(valInstances), "value instances")
-        # for state, inst in sorted(stateToVal.items(), key=lambda xx: xx[0].row):
-        #     print(state)
-        #     print(inst)
-        #     print()
-        # assert(0)
-
-        #hook for dynamic targets here--- currently not implemented
-
-        valTensors = self.data.instancesToTensors(valInstances)
-        qpreds = self.model.valuePredictions(valTensors)
-
-        # print("shape of value predictions:", qpreds.shape)
-
-        valInstanceToPred = dict(zip(valInstances, qpreds))
-
-        # for kk, vv in valInstanceToPred.items():
-        #     print(kk, vv)
 
         for state in unprocessed:
-            valInstance = stateToVal[state.key()]
-            pred = valInstanceToPred[valInstance]
-            state.values = pred
+            state.values = []
+
+        if isinstance(list(stateToVal.values())[0], tuple):
+            for tier in range(self.nSources):
+                valInstances = list(set([inst[tier] for inst in stateToVal.values()]))
+                valTensors = self.data.instancesToTensors(valInstances)
+                qpreds = self.model.valuePredictions(valTensors)
+                valInstanceToPred = dict(zip(valInstances, qpreds))
+
+                for state in unprocessed:
+                    valInstance = stateToVal[state.key()]
+                    pred = valInstanceToPred[valInstance[tier]]
+                    state.values.append(pred)
+
+            for state in unprocessed:
+                state.normalizeValues()
+        
+        else:
+            valInstances = list(set(stateToVal.values()))
+            valTensors = self.data.instancesToTensors(valInstances)
+            qpreds = self.model.valuePredictions(valTensors)
+            valInstanceToPred = dict(zip(valInstances, qpreds))
+
+            for state in unprocessed:
+                valInstance = stateToVal[state.key()]
+                pred = valInstanceToPred[valInstance]
+                state.values = pred
 
     def buildStoreStates(self, train):
         kk = self.nExplore
 
         stateVals = {}
         for key, state in self.states.items():
-            prob = softmax(state.values)[2] #2 = store action
+            prob = state.values[2] #2 = store action
             interest = self.howInteresting(state)
             stateVals[key] = (prob, interest)
 
@@ -1118,3 +1136,441 @@ class HeuristicMultisourceSimulator(StochasticMultisourceSimulator):
             for key in rem:
                 del si.successors[key]
 
+class DynamicMemoryState(State):
+    def __init__(self, inflect, block, row, store, nStore=1):
+        super(DynamicMemoryState, self).__init__(inflect, block, row, store, nStore=nStore)
+        self.selectionInstances = None
+        self.selectionProbs = None
+        self.selected = None
+        self.selectedInds = None
+
+    def selectInstances(self, handler):
+        if self.selectionInstances == None:
+            targLemma, targForm, targFeats = self.inflect
+            currFeats = self.block.loc[self.row, "source_feats"]
+            if handler.featToChar != None:
+                targFeats = handler.mapFeatsToChars(targFeats)
+                currFeats = handler.mapFeatsToChars(currFeats)
+
+            if currFeats == False:
+                currFeats = []
+
+        self.selectionInstances = []
+
+        #create one with the null source
+        if self.row == 0:
+            inst = [currFeats, [], targFeats]
+            self.selectionInstances.append(inst)
+
+        for ri in range(self.row):
+            rFeats = self.block.loc[ri, "source_feats"]
+            if handler.featToChar != None:
+                rFeats = handler.mapFeatsToChars(rFeats)
+
+            if rFeats == False:
+                rFeats = []
+
+            inst = [currFeats, rFeats, targFeats]
+            self.selectionInstances.append(inst)
+
+        return self.selectionInstances
+
+    def instance(self, handler):
+        if self.strInstance == None:
+            currSource = self.block.loc[self.row, ["source_lemma", "source_feats", "source_form"]].to_list()
+
+            iLemma, iForm, iFeats = self.inflect
+            if handler.featToChar != None:
+                currSource = (currSource[0], handler.mapFeatsToChars(currSource[1]), currSource[2])
+                store = tuple([ (lemma, handler.mapFeatsToChars(feats), form) for (lemma, feats, form) in self.selected])
+                iFeats = handler.mapFeatsToChars(iFeats)
+
+            self.strInstance = []
+
+            for si in store:
+                sources = (currSource,) + (si,)
+                key = self.inflect + sources
+                if key in handler.analyses:
+                    # print("cache hit")
+                    (inst, diffed) = handler.analyses[key]
+                else:
+                    # print("cache miss", key)
+                    inst, diffed = handler.createInstance(iLemma, iForm, iFeats, sources)
+                    handler.analyses[key] = (inst, diffed)
+
+                #if the instance isn't interesting, and has a non-empty source, prune it
+                if si[1] != False and not self.interesting(inst):
+                    (aa, bb, cc, prune) = inst
+                    inst = (aa, bb, cc, True)
+
+                self.strInstance.append(inst)
+
+        return self.strInstance
+
+    def interesting(self, instance):
+        (src, targ, _, prune) = instance
+        #print("target", targ, "0" in targ, "1" in targ, "2" in targ)
+        if ("0" not in targ) or ("1" not in targ) or ("2" not in targ):
+            return False
+        return True
+
+    def decipher(self, index, handler):
+        currSource = self.block.loc[self.row, ["source_lemma", "source_feats", "source_form"]].to_list()
+        store = (self.selected[index],)
+        sources = (currSource,) + store
+
+        iLemma, iForm, iFeats = self.inflect
+        if handler.featToChar != None:
+            sources = tuple([ (lemma, handler.mapFeatsToChars(feats), form) for (lemma, feats, form) in sources])
+            iFeats = handler.mapFeatsToChars(iFeats)
+
+        key = self.inflect + sources
+        (inst, diffedSources) = handler.analyses[key]
+
+        if self.rawPrediction[index] != None:
+            stringResult = convertFromEdits(self.rawPrediction[index], iLemma, diffedSources)
+        else:
+            stringResult = None
+
+        return stringResult
+
+    def valueInstance(self, handler):
+        if self.valInstance == None:
+            self.valInstance = []
+            iLemma, iForm, iFeats = self.inflect
+            if handler.featToChar != None:
+                iFeats = handler.mapFeatsToChars(iFeats)
+
+            for pi in self.prediction:
+                if pi != None:
+                    inst1 = pi
+                    inst1 = inst1[:handler.maxLenSrc - 4]
+                    inst1 = (inst1, iFeats, "0", len(inst1) > handler.cutoff)
+                else:
+                    #if the prediction is pruned, also prune the value
+                    inst1 = ("", "", "0", True)
+
+                self.valInstance.append(inst1)
+
+        return self.valInstance
+
+    def calcReward(self, worst):
+        target = self.block.loc[self.row, "form"]
+        self.correct = [(pi == target) for pi in self.prediction]
+        rT = -self.block.loc[self.row, "response_time"]
+
+        if any(self.correct):
+            self.rewardStop = rT
+        else:
+            self.rewardStop = worst
+
+        self.rewardWait = worst
+        for path, si in self.successors.items():
+            if path == "wait":
+                if si.bestReward == None:
+                    print("wait continuation leads to uninitialized")
+                    print(self)
+                    print(si)
+                    print(si.values)
+                    assert(0)
+
+                self.rewardWait = si.bestReward
+
+        self.bestReward = max(self.rewardStop, self.rewardWait)
+
+    def calcPolicy(self):
+        # print("calculating policy at", self, "val inst", self.valInstance, "with values", self.values)
+
+        best = self.rewardStop
+        self.action = "stop"
+        if self.rewardWait >= best and "wait" in self.successors:
+            best = self.rewardWait
+            self.action = "wait"
+
+        self.predictedAction = "stop"
+        val0 = self.values[0] #this should be our top selection
+        if val0[1] >= val0[0] and "wait" in self.successors:
+            self.predictedAction = "wait"
+
+        # print("computing policy from", self.values)
+        # print("action:", self.predictedAction, "optimal", self.action)    
+
+    def policyConsistentSource(self, policy):
+        if policy == "optimal":
+            for ci, si in zip(self.correct, self.selected):
+                if ci:
+                    return ci, si
+
+        return self.correct[0], self.selected[0]
+
+class MemorySelectSimulator(StochasticMultisourceSimulator):
+    def __init__(self, dataHandler, model, selectionModel, train, nSources=2, nExplore=3):
+        super(MemorySelectSimulator, self).__init__(dataHandler, model, train, nSources=nSources)
+        self.nExplore = nExplore
+        self.stateClass = DynamicMemoryState
+        self.selectionModel = selectionModel
+
+    def simulate(self, block, train=True):
+        (lemma, form, feats), block = block
+        block = block.reset_index()
+
+        # print("inflecting", lemma, form, feats)
+        # print("building states")
+
+        self.buildWaitStates((lemma, form, feats), block)
+
+        self.predictStateSources()
+        self.predictStrings()
+        self.predictValues()
+
+        #map outputs and predictions back to state space
+        for state in sorted(self.states.values(), key=lambda xx: xx.row, reverse=True):
+            state.calcReward(self.worst)
+        # print("checking policy")
+        for state in sorted(self.states.values(), key=lambda xx: xx.row, reverse=True):
+            state.calcPolicy()
+
+        #format the whole thing as a dataframe
+        rewardDF = self.statesToDF()
+
+        # print(rewardDF)
+        # rewardDF.to_csv("debug.csv")
+        # assert(0)
+
+        # for state in sorted(self.states.values(), key=lambda xx: xx.row):
+        #     print("state", state, "act", state.action, "predicted act", state.predictedAction)
+        #     selInsts = [state.selectionInstances[si] for si in state.selectedInds]
+        #     selScores = [state.selectionProbs[si] for si in state.selectedInds]
+        #     for ii in range(len(state.selectedInds)):
+        #         print("\t", "sel", selInsts[ii], selScores[ii], "infl", state.strInstance[ii], "val", state.valInstance[ii], 
+        #               "pred", state.prediction[ii], "corr", state.correct[ii], "vals", state.values[ii])
+        #     print()
+        # print("---")
+        # assert(0)
+
+        stats = self.evaluatePolicy(policy="predicted")
+        cmat = self.actionConfusionMatrix(rewardDF)
+
+        return rewardDF, stats, cmat
+
+    def predictStateSources(self):
+        unprocessed = [ state for state in self.states.values() if state.selectionInstances == None ]
+        stateToInst = { state.key() : state.selectInstances(self.data) for state in unprocessed }
+        instances = [val for key, val in sorted(stateToInst.items(), key=lambda xx: xx[0])]
+        instanceList = functools.reduce(list.__add__, instances, [])
+
+        # print("generated", len(instances), "instances")
+        # for state, inst in sorted(stateToInst.items(), key=lambda xx: xx[0][0]):
+        #     print(state)
+        #     print(inst)
+        #     print()
+
+        # assert(0)
+
+        tensors = self.data.selectionInstancesToTensors(instanceList)
+
+        # print("mapped to tensors")
+        # assert(0)
+
+        predictions = self.selectionModel.predictions(tensors)
+
+        #map instances to predictions and then associate each state with its outcome
+        ctr = 0
+        for key, insts in sorted(stateToInst.items(), key=lambda xx: xx[0]):
+            self.states[key].selectionProbs = predictions[ctr : ctr + len(insts)]
+            ctr += len(insts)
+
+        #take the top n selections and some random selections and put them in the store
+        for si in self.states.values():
+            inds = np.argsort(si.selectionProbs)
+            inds = inds[::-1]
+            selected = inds[:self.nExplore].tolist()
+            selected += np.random.choice(inds[self.nExplore:], replace=False, size=min(len(inds[self.nExplore:]), self.nExplore)).tolist()
+
+            #always take the empty selection as well--- this should be the first line of the block due to reset index
+            if 0 not in selected:
+                selected.append(0)
+
+            si.selected = si.block.loc[selected, ["source_lemma", "source_feats", "source_form"]].values.tolist()
+            si.selectedInds = selected
+
+    def predictStrings(self):
+        unprocessed = [ state for state in self.states.values() if state.prediction == None ]
+        stateToInst = { state.key() : state.instance(self.data) for state in unprocessed }
+        instanceList = functools.reduce(list.__add__, stateToInst.values(), [])
+        instances = list(set(instanceList))
+
+        # print("generated", len(instances), "instances from a set of", len(unprocessed), "states")
+        # for state, inst in sorted(stateToInst.items(), key=lambda xx: xx[0][0]):
+        #     print(state)
+        #     print(inst)
+        #     print()
+        # assert(0)
+
+        tensors = self.data.instancesToTensors(instances)
+
+        # print("mapped to tensors")
+
+        rawPredictions = self.model.stringPredictions(tensors)
+        # print("raw predictions", rawPredictions)
+        rawPredictions = self.spacePrunedValues(rawPredictions, instances)
+
+        # print("length of string predictions:", len(rawPredictions))
+
+        #map instances to predictions and then associate each state with its outcome
+        instanceToPred = dict(zip(instances, rawPredictions))
+        for si in unprocessed:
+            instance = stateToInst[si.key()]
+            si.rawPrediction = []
+            si.prediction = []
+
+            for ii, inst in enumerate(instance):
+                pred = instanceToPred[inst]
+                si.rawPrediction.append(pred)
+                si.prediction.append(si.decipher(ii, self.data))
+
+    def predictValues(self):
+        unprocessed = [ state for state in self.states.values() if state.values is None ]
+        stateToInst = { state.key() : state.valueInstance(self.data) for state in unprocessed }
+        instanceList = functools.reduce(list.__add__, stateToInst.values(), [])
+        instances = list(set(instanceList))
+
+        # print("generated", len(instances), "instances")
+        # for state, inst in sorted(stateToInst.items(), key=lambda xx: xx[0][0]):
+        #     print(state)
+        #     print(inst)
+        #     print()
+
+        tensors = self.data.valueInstancesToTensors(instances)
+        qpreds = self.model.valuePredictions(tensors)
+        qpreds = self.spacePrunedValues(qpreds, instances)
+
+        #map instances to predictions and then associate each state with its outcome
+        instanceToPred = dict(zip(instances, qpreds))
+        for si in unprocessed:
+            instance = stateToInst[si.key()]
+            si.values = []
+
+            for ii, inst in enumerate(instance):
+                pred = instanceToPred[inst]
+                if pred is None:
+                    #always wait if the instance was invalid
+                    if "wait" in si.successors:
+                        si.values.append(np.array([0, 1]))
+                    else:
+                        si.values.append(np.array([1, 0]))
+                else:
+                    if pred.shape != (2,):
+                        print("bad shape in value mapping")
+                        print(pred.shape)
+                        print(pred)
+                        print(len(qpreds))
+                        print([xx.shape for xx in tensors])
+                    assert(pred.shape == (2,))
+                    si.values.append(softmax(pred))
+
+    def statesToDF(self):
+        data = []
+        for si in sorted(self.states.values(), key=lambda xx: xx.row):
+            vals = {
+                "value_instance" : si.valInstance,
+                "instance" : si.strInstance,
+                "selection_instances" : si.selectionInstances,
+                "selection_indices" : si.selectedInds,
+                "selection_targets" : si.correct,
+                "reward_stop" : si.rewardStop,
+                "reward_wait" : si.rewardWait,
+                "optimal_action" : si.action,
+                "pred_reward_stop" : si.values[0][0],
+                "pred_reward_wait" : si.values[0][1],
+                "predicted_action" : si.predictedAction,
+                "pr_state" : si.prob,
+                "correct" : any(si.correct),
+                "prediction" : si.prediction,
+                "raw_prediction" : si.rawPrediction,
+            }
+            self.addDummyValueInstances(si, vals)
+            data.append(vals)
+
+        return pd.DataFrame.from_records(data)
+
+    def addDummyValueInstances(self, state, vals):
+        iLemma, iForm, iFeats = state.inflect
+        if self.data.featToChar != None:
+            iFeats = self.data.mapFeatsToChars(iFeats)
+
+        #newVI = self.data.writeValues(iFeats, iForm, [])
+        newVI = iForm
+        newVI = newVI[:self.data.maxLenSrc - 4]
+        newValueInstance = (newVI, iFeats, "0", len(newVI) > self.data.cutoff)
+        vals["value_instance"].append(newValueInstance)
+        #dummy string instance should get pruned
+        vals["instance"].append(("", "", "0", True))
+        vals["selection_targets"].append(True)
+
+    def evaluatePolicy(self, policy):
+        state0 = min(self.states.values(), key=lambda xx: xx.row)
+        final, steps = state0.evaluatePolicy(policy, 0)
+        correct, source = final.policyConsistentSource(policy)
+        stats = {
+            "steps" : steps,
+            "correct" : correct,
+            "stored" : (source[1] != False),
+            "time" : final.block.loc[final.row, "response_time"],
+            "sources" : [final.block.loc[final.row, ["source_lemma", "source_feats", "source_form"]],
+                         source]
+        }
+
+        return stats
+
+    def actionVector(self, block):
+        correct = block["selection_targets"].to_list()
+        correct = functools.reduce(list.__add__, correct, [])
+        correct = np.array(correct, dtype="float32")
+        opt = np.zeros((len(correct), 2), dtype="float32")
+        opt[:, 0] = correct
+        opt[:, 1] = 1 - correct
+
+        # print("action vector", opt)
+
+        return opt
+        
+    def debufferSelections(self, block):
+        def gather(row, selectInds=None, selectFrom=None):
+            return [row[selectFrom][xi] for xi in row[selectInds]]
+
+        #get all the selection instances corresponding to actually-selected items
+        insts = block.apply(gather, axis=1, selectInds="selection_indices", selectFrom="selection_instances")
+        #the targets tell us whether we got the items right
+        targs = block["selection_targets"]
+        #get all the instances and check if they were pruned or not
+        inflectionsPruned = block["instance"]
+
+        insts = insts.to_list()
+        insts = functools.reduce(list.__add__, insts, [])
+        targs = targs.to_list()
+        inflectionsPruned = inflectionsPruned.to_list()
+
+        #strip off the dummy instance we added on for value training
+        targs = [ti[:-1] for ti in targs]
+        inflectionsPruned = [inf[:-1] for inf in inflectionsPruned]
+
+        targs = functools.reduce(list.__add__, targs, [])
+        inflectionsPruned = functools.reduce(list.__add__, inflectionsPruned, [])
+        inflectionsPruned = [xx[-1] for xx in inflectionsPruned]
+        assert(len(insts) == len(targs) == len(inflectionsPruned))
+
+        tvec = np.zeros((len(targs), 2))
+        #tvec[:, 1] is probability of select
+        #make the model learn which instances are worth selecting even if not solvable
+        tvec[~np.array(inflectionsPruned), 1] = 1
+        tvec[targs, 1] = 1
+        tvec[:, 0] = 1 - tvec[:, 1]
+
+        # print("checkme")
+        # print(tvec.tolist())
+        # print(inflectionsPruned)
+        # print(targs)
+        # assert(0)
+
+        return insts, tvec

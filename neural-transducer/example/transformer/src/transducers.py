@@ -3,6 +3,15 @@ import itertools
 import pynini
 from collections import defaultdict
 
+vowels = {
+    "a" : "e",
+    "e" : "a",
+    "i" : "ı",
+    "ı" : "i",
+    "u" : "ü",
+    "ü" : "u",
+}
+
 #https://stackoverflow.com/questions/48651891/longest-common-subsequence-in-python
 def lcs(s1, s2):
     if len(s1) == 0 or len(s2) == 0:
@@ -37,13 +46,13 @@ def diffExe(src, targ, cache):
     cache[(src, targ)] = src, diffStr
     return src, diffStr
 
-def formatInputs(lemma, form, exemplars, cache):
+def formatInputs(lemma, form, exemplars, cache={}, harmony=False):
     diffedExes = []
     for (src, targ) in exemplars:
         src, diffStr = diffExe(src, targ, cache)
         diffedExes.append((src, diffStr))
 
-    analysis = multitapeMatch([lemma,] + [d1 for (d0, d1) in diffedExes], form, machineType=2)
+    analysis = multitapeMatch([lemma,] + [d1 for (d0, d1) in diffedExes], form, machineType=2, harmony=harmony)
     analysis = analysis.split()
     edits = convertToEdits(analysis)
     # print("the analysis of", lemma, form, exemplars)
@@ -90,6 +99,8 @@ def convertToEdits(syms):
                     res.append("-" + reading)
             elif si.startswith("+"):
                 res.append(si[1:])
+            elif si == "H":
+                res.append("@" + reading)
             else:
                 res.append(reading)
 
@@ -98,14 +109,21 @@ def convertToEdits(syms):
 def convertFromEdits(pred, lemma, diffed):
     sources = [lemma,] + [diff for (src, feats, diff) in diffed]
     iters = [itertools.chain(list(xx), itertools.repeat(None)) for xx in sources]
-    predC = re.split("([+-]?.)", pred)
+    predC = re.split("([@+-]?.)", pred)
     predC = [xx for xx in predC if xx != ""]
     res = []
     for ci in predC:
-        if ci.startswith("-") and len(ci) == 2:
+        if (ci.startswith("-") or ci.startswith("@")) and len(ci) == 2:
             try:
                 digit = int(ci[1:])
-                next(iters[digit])
+
+                if ci.startswith("-"):
+                    next(iters[digit])
+                else:
+                    nxt = next(iters[digit])
+                    if nxt != None:
+                        res.append(vowels.get(nxt, nxt))
+
             except (ValueError, IndexError):
                 pass #malformed deletion or attempt to read invalid source
         else:
@@ -132,11 +150,11 @@ def convertFromEdits(pred, lemma, diffed):
 #cost inserting characters > copying with switch between si > copying
 #emit explicit deletions for characters from si which are skipped
 #deleting chars from si should increase in cost as fn of i
-def multitapeMatch(strs, target, machineType=1):
+def multitapeMatch(strs, target, machineType=1, harmony=False):
     if machineType == 1:
         machine = makeMachine(strs, extraChars=target)
     else:
-        machine = makeMachine2(strs, extraChars=target)
+        machine = makeMachine2(strs, extraChars=target, harmony=harmony)
     machine.arcsort("ilabel")
     syms = machine.input_symbols()
     #syms.write_text("symtab.tsv") #debug
@@ -312,10 +330,11 @@ def makeMachine(strs, extraChars=""):
 
     return fst
 
-def makeMachine2(strs, extraChars=""):
+def addSyms(strs, extraChars):
     #symbols will be chars
     syms = pynini.SymbolTable()
     syms.add_symbol("<eps>")
+    syms.add_symbol("H") #placeholder for experimental harmony system; does nothing when not using
     realChars = set()
     for sind, si in enumerate(strs):
         syms.add_symbol("<S>" + str(sind))
@@ -331,6 +350,9 @@ def makeMachine2(strs, extraChars=""):
         syms.add_symbol("-" + ci) #vacuous
         syms.add_symbol("+" + ci)
 
+    return syms, realChars
+
+def makeStates(strs):
     #states in our machine will be vectors of string indices
     #plus an active string designation
     #active string n-1 is the insert state
@@ -340,18 +362,9 @@ def makeMachine2(strs, extraChars=""):
         for si in range(len(strs) + 1):
             stateToInd[(vec, si)] = len(stateToInd)
 
-    # print(stateToInd)
+    return stateToInd
 
-    #the machine will accept the target string on the input side and
-    #transduce it to a derivation
-    
-    fst = pynini.Fst()
-    fst.set_input_symbols(syms)
-    fst.set_output_symbols(syms)
-    fst.add_states(len(stateToInd))
-
-    fst.set_start(0)
-
+def addCopy(syms, fst, stateToInd, strs, harmony=False):
     #add COPY arcs which output the next character in each string
     for state, ind in stateToInd.items():
         if state == "START":
@@ -368,6 +381,14 @@ def makeMachine2(strs, extraChars=""):
                              nextInd)
             fst.add_arc(ind, arc)
 
+            if harmony and nextChar in vowels:
+                arc = pynini.Arc(syms.find(vowels[nextChar]),
+                                 syms.find("H"),
+                                 0,
+                                 nextInd)
+                fst.add_arc(ind, arc)
+
+def addSkip(syms, fst, stateToInd, strs):
     #add SKIP arcs which delete the next character in each string
     for state, ind in stateToInd.items():
         if state == "START":
@@ -380,10 +401,11 @@ def makeMachine2(strs, extraChars=""):
             nextChar = strs[active][nextT]
             arc = pynini.Arc(syms.find("<eps>"),
                              syms.find("-" + nextChar),
-                             1,
+                             .5,
                              nextInd)
             fst.add_arc(ind, arc)
 
+def addInsert(syms, fst, stateToInd, strs, realChars):
     #add INSERT arcs which consume a random character without
     #advancing the pointer
     #but only from the insert state
@@ -402,6 +424,7 @@ def makeMachine2(strs, extraChars=""):
                              ind)
             fst.add_arc(ind, arc)
 
+def addSwitch(syms, fst, stateToInd, strs):
     #add SWITCH arcs which change the active string we're working on
     for state, ind in stateToInd.items():
         if state == "START":
@@ -424,6 +447,26 @@ def makeMachine2(strs, extraChars=""):
                                      1,
                                      nextInd)
                 fst.add_arc(ind, arc)
+
+def makeMachine2(strs, extraChars="", harmony=False):
+    syms, realChars = addSyms(strs, extraChars)
+
+    stateToInd = makeStates(strs)
+
+    #the machine will accept the target string on the input side and
+    #transduce it to a derivation
+    
+    fst = pynini.Fst()
+    fst.set_input_symbols(syms)
+    fst.set_output_symbols(syms)
+    fst.add_states(len(stateToInd))
+
+    fst.set_start(0)
+
+    addCopy(syms, fst, stateToInd, strs, harmony=harmony)
+    addSkip(syms, fst, stateToInd, strs)
+    addInsert(syms, fst, stateToInd, strs, realChars)
+    addSwitch(syms, fst, stateToInd, strs)
 
     #connect the start state to all 0 states
     for active in range(len(strs)):
@@ -463,3 +506,18 @@ if __name__ == "__main__":
     print(formatInputs("foot", "footballer", [["base", "baseballinger"], ["hold", "holders"]]))
     print(formatInputs("duman", "dumanlarımızı", [["duman", "dumanları"], ["duman", "dumanımız"]]))
     print(formatInputs("duman", "dumanımızı", [["duman", "dumanları"], ["duman", "dumanımız"]]))
+    print(formatInputs("döküntü", "döküntüleriyle", [["bitlen", "bitlenenler"]]))
+    print(formatInputs("döküntü", "döküntüleriyle", [["duman", "dumanları"]]))
+    print(formatInputs("döküntü", "döküntüleriyle", [["duman", "dumanları"]], harmony=True))
+    edit = formatInputs("döküntü", "döküntüleriyle", [["duman", "dumanları"]], harmony=True)
+    predicted = convertFromEdits(edit[0], "döküntü", [["duman", "", "ları"]])
+    print("pred:", predicted)
+
+    # analysis = multitapeMatch(["döküntü", "ları"], "döküntüleriyle", machineType=2, harmony=True)
+    # print(analysis)
+
+    # analysis = multitapeMatch(["duman", "leri"], "dumanları", machineType=2, harmony=True)
+    # print(analysis)
+
+    # analysis = multitapeMatch(["aaa",""], "eee", machineType=2)
+    # print(analysis)
