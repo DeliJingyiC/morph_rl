@@ -66,7 +66,7 @@ class DataGenerator:
         return results
 
     def makeQueries(self, targetLemma, targetFeats):
-        #print("make queries", targetLemma, targetFeats)
+        print("make queries", targetLemma, targetFeats)
         queryable = [("lemma", targetLemma)] + [(xx, True) for xx in targetFeats]
         queries = powerset(queryable)
         queries = [None,] + queries
@@ -145,5 +145,7 @@ if __name__ == '__main__':
     datagenerator = DataGenerator(data, rtData, logFreqCol=col)
 
     for split, dset in zip(["train", "dev", "test"], dsets):
-        dset = datagenerator.allQueries(dset)
-        dset.to_csv(dataDir / (f"query_{language}_{split}.csv"), index=False)
+        if split == args.split:
+            print("processing", split)
+            dset = datagenerator.allQueries(dset)
+            dset.to_csv(dataDir / (f"query_{language}_{split}.csv"), index=False)
