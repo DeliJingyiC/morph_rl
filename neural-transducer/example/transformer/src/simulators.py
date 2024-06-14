@@ -1191,7 +1191,7 @@ class DynamicMemoryState(State):
                 sources = (currSource,) + (si,)
                 key = self.inflect + sources
                 if key in handler.analyses:
-                    # print("cache hit")
+                    # print("cache hit", key)
                     (inst, diffed) = handler.analyses[key]
                 else:
                     # print("cache miss", key)
@@ -1287,21 +1287,73 @@ class DynamicMemoryState(State):
             best = self.rewardWait
             self.action = "wait"
 
-        self.predictedAction = "stop"
-        val0 = self.values[0] #this should be our top selection
-        if val0[1] >= val0[0] and "wait" in self.successors:
-            self.predictedAction = "wait"
+        # self.predictedAction = "stop"
+        # val0 = self.values[0] #this should be our top selection
+        # if val0[1] >= val0[0] and "wait" in self.successors:
+        #     self.predictedAction = "wait"
+
+        self.predictedAction = "wait"
+        if "wait" not in self.successors:
+            self.predictedAction = "stop"
+
+        for vals in self.values:
+            if vals[0] > vals[1]:
+                self.predictedAction = "stop"                
 
         # print("computing policy from", self.values)
         # print("action:", self.predictedAction, "optimal", self.action)    
 
     def policyConsistentSource(self, policy):
         if policy == "optimal":
-            for ci, si in zip(self.correct, self.selected):
+            for ci, si, ti in zip(self.correct, self.selected, self.strInstance):
                 if ci:
-                    return ci, si
+                    return ci, si, ti[1]
 
-        return self.correct[0], self.selected[0]
+            return self.correct[0], self.selected[0], self.strInstance[0]
+
+        elif policy == "predicted":
+            val0s = [vi[0] for vi in self.values]
+            ind = np.argmax(val0s)
+            return self.correct[ind], self.selected[ind], self.strInstance[ind]
+        else:
+            return self.correct[0], self.selected[0], self.strInstance[0]
+
+class NoAlignerState(DynamicMemoryState):
+    def __init__(self, inflect, block, row, store, nStore=1):
+        super(NoAlignerState, self).__init__(inflect, block, row, store, nStore=nStore)
+        self.selectionInstances = None
+        self.selectionProbs = None
+        self.selected = None
+        self.selectedInds = None
+
+    def instance(self, handler):
+        if self.strInstance == None:
+            currSource = self.block.loc[self.row, ["source_lemma", "source_feats", "source_form"]].to_list()
+
+            iLemma, iForm, iFeats = self.inflect
+            if handler.featToChar != None:
+                currSource = (currSource[0], handler.mapFeatsToChars(currSource[1]), currSource[2])
+                store = tuple([ (lemma, handler.mapFeatsToChars(feats), form) for (lemma, feats, form) in self.selected])
+                iFeats = handler.mapFeatsToChars(iFeats)
+
+            self.strInstance = []
+
+            for si in store:
+                sourceStr = handler.writeRow(iLemma, iFeats, [])
+                targ = iForm
+                inst = (sourceStr, targ, "0", len(sourceStr) >= handler.cutoff)
+
+                self.strInstance.append(inst)
+
+        return self.strInstance
+
+    def decipher(self, index, handler):
+        if self.rawPrediction[index] != None:
+            stringResult = self.rawPrediction[index]
+        else:
+            stringResult = None
+
+        return stringResult
 
 class MemorySelectSimulator(StochasticMultisourceSimulator):
     def __init__(self, dataHandler, model, selectionModel, train, nSources=2, nExplore=3):
@@ -1309,6 +1361,26 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
         self.nExplore = nExplore
         self.stateClass = DynamicMemoryState
         self.selectionModel = selectionModel
+
+    def printBlock(self, block):
+        (lemma, form, feats), block = block
+        strFeats = ";".join(sorted(list(feats)))
+        print(f"Lemma: {lemma} target form: {form} feats: {strFeats}")
+        for state in sorted(self.states.values(), key=lambda xx: xx.row):
+            print("state", state, "act", state.action, "predicted act", state.predictedAction)
+            selInsts = [state.selectionInstances[si] for si in state.selectedInds]
+            selScores = [state.selectionProbs[si] for si in state.selectedInds]
+            for ii in range(len(state.selectedInds)):
+                defeat = [self.data.defeaturize(xx) for xx in selInsts[ii]]
+                if True or not state.strInstance[ii][-1]:
+                    sym = ""
+                    strInTarg = state.strInstance[ii][1]
+                    if "0" in strInTarg and "1" in strInTarg and "2" in strInTarg:
+                        sym = "###\t"
+                    print("\t", sym, "sel", defeat, selScores[ii], "infl", state.strInstance[ii], "val", state.valInstance[ii], 
+                          "pred", state.rawPrediction[ii], " -> ", state.prediction[ii], "corr", state.correct[ii], "vals", state.values[ii])
+            print()
+        print("---")
 
     def simulate(self, block, train=True):
         (lemma, form, feats), block = block
@@ -1319,8 +1391,8 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
 
         self.buildWaitStates((lemma, form, feats), block)
 
-        self.predictStateSources()
-        self.predictStrings()
+        self.predictStateSources(train=train)
+        self.predictStrings(train=train)
         self.predictValues()
 
         #map outputs and predictions back to state space
@@ -1353,7 +1425,7 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
 
         return rewardDF, stats, cmat
 
-    def predictStateSources(self):
+    def predictStateSources(self, train):
         unprocessed = [ state for state in self.states.values() if state.selectionInstances == None ]
         stateToInst = { state.key() : state.selectInstances(self.data) for state in unprocessed }
         instances = [val for key, val in sorted(stateToInst.items(), key=lambda xx: xx[0])]
@@ -1385,7 +1457,10 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
             inds = np.argsort(si.selectionProbs)
             inds = inds[::-1]
             selected = inds[:self.nExplore].tolist()
-            selected += np.random.choice(inds[self.nExplore:], replace=False, size=min(len(inds[self.nExplore:]), self.nExplore)).tolist()
+
+            #do not bother with random selections at test time
+            if train:
+                selected += np.random.choice(inds[self.nExplore:], replace=False, size=min(len(inds[self.nExplore:]), self.nExplore)).tolist()
 
             #always take the empty selection as well--- this should be the first line of the block due to reset index
             if 0 not in selected:
@@ -1394,7 +1469,7 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
             si.selected = si.block.loc[selected, ["source_lemma", "source_feats", "source_form"]].values.tolist()
             si.selectedInds = selected
 
-    def predictStrings(self):
+    def predictStrings(self, train):
         unprocessed = [ state for state in self.states.values() if state.prediction == None ]
         stateToInst = { state.key() : state.instance(self.data) for state in unprocessed }
         instanceList = functools.reduce(list.__add__, stateToInst.values(), [])
@@ -1411,7 +1486,11 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
 
         # print("mapped to tensors")
 
-        rawPredictions = self.model.stringPredictions(tensors)
+        if train:
+            rawPredictions = self.model.stringPredictions(tensors)
+        else:
+            rawPredictions = self.model.decoderStringPredictions(tensors)
+
         # print("raw predictions", rawPredictions)
         rawPredictions = self.spacePrunedValues(rawPredictions, instances)
 
@@ -1511,8 +1590,11 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
     def evaluatePolicy(self, policy):
         state0 = min(self.states.values(), key=lambda xx: xx.row)
         final, steps = state0.evaluatePolicy(policy, 0)
-        correct, source = final.policyConsistentSource(policy)
+        correct, source, target = final.policyConsistentSource(policy)
         stats = {
+            "lemma" : state0.inflect[0],
+            "form" : state0.inflect[1],
+            "target" : target,
             "steps" : steps,
             "correct" : correct,
             "stored" : (source[1] != False),
@@ -1574,3 +1656,14 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
         # assert(0)
 
         return insts, tvec
+
+class TrivialSimulator(MemorySelectSimulator):
+    def __init__(self, dataHandler, model, selectionModel, train, useAligner=False):
+        super(TrivialSimulator, self).__init__(dataHandler, model, selectionModel, train, nSources=0, nExplore=0)
+        if useAligner:
+            self.stateClass = DynamicMemoryState
+        else:
+            self.stateClass = NoAlignerState
+
+    def buildWaitStates(self, inflect, block):
+        self.buildStates(inflect, block, actions=[])

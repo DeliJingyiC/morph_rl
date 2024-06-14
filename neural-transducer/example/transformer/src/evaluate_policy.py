@@ -57,18 +57,23 @@ class PolStats:
             for stats in outcomes:
                 sources = stats["sources"]
                 source1 = sources[0]
+                if not isinstance(source1, list):
+                    source1 = source1.to_list()
                 source2 = None
                 if len(sources) > 1:
                     source2 = sources[1]
+                    if not isinstance(source2, list):
+                        source2 = source2.to_list()
 
                 row = { "features" : set(feats), 
                         "policy" : self.name,
-                        "step" : stats["steps"],
-                        "correct" : stats["correct"],
-                        "stored" : stats["stored"],
                         "source1" : source1,
                         "source2" : source2,
                 }
+
+                for ki, vi in stats.items():
+                    row[ki] = vi
+
                 res.append(row)
 
         return pd.DataFrame.from_records(res)
@@ -95,13 +100,18 @@ class PolStats:
             print(f"{ftS}\t#: {len(ts)}\t#>0: {nPlus} ({nPlus / len(ts)})\tstore: {store}\tavg: {m1}\tmed: {m2}", file=ofh)
         print(file=ofh)
 
-def describePolicies(aql, verbose=False, outfile=None, reportfile=None):
+def describePolicies(aql, verbose=False, outfile=None, reportfile=None, stopAt=None):
     policies = ["predicted", "optimal", "stop", "wait"]
     polStats = {}
     for policy in policies:
         polStats[policy] = PolStats(policy)
 
-    for ind, key in enumerate(aql.trainKeys):
+    for ind, key in enumerate(sorted(aql.trainKeys)):
+        if ind % 1 == 0:
+            print(f"{ind} / {len(aql.trainKeys)}...")
+        if stopAt is not None and ind > stopAt:
+            break
+
         (lemma, form, feats), block = key
         rewards, _, _ = aql.simulator.simulate(key, train=False)
 
@@ -116,11 +126,12 @@ def describePolicies(aql, verbose=False, outfile=None, reportfile=None):
         #     #print(rewards.loc[:,["correct", "pred_reward_stop", "pred_reward_wait", "predicted_action", "optimal_action"]])
 
         for policy in policies:
-            if isinstance(aql.simulator, MultisourceSimulator):
-                stats = aql.simulator.evaluatePolicy(policy)
-            else:
-                stats = aql.simulator.evaluatePolicy(rewards, policy)
+            stats = aql.simulator.evaluatePolicy(policy)
             polStats[policy].addStats(stats, feats, verbose)
+            # strFeats = ";".join(sorted(list(feats)))
+            # print(f"Lemma: {lemma} target form: {form} feats: {strFeats}")
+            # aql.simulator.printBlock(key)
+            # print(stats)
 
     for policy in policies:
         polStats[policy].report()
@@ -157,14 +168,21 @@ if __name__ == '__main__':
 
     cumulative = (not args.noncumulative and not args.single_source)
     language = args.language
+    if args.run == None:
+        runName = language
+    else:
+        runName = f"{language}-{args.run}"
 
-    checkpoint = checkpoints / language
+    checkpoint = checkpoints / runName
 
     warnings.filterwarnings("ignore")
     torch.set_warn_always(False)
 
-    split = "test"
+    split = args.split
+    assert(split is not None or args.force_test is not None)
     dataPath = dataDir / (f"query_{language}_{split}.csv")
+    if args.force_test != None:
+        dataPath = dataDir / args.force_test
 
     epoch = args.epoch
 
@@ -172,11 +190,19 @@ if __name__ == '__main__':
                            load_model=checkpoint/language, load_epoch=epoch)
     aql.model.batch_size = 256 #harmless but annoying
 
+    if args.force_test != None:
+        cacheName = args.force_test.replace(".csv", "")
+        aql.dataHandler.readCache(Path(args.project) / f"neural-transducer/aligner_cache/{language}/{cacheName}")
+    else:
+        aql.dataHandler.readCache(Path(args.project) / f"neural-transducer/aligner_cache/{language}/{split}")
+
     verbose = "features"
 
+    #make report files show the correct name if you specified a special file
+    if args.force_test != None:
+        split = args.force_test
     outfile = checkpoint / (f"statistics_{epoch}_{split}.csv")
     report = open(checkpoint / (f"report_{epoch}_{split}.txt"), "w")
 
-    # print("Writing outputs to:", outfile, checkpoint / (f"report_{epoch}_{split}.txt"))
-
+    print("Writing outputs to:", outfile, checkpoint / (f"report_{epoch}_{split}.txt"))
     describePolicies(aql, verbose=verbose, outfile=outfile, reportfile=report)

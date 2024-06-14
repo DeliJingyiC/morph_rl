@@ -34,12 +34,18 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     torch.set_warn_always(False)
 
-    split = "test"
+    split = args.split
     dataPath = dataDir / (f"query_{language}_{split}.csv")
+    cache = Path(args.project) / f"neural-transducer/aligner_cache/{language}/{split}"
 
+    if args.force_test != None:
+        dataPath = dataDir / args.force_test
+        cacheName = args.force_test.replace(".csv", "")
+        cache = Path(args.project) / f"neural-transducer/aligner_cache/{language}/{cacheName}" 
+
+    print("Cache directory:", cache)
+    assert(cache.exists())
     epoch = args.epoch
-
-    cache = Path(args.project) / f"neural-transducer/aligner_cache/{split}"
 
     settings = {
         "src_nb_layers" : 4,
@@ -53,7 +59,7 @@ if __name__ == "__main__":
         "tie_trg_embed" : False,
         "value_mode" : "classify",
         "batch_size" : 128,
-        "inference_batch_size" : 768,
+        "inference_batch_size" : 512, #768,
         "n_sources" : 2,
         "buffer_size" : 1024, #8192,
         "n_explore" : 3,
@@ -64,7 +70,11 @@ if __name__ == "__main__":
         "aligner_cache" : None,
     }
 
-    aql = AdaptiveQLearner(mode="create", train=dataPath, load_epoch=epoch, settings=settings)
+    if split == "train":
+        aql = AdaptiveQLearner(mode="create", train=dataPath, load_epoch=epoch, settings=settings)
+    else:
+        aql = AdaptiveQLearner(mode="load", train=dataPath,
+                               load_model=checkpoint/language, load_epoch=epoch)
 
     section = args.cache_section
     nSections = 100
@@ -77,8 +87,7 @@ if __name__ == "__main__":
     print(f"Cache section {section} from {sectionBegin} to {sectionEnd} of {cacheTotal}")
 
     #we need this in consistent order
-    trainKeys = list(aql.train.groupby(["lemma", "form", "feats"]))
-    for block in trainKeys[sectionBegin : sectionEnd]:
+    for block in sorted(aql.trainKeys):
         aql.simulator.simulate(block)
 
     cacheFile = cache / f"{section}.dump"

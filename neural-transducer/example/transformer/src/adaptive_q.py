@@ -44,6 +44,11 @@ class DataHandler:
             self.targC2I = settings["targVocab"]
             self.featToChar = settings["featToChar"]
 
+        print("DataHandler character sets:")
+        print(self.sourceC2I)
+        print(self.targC2I)
+        print(self.featToChar)
+
     def readCharset(self, train):
         self.maxLenSrc = 0
         self.maxLenTarg = 0
@@ -96,11 +101,6 @@ class DataHandler:
                         index = self.startCP + len(self.featToChar)
                         self.featToChar[fi] = chr(index)
                         self.sourceC2I[chr(index)] = len(self.sourceC2I)
-
-        print("DataHandler character sets:")
-        print(self.sourceC2I)
-        print(self.targC2I)
-        print(self.featToChar)
 
     def sourceVocabSize(self):
         return 1 + len(self.sourceC2I)
@@ -503,17 +503,18 @@ class AdaptiveQLearner:
                                data=self.dataHandler,
                                **settings)
 
-            if self.nSources > 1:
-                self.selectionModel = SelectionModel(mode=mode,
-                                                     src_vocab_size=self.dataHandler.sourceVocabSize(),
-                                                     **settings)
+            self.selectionModel = SelectionModel(mode=mode,
+                                                 src_vocab_size=self.dataHandler.sourceVocabSize(),
+                                                 **settings)
 
+            if self.nSources >= 1:
                 self.simulator = MemorySelectSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel,
                                                                 train=self.train, nSources=self.nSources,
                                                                 nExplore=self.nExplore)
                 self.dataHandler.maxLenSrc *= 2 #look back at this
             else:
-                self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
+                self.simulator = TrivialSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel, train=self.train,
+                                                  useAligner=settings["baseline_use_aligner"])
         else:
             assert(mode == "load" and load_model != None)
             fSettings = f"{load_model}-.settings"
@@ -524,12 +525,13 @@ class AdaptiveQLearner:
             self.passes = settings["passes"]
 
             self.settings = settings["settings"]
+            cacheDump = self.settings["aligner_cache"]
             self.bufferSize = self.settings["buffer_size"]
             self.nSources = self.settings["n_sources"]
             self.nExplore = self.settings["n_explore"]
             self.selectionModel = None
 
-            self.dataHandler = EditHandler(mode=mode, settings=settings, harmony=self.settings["harmony"], cacheDump=None)
+            self.dataHandler = EditHandler(mode=mode, settings=settings, harmony=self.settings["harmony"], cacheDump=cacheDump)
             self.settings["load_model"] = f"{load_model}-{load_epoch}-"
             self.model = Model(mode=mode,
                                src_vocab_size=self.dataHandler.sourceVocabSize(),
@@ -537,14 +539,16 @@ class AdaptiveQLearner:
                                data=self.dataHandler,
                                **self.settings)
 
-            if self.nSources > 1:
-                self.selectionModel = SelectionModel(mode=mode,
-                                                     src_vocab_size=self.dataHandler.sourceVocabSize(),
-                                                     **self.settings)
+            self.selectionModel = SelectionModel(mode=mode,
+                                                 src_vocab_size=self.dataHandler.sourceVocabSize(),
+                                                 **self.settings)
+
+            if self.nSources >= 1:
                 self.simulator = MemorySelectSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel,
                                                        train=self.train, nSources=self.nSources, nExplore=self.nExplore)
             else:
-                self.simulator = Simulator(dataHandler=self.dataHandler, model=self.model, train=self.train)
+                self.simulator = TrivialSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel, 
+                                                  train=self.train, useAligner=self.settings["baseline_use_aligner"])
 
     def epoch(self):
         self.fillBuffer()
@@ -714,8 +718,12 @@ if __name__ == '__main__':
 
     cumulative = (not args.noncumulative and not args.single_source)
     language = args.language
+    if args.run == None:
+        runName = language
+    else:
+        runName = f"{language}-{args.run}"
 
-    checkpoint = checkpoints / language
+    checkpoint = checkpoints / runName
     os.makedirs(checkpoint, exist_ok=True)
 
     warnings.filterwarnings("ignore")
@@ -736,15 +744,16 @@ if __name__ == '__main__':
         "tie_trg_embed" : False,
         "value_mode" : "classify",
         "batch_size" : 128,
-        "inference_batch_size" : 768,
-        "n_sources" : 2,
+        "inference_batch_size" : 256,
+        "n_sources" : 0,
         "buffer_size" : 8192,
-        "n_explore" : 3,
+        "n_explore" : 0,
         "epochs_per_buffer" : 1,
         "tie_value_predictor" : False,
         "value_predictor" : "conv",
         "harmony" : True,
-        "aligner_cache" : Path(args.project) / f"neural-transducer/aligner_cache/{split}",
+        "aligner_cache" : Path(args.project) / f"neural-transducer/aligner_cache/{language}/{split}",
+        "baseline_use_aligner" : True,
     }
 
     if args.epoch > 0:
