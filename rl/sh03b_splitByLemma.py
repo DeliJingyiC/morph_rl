@@ -21,16 +21,16 @@ if __name__ == "__main__":
     #print("all lemmas", lemmas)
     print("known lemmas", len(lemmas))
 
-    nDev = 1000
-    nTest = 200
+    nDev = 200
+    nTest = 400
     nTrain = len(lemmas) - nDev - nTest
 
     shuffled = list(lemmas)
     np.random.shuffle(shuffled)
 
-    train = shuffled[:nDev]
-    test = shuffled[nDev:(nDev + nTest)]
-    dev = shuffled[(nDev+nTest):]
+    train = shuffled[:nTrain]
+    test = shuffled[nTrain:(nTrain + nTest)]
+    dev = shuffled[(nTrain+nTest):]
 
     devData = data[data.lemma.isin(dev)]
     testData = data[data.lemma.isin(test)]
