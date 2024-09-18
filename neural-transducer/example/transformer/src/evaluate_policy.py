@@ -191,10 +191,12 @@ if __name__ == '__main__':
     aql.model.batch_size = 256 #harmless but annoying
 
     if args.force_test != None:
-        cacheName = args.force_test.replace(".csv", "")
-        aql.dataHandler.readCache(Path(args.project) / f"neural-transducer/aligner_cache/{language}/{cacheName}")
+        pass
+        # cacheName = args.force_test.replace(".csv", "")
+        # aql.dataHandler.readCache(Path(args.project) / f"neural-transducer/aligner_cache/{language}/{cacheName}")
     else:
-        aql.dataHandler.readCache(Path(args.project) / f"neural-transducer/aligner_cache/{language}/{split}")
+        pass
+        #aql.dataHandler.readCache(Path(args.project) / f"neural-transducer/aligner_cache/{language}/{split}")
 
     verbose = "features"
 
@@ -205,4 +207,4 @@ if __name__ == '__main__':
     report = open(checkpoint / (f"report_{epoch}_{split}.txt"), "w")
 
     print("Writing outputs to:", outfile, checkpoint / (f"report_{epoch}_{split}.txt"))
-    describePolicies(aql, verbose=verbose, outfile=outfile, reportfile=report)
+    describePolicies(aql, verbose=verbose, outfile=outfile, reportfile=report, stopAt=1000)

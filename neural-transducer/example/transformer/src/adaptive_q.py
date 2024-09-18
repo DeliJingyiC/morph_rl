@@ -45,9 +45,9 @@ class DataHandler:
             self.featToChar = settings["featToChar"]
 
         print("DataHandler character sets:")
-        print(self.sourceC2I)
-        print(self.targC2I)
-        print(self.featToChar)
+        print(self.sourceC2I, len(self.sourceC2I))
+        print(self.targC2I, len(self.targC2I))
+        print(self.featToChar, len(self.featToChar))
 
     def readCharset(self, train):
         self.maxLenSrc = 0
@@ -95,6 +95,9 @@ class DataHandler:
             feats = row["feats"]
             if row["source_feats"] != False:
                 feats = feats.union(row["source_feats"])
+            if row["query"] != False:
+                feats = feats.union([xx[0] for xx in row["query"]])
+
             if feats != None:
                 for fi in feats:
                     if fi not in self.featToChar:
@@ -185,11 +188,14 @@ class DataHandler:
         return srcTensor, srcMask, targTensor, targMask
 
     def valueInstancesToTensors(self, instances):
-        sources = [src for src, fs, _, prune in instances if not prune]
-        feats = [fs for src, fs, _, prune in instances if not prune]
+        sources = [src for src, fs, sFs, rt, _, prune in instances if not prune]
+        feats = [fs for src, fs, sFs, rt, _, prune in instances if not prune]
+        sourceFeats = [sFs for src, fs, sFs, rt, _, prune in instances if not prune]
+        rts = [rt for src, fs, sFs, rt, _, prune in instances if not prune]
 
         srcInds = self.padAndEncode(sources, self.sourceC2I)
         featsV = self.multihot(feats, self.sourceC2I)
+        sFeatsV = self.multihot(sourceFeats, self.sourceC2I)
 
         #debug block in case strlengths were calculated wrongly
         for si, ii in zip(srcInds, sources):
@@ -199,18 +205,24 @@ class DataHandler:
 
         srcTensor, srcMask = self.listToTensor(srcInds, self.maxLenSrc)
         featTensor = self.multihotToTensor(featsV)
+        sourceFeatTensor = self.multihotToTensor(sFeatsV)
+        rtTensor = torch.tensor([[ri] for ri in rts])
 
         #transformer wants this backwards, conv net has the normal order
         srcTensor = torch.permute(srcTensor, (1, 0))
 
-        return srcTensor, featTensor
+        return srcTensor, featTensor, sourceFeatTensor, rtTensor
 
     def multihot(self, strings, c2i):
         res = []
         unk = c2i["<UNK>"]
+
         for si in strings:
-            inds = [c2i.get(ci, unk) for ci in si]
-            res.append(inds)
+            if si is False:
+                res.append([c2i["<PAD>"]])
+            else:
+                inds = [c2i.get(ci, unk) for ci in si]
+                res.append(inds)
 
         return res
 
@@ -476,6 +488,7 @@ class AdaptiveQLearner:
         self.train = pd.read_csv(train)
         self.train.feats = self.train.feats.map(lambda xx: frozenset(eval(xx)))
         self.train.source_feats = self.train.source_feats.map(eval)
+        self.train["query"] = self.train["query"].map(eval)
         self.batches = 0
         self.passes = 0
 
@@ -502,6 +515,7 @@ class AdaptiveQLearner:
                                trg_vocab_size=self.dataHandler.targVocabSize(),
                                data=self.dataHandler,
                                **settings)
+            self.model.setDistributions(self.train)
 
             self.selectionModel = SelectionModel(mode=mode,
                                                  src_vocab_size=self.dataHandler.sourceVocabSize(),
@@ -509,12 +523,12 @@ class AdaptiveQLearner:
 
             if self.nSources >= 1:
                 self.simulator = MemorySelectSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel,
-                                                                train=self.train, nSources=self.nSources,
-                                                                nExplore=self.nExplore)
+                                                       train=self.train, nSources=self.nSources,
+                                                       nExplore=self.nExplore)
                 self.dataHandler.maxLenSrc *= 2 #look back at this
             else:
-                self.simulator = TrivialSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel, train=self.train,
-                                                  useAligner=settings["baseline_use_aligner"])
+                self.simulator = TrivialSimulator(dataHandler=self.dataHandler, model=self.model, selectionModel=self.selectionModel, 
+                                                  train=self.train, useAligner=settings["baseline_use_aligner"])
         else:
             assert(mode == "load" and load_model != None)
             fSettings = f"{load_model}-.settings"
@@ -538,6 +552,7 @@ class AdaptiveQLearner:
                                trg_vocab_size=self.dataHandler.targVocabSize(),
                                data=self.dataHandler,
                                **self.settings)
+            self.model.setDistributions(self.train)
 
             self.selectionModel = SelectionModel(mode=mode,
                                                  src_vocab_size=self.dataHandler.sourceVocabSize(),
@@ -622,6 +637,7 @@ class AdaptiveQLearner:
         values = self.stateBuffer["value_instance"]
         reward = self.simulator.actionVector(self.stateBuffer)
         if isinstance(values[0], list):
+            # print("concatenating value instances")
             values = functools.reduce(list.__add__, values, [])
 
         #prune the values we aren't going to run
@@ -640,7 +656,7 @@ class AdaptiveQLearner:
             self.learnSelections(*selBatch)
 
         print("Mean string loss:", np.mean(self.model.stringLosses))
-        print("Mean value loss:", np.mean(self.model.valueLosses))
+        print("Mean value loss:", np.mean(self.model.valueLosses, axis=0))
         if self.selectionModel is not None:
             print("Mean selection loss:", np.mean(self.selectionModel.losses))
         print(self.batches, "batches", self.passes, "complete runs")
@@ -658,11 +674,21 @@ class AdaptiveQLearner:
         if isinstance(instances[0][0], tuple):
             assert(0), "not implemented anymore"
         else:
+            # print(instances)
+            # print(len(instances), "insts")
+            # print(reward)
+            # print(len(reward))
+            # assert(0)
+
             tensors = self.dataHandler.valueInstancesToTensors(instances)
             if self.settings["value_predictor"] == "conv":
                 (src, feats) = tensors
                 reward, rewardMask = self.dataHandler.rewardToTensors(np.array(reward))
                 tensors = (src, feats, reward)
+                self.model.trainValueBatch(tensors)
+            elif self.settings["value_predictor"] == "multipart_expectation":
+                reward, rewardMask = self.dataHandler.rewardToTensors(np.array(reward))
+                tensors = (*tensors, reward)
                 self.model.trainValueBatch(tensors)
             else:
                 (src, srcMask, trg, trgMask) = tensors
@@ -704,7 +730,11 @@ class AdaptiveQLearner:
         fOut = f"{fstem}.params.string"
         torch.save(self.model.stringTransformer, fOut)
         fOut = f"{fstem}.params.value"
-        torch.save(self.model.valueModel, fOut)
+        if self.settings["value_predictor"] == "multipart_expectation":
+            self.model.valueModel.save(fOut)
+        else:
+            torch.save(self.model.valueModel, fOut)
+
         if self.selectionModel != None:
             fOut = f"{fstem}.params.map"
             torch.save(self.selectionModel.featureSelector, fOut)
@@ -745,12 +775,13 @@ if __name__ == '__main__':
         "value_mode" : "classify",
         "batch_size" : 128,
         "inference_batch_size" : 256,
-        "n_sources" : 0,
+        "n_sources" : 1,
         "buffer_size" : 8192,
+        #"buffer_size" : 64, #debugging
         "n_explore" : 0,
         "epochs_per_buffer" : 1,
         "tie_value_predictor" : False,
-        "value_predictor" : "conv",
+        "value_predictor" : "multipart_expectation",
         "harmony" : True,
         "aligner_cache" : Path(args.project) / f"neural-transducer/aligner_cache/{language}/{split}",
         "baseline_use_aligner" : True,
@@ -759,6 +790,9 @@ if __name__ == '__main__':
     if args.epoch > 0:
         aql = AdaptiveQLearner(mode="load", train=dataPath, 
                                load_model=checkpoint/language, load_epoch=args.epoch)
+        #debug only
+        # aql.settings["buffer_size"] = 64
+        # aql.bufferSize = 64
     else:
         aql = AdaptiveQLearner(mode="create", train=dataPath, settings=settings)
         aql.writeSettings(checkpoint/f"{language}-")

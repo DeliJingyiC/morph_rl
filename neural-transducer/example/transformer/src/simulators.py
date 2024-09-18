@@ -1238,17 +1238,25 @@ class DynamicMemoryState(State):
         if self.valInstance == None:
             self.valInstance = []
             iLemma, iForm, iFeats = self.inflect
+            #currSourceFeats = self.block.loc[self.row, "source_feats"]
+            if self.block.loc[self.row, "query"] != False:
+                currSourceFeats = [xx[0] for xx in self.block.loc[self.row, "query"]]
+            else:
+                currSourceFeats = False
+            rt = self.block.loc[self.row, "response_time"]
+
             if handler.featToChar != None:
                 iFeats = handler.mapFeatsToChars(iFeats)
+                currSourceFeats = handler.mapFeatsToChars(currSourceFeats)
 
             for pi in self.prediction:
                 if pi != None:
                     inst1 = pi
                     inst1 = inst1[:handler.maxLenSrc - 4]
-                    inst1 = (inst1, iFeats, "0", len(inst1) > handler.cutoff)
+                    inst1 = (inst1, iFeats, currSourceFeats, rt, "0", len(inst1) > handler.cutoff)
                 else:
                     #if the prediction is pruned, also prune the value
-                    inst1 = ("", "", "0", True)
+                    inst1 = ("", "", "", "", "0", True)
 
                 self.valInstance.append(inst1)
 
@@ -1367,7 +1375,9 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
         strFeats = ";".join(sorted(list(feats)))
         print(f"Lemma: {lemma} target form: {form} feats: {strFeats}")
         for state in sorted(self.states.values(), key=lambda xx: xx.row):
-            print("state", state, "act", state.action, "predicted act", state.predictedAction)
+            rt = state.block.loc[state.row, "response_time"]
+            print("state", state, "act", state.action, "predicted act", state.predictedAction, "rt", rt)
+            print(": r_s", state.rewardStop, "r_w", state.rewardWait)
             selInsts = [state.selectionInstances[si] for si in state.selectedInds]
             selScores = [state.selectionProbs[si] for si in state.selectedInds]
             for ii in range(len(state.selectedInds)):
@@ -1442,6 +1452,8 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
         tensors = self.data.selectionInstancesToTensors(instanceList)
 
         # print("mapped to tensors")
+        # for ind, ti in enumerate(tensors):
+        #     print(f"{ind}:\t{ti.shape}")
         # assert(0)
 
         predictions = self.selectionModel.predictions(tensors)
@@ -1546,7 +1558,7 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
                         print(len(qpreds))
                         print([xx.shape for xx in tensors])
                     assert(pred.shape == (2,))
-                    si.values.append(softmax(pred))
+                    si.values.append(pred)
 
     def statesToDF(self):
         data = []
@@ -1571,7 +1583,8 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
             self.addDummyValueInstances(si, vals)
             data.append(vals)
 
-        return pd.DataFrame.from_records(data)
+        res = pd.DataFrame.from_records(data)
+        return res
 
     def addDummyValueInstances(self, state, vals):
         iLemma, iForm, iFeats = state.inflect
@@ -1581,7 +1594,10 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
         #newVI = self.data.writeValues(iFeats, iForm, [])
         newVI = iForm
         newVI = newVI[:self.data.maxLenSrc - 4]
-        newValueInstance = (newVI, iFeats, "0", len(newVI) > self.data.cutoff)
+        #useful only for wait time prediction
+        currSourceFeats = ""
+        rt = -1 #should indicate that this is not meaningful for wait time prediction
+        newValueInstance = (newVI, iFeats, currSourceFeats, rt, "0", len(newVI) > self.data.cutoff)
         vals["value_instance"].append(newValueInstance)
         #dummy string instance should get pruned
         vals["instance"].append(("", "", "0", True))
@@ -1606,14 +1622,46 @@ class MemorySelectSimulator(StochasticMultisourceSimulator):
         return stats
 
     def actionVector(self, block):
+        # correct = block["selection_targets"].to_list()
+        # correct = functools.reduce(list.__add__, correct, [])
+        # correct = np.array(correct, dtype="float32")
+        # opt = np.zeros((len(correct), 2), dtype="float32")
+        # opt[:, 0] = correct
+        # opt[:, 1] = 1 - correct
+
+        # print("action vector", opt)
+
+        # return opt
+
+        # targets = block.loc[:, ["reward_stop", "reward_wait"]].to_numpy()
+        # return targets
+
+        cS = block["selection_targets"].map(lambda xx: np.array(xx, dtype="int")) * block["reward_stop"]
+        cS += block["selection_targets"].map(lambda xx: 1 - np.array(xx, dtype="int")) * self.worst
+        cW = block["selection_targets"].map(np.ones_like) * block["reward_wait"]
+
+        # print(cS)
+        # print(cW)
+
+        cS = functools.reduce(list.__add__, [xx.tolist() for xx in cS.tolist()], [])
+        cW = functools.reduce(list.__add__, [xx.tolist() for xx in cW.tolist()], [])
+
+        #print(cS.shape, cW.shape)
+
+        opt = np.stack((cS, cW), axis=1).astype("float32")
+
         correct = block["selection_targets"].to_list()
         correct = functools.reduce(list.__add__, correct, [])
         correct = np.array(correct, dtype="float32")
-        opt = np.zeros((len(correct), 2), dtype="float32")
-        opt[:, 0] = correct
-        opt[:, 1] = 1 - correct
+        # opt = np.zeros((len(correct), 2), dtype="float32")
+        # opt[:, 0] = correct
+        # opt[:, 1] = 1 - correct
 
-        # print("action vector", opt)
+        # print("correct shape", correct.shape)
+        # print("dframe shape", block.shape)
+        # print("action vector", opt.shape)
+        # print(opt)
+        # assert(0)
 
         return opt
         
