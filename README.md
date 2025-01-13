@@ -1,144 +1,113 @@
-/morph/rl/sh00_getData.py
-Function: calculate the log frequency and mean response time of the words from English lexicon project; Got English Lexicon Project data and regressed response times for mean visual lexical decision response latencies on log word frequency
-Input: /morph/rl/dataset/Items.csv
-Output:/morph/rl/dataset/data.csv
-Run code: /morph/rl/sh00_getData.sh
+Steps to run the system:
 
+These are divided into two parts--- the preprocessing to create the dataset, and then the learning algorithm to process it.
 
-/morph/rl/sh01_getELwordlist.py
-Function: Use English lexicon project as word list and get frequency count from SUBTLEXus corpus. Refit response times and regenerate graph (smaller bin figure) with 2 standard deviation lines within frequency bins (with 3-6 frequency bins). 
-Input: /morph/rl/dataset/data.csv
+Preprocessing requires multiple resources:
+* Turkish KENET https://universaldependencies.org/treebanks/tr_kenet/index.html
+* Turkish Unimorph
+* The ELP dataset https://elexicon.wustl.edu/
+* Subtlex https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus
+* marry.py https://github.com/unimorph/ud-compatibility
+
+1: Use ELP/Subtlex frequencies to compute reaction times
+   /morph/rl/sh00_getData.py
+   Function: calculate the log frequency and mean response time of the words from English lexicon project; Got English Lexicon Project data and regressed response times for mean visual lexical decision response latencies on log word frequency
+   Input: /morph/rl/dataset/Items.csv
+   Output:/morph/rl/dataset/data.csv
+
+   /morph/rl/sh01_getELwordlist.py
+   Function: Use English lexicon project as word list and get frequency count from SUBTLEXus corpus. Refit response times and regenerate graph (smaller bin figure) with 2 standard deviation lines within frequency bins (with 3-6 frequency bins). 
+   Input: /morph/rl/dataset/data.csv
         /morph/rl/dataset/SUBTLEXusfrequencyabove1.csv
-Output:/morph/rl/dataset/elp_withsublex.csv
-Run code: /morph/rl/sh01_getELwordlist.sh
+   Output:/morph/rl/dataset/elp_withsublex.csv
 
+1b: Convert UD treebank to Unimorph using marry.py
+   python marry.py convert --ud [path-to-turkish-ud].train.conllu -l tr
 
-/morph/rl/sh02_getUD.py
-Function: Use universal dependency corpus as wordlist and use frequency count from other corpus. Begin to build inflection instances
-Input: /morph/previous/english_train_freq.csv
-        /morph/previous/english_test_freq.csv
-        /morph/previous/english_dev_freq.csv
-        /morph/rl/dataset/elp_withsublex.csv
-Output:/morph/rl/dataset/ud_dev.csv
-        /morph/rl/dataset/ud_test.csv
-        /morph/rl/dataset/ud_train.csv
-Run code: /morph/rl/sh00_getData.sh
+2: Get vocabulary of UD corpus
+ - Get words and merge frequency data
+ - Remove typos
+ - Collapse to reasonable feature set/remove syncretic cells
+ 
+  python rl/sh02b_getUD.py
+     --project [path]/morph_rl 
+     --ud_train [path]/tr_kenet-um-train.conllu
+	 --pos_target NOUN
+	 --pos_feat_style unimorph
+     --local_frequency (for Turkish)
+  >> rl/dataset/ud_UD_Turkish-Kenet.csv
+  (note: dev, test in filenames refer to data extracted from conll dev/test split;
+   this is not suitable as an inflection split)
 
+3: Sample instances
+- Split dataset into train/dev/test inflection split by lemma
 
-/morph/rl/sh03_create_sql_tbl.py
-Function: Use sql database to generate dataset, but I didn't use it to generate dataset at the end since earlier code works fine and is fast enough
+  python rl/sh03b_splitByLemma.py
+     --project [path]/morph_rl 
+     --ud_dataframe rl/dataset/ud_UD_Turkish-Kenet.csv
+  >> rl/dataset/ud_inflection_split_[train].csv
 
+- Create Unimorph full-paradigm instances for testing
 
-/morph/rl/sh04_rt.py
-Function: Use universal dependency corpus as wordlist and use frequency count from other corpus. Begin to build inflection instances
-Input: /morph/previous/english_train_freq.csv
-        /morph/previous/english_test_freq.csv
-        /morph/previous/english_dev_freq.csv
-        /morph/rl/dataset/elp_withsublex.csv
-Output:/morph/rl/dataset/ud_dev.csv
-        /morph/rl/dataset/ud_test.csv
-        /morph/rl/dataset/ud_train.csv
-Run code: /morph/rl/sh00_getData.sh
+  python rl/sh03c_sampleUnimorph.py 
+  		 --project [path]/morph_rl
+		 --pos_target NOUN
+		 --unimorph_data ~/tur/tur 
+		 --ud_dataframe rl/dataset/ud_UD_Turkish-Kenet.csv
+		 --ud_train rl/dataset/UD_Turkish-Kenet_inflection_split_train.csv
 
-/morph/rl/sh05_make_elp.py
-Function: get log fequency from sublex dataset for words in english lexicon project
-Input: /morph/rl/dataset/data.csv
-        /morph/rl/dataset/SUBTLEXusfrequencyabove1.csv
-Output:/morph/rl/dataset/elp_withsublex.csv
-Run code: /morph/rl/sh05_make_elp.sh
+4: Assemble queries and responses for each item
+    python rl/sh10b_sequential_dataset.py
+     --project /users/PAS1268/osu8210/morph_rl 
+	 --language UD_Turkish-Kenet
+	 --split train/dev/test
+    >> rl/dataset/query_df_[train].csv
 
-/morph/rl/sh06_delete_yes.py
-Function: delete words with feature 'Typo': 'Yes', 'Abbr': 'Yes'
-Input: /morph/rl/sq_output/query_df.csv
-Output:/morph/rl/sq_output/query_df.csv
-Run code: /morph/rl/sh06_delete_yes.sh
+- Plot and verify the temporal predictions
 
+  python rl/sh10d_plot_predictions.py
 
-/morph/rl/sh07_make_transformer_dataset.py
-Function: generate dataset that match with Wu's transformer model but these dataset does not have queries, we use these dataset to test wu's model
-Input: /morph/rl/dataset/new_ud_train_filter.csv
-        or /morph/rl/dataset/new_ud_dev_filter.csv
-        or /morph/rl/dataset/new_ud_test_filter.csv
-Output:/morph/rl/dataset/english-train_withrt.csv
-        or /morph/rl/dataset/english-test_withrt.csv
-        or /morph/rl/dataset/english-dev_withrt.csv
-Run code: /morph/rl/sh07_make_transformer_dataset.sh
+Now we can run the learning system. This is a copy of one version of Wu et al (see the neural-transducer/README.md file for more cites). For some reason, the code is located in neural-transducer/example/transformer/src --- I am not sure why.
 
+You will need a conda environment with:
 
+* pytorch https://pytorch.org/get-started/locally/
+* pynini https://github.com/kylebgorman/pynini
 
+Check the settings in example/transformer/src/adaptive_q.py:
 
+You can run the baseline by setting "n_sources: 0" and the model by running "n_sources: 1". This will run a fairly standard version of Wu but on the train/test files you just generated. You can switch the string aligner on and off with "baseline_use_aligner".
 
-/morph/neural-transducer/sh04_create_newData_1107.py
-Function: align current dataset english-dev generated from /morph/rl//morph/rl/sh04_rt.py with UD_English-GUM dataset, get the features from UD_English-GUM
-Input: /morph/previous/UD_English-GUM/english_dev.csv
-        /morph/rl/dataset/ud_dev.csv
-        /morph/rl/dataset/ud_train.csv
-        /morph/rl/dataset/ud_test.csv
-Output:/morph/rl/dataset/new_ud_dev.csv
-        /morph/rl/dataset/new_ud_train.csv
-        /morph/rl/dataset/new_ud_test.csv
-Run code: /morph/neural-transducer/sh04_create_newData_1107.sh
+You should not need to change other settings.
 
-/morph/neural-transducer/sh02_wuFromUDSyncretism.py
-Function: script to discard syncretic cells and overspecified features
-Input: /morph/rl/dataset/new_ud_train.csv
-        /morph/rl/dataset/new_ud_dev.csv
-        /morph/rl/dataset/new_ud_test.csv
-Output:/morph/rl/dataset/new_ud_dev_filter.csv
-        /morph/rl/dataset/new_ud_test_filter.csv
-        /morph/rl/dataset/new_ud_train_filter.csv
-Run code: /morph/neural-transducer/sh02_wuFromUDSyncretism.sh
+With this environment active, run:
 
-/morph/rl/sh10_sequencial_dataset.py
-Function: generate dataset with queries 
-Input: /morph/rl/dataset/new_ud_train_filter.csv
-        or /morph/rl/dataset/new_ud_dev_filter.csv
-        or /morph/rl/dataset/new_ud_test_filter.csv
-Output:/morph/rl/sq_output/query_df_train.csv
-        or /morph/rl/sq_output/query_df_test.csv
-        or /morph/rl/sq_output/query_df_dev.csv
-Run code: /morph/rl/sh10_sequencial_dataset.sh
+    python -u example/transformer/src/adaptive_q.py --project [path] --language UD_Turkish-Kenet --run [arbitrary name]
 
-/morph/neural-transducer/sh03_encodeInstancesWu.py
-Function: create multi-source inputs/show input format
-Input: /morph/rl/sq_output/query_df_train.csv
-        or /morph/rl/sq_output/query_df_test.csv
-        or /morph/rl/sq_output/query_df_dev.csv
-Output:/morph/neural-transducer/encoded_df_train.csv
-        or /morph/neural-transducer/encoded_df_test.csv
-        or /morph/neural-transducer/encoded_df_dev.csv
-Run code: /morph/neural-transducer/sh03_encodeInstancesWu.sh
+Once you have run the baseline for a couple of epochs, you can precompute and cache the alignments to speed up the main program (saving you time on the GPU server) using:
 
-/morph/rl/sh01_generate_dataset.py
-Function: use the multi-source inputs to create dataset to train wu's model
-Input: /morph/neural-transducer/encoded_df_dev.csv
-        or /morph/neural-transducer/encoded_df_train.csv
-        or /morph/neural-transducer/encoded_df_test.csv
-Output:/morph/neural-transducer/dev_dataset.csv
-        or /morph/neural-transducer/train_dataset.csv
-        or /morph/neural-transducer/test_dataset.csv
-Run code: /morph/rl/sh01_generate_dataset.sh
+    python -u example/transformer/src/assemble_cache.py --project [path] --language UD_Turkish-Kenet --cache_section [0] --epoch 10 --split train
 
-##change the name of files:
-/morph/neural-transducer/dev_dataset.csv --> english-dev
-/morph/neural-transducer/train_dataset.csv --> english-train-high 
-put these two files into /morph/neural-transducer/data/conll2017/all/task1
+This is optional. If you're going to do it, you should run 100 jobs with --cache_section 0...99.
 
-change the name of file:
-/morph/neural-transducer/test_dataset.csv --> english-uncovered-test
-put it into /users/PAS2062/delijingyic/project/morph/neural-transducer/data/conll2017/answers/task1
-run sh example/transformer/trm-sig17.sh english to train wu's model
+You can evaluate the learned policy using:
 
-/morph/neural-transducer/sh05_calculate_rewards.py
-Function: calculate stop states' reward
-Input: /morph/neural-transducer/english-uncovered-test.tsv
-        /morph/neural-transducer/checkpoints/transformer/tagtransformer/sigmorphon17-task1-dropout0.3/english-high-.decode.test.tsv
-        /morph/rl/sq_output/query_df_test.csv
-Output:/morph/neural-transducer/checkpoints/transformer/tagtransformer/sigmorphon17-task1-dropout0.3/english-high-.decode.test_rt.tsv
-Run code: /morph/neural-transducer/sh05_calculate_rewards.sh
+    python -u example/transformer/src/evaluate_policy.py --project [path] --language UD_Turkish-Kenet --epoch [20] --split [test] --run [same name as above] --product_inference product_only
 
-/morph/neural-transducer/sh06_calculate_inter_rewards.py
-Function: calculate stop states' reward
-Input: /morph/neural-transducer/checkpoints/transformer/tagtransformer/sigmorphon17-task1-dropout0.3/english-high-.decode.test_rt.tsv
-Output:/morph/neural-transducer/checkpoints/transformer/tagtransformer/sigmorphon17-task1-dropout0.3/english-high-.decode.test_rt_intermediate.tsv
-Run code: /morph/neural-transducer/sh06_calculate_inter_rewards.sh
+("Product only" forces the system to discard the learned value prediction, which is what we did in the paper.)
+
+You can evaluate the policy on Unimorph by adding the argument:
+
+    --force_test query_unimorph_UD_Turkish-Kenet_test.csv
+
+The model results go to:
+
+checkpoints/UD-Turkish-Kenet-[run name]
+
+The evaluator produces a textual report (report_[epoch]_[split]_product_only.txt) and a csv file (statistics_[epoch]_[split]_product_only.csv). You can run the programs:
+
+    python -u example/transformer/src/analyzeFrequentStrs.py --stats [stats] --policy [optimal|predicted|stop|wait]
+    python -u example/transformer/src/analyzeMemoryUsage.py --stats [stats] --policy [optimal|predicted|stop|wait]
+    python -u example/transformer/src/analyzeStoppingPoints.py --stats [stats] --policy [optimal|predicted|stop|wait]
+
+These obtain analysis results about what the program is actually doing (as shown in the data tables in the paper).
