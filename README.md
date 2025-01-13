@@ -10,62 +10,68 @@ Preprocessing requires multiple resources:
 * marry.py https://github.com/unimorph/ud-compatibility
 
 1: Use ELP/Subtlex frequencies to compute reaction times
+
    /morph/rl/sh00_getData.py
-   Function: calculate the log frequency and mean response time of the words from English lexicon project; Got English Lexicon Project data and regressed response times for mean visual lexical decision response latencies on log word frequency
-   Input: /morph/rl/dataset/Items.csv
-   Output:/morph/rl/dataset/data.csv
+
+Function: calculate the log frequency and mean response time of the words from English lexicon project; Got English Lexicon Project data and regressed response times for mean visual lexical decision response latencies on log word frequency
+
+Input: /morph/rl/dataset/Items.csv
+Output:/morph/rl/dataset/data.csv
 
    /morph/rl/sh01_getELwordlist.py
-   Function: Use English lexicon project as word list and get frequency count from SUBTLEXus corpus. Refit response times and regenerate graph (smaller bin figure) with 2 standard deviation lines within frequency bins (with 3-6 frequency bins). 
-   Input: /morph/rl/dataset/data.csv
-        /morph/rl/dataset/SUBTLEXusfrequencyabove1.csv
-   Output:/morph/rl/dataset/elp_withsublex.csv
+
+Function: Use English lexicon project as word list and get frequency count from SUBTLEXus corpus. Refit response times and regenerate graph (smaller bin figure) with 2 standard deviation lines within frequency bins (with 3-6 frequency bins). 
+
+Input: /morph/rl/dataset/data.csv, /morph/rl/dataset/SUBTLEXusfrequencyabove1.csv
+Output: /morph/rl/dataset/elp_withsublex.csv
 
 1b: Convert UD treebank to Unimorph using marry.py
-   python marry.py convert --ud [path-to-turkish-ud].train.conllu -l tr
+
+    python marry.py convert --ud [path-to-turkish-ud].train.conllu -l tr
 
 2: Get vocabulary of UD corpus
  - Get words and merge frequency data
  - Remove typos
  - Collapse to reasonable feature set/remove syncretic cells
  
-  python rl/sh02b_getUD.py
-     --project [path]/morph_rl 
-     --ud_train [path]/tr_kenet-um-train.conllu
-	 --pos_target NOUN
-	 --pos_feat_style unimorph
-     --local_frequency (for Turkish)
-  >> rl/dataset/ud_UD_Turkish-Kenet.csv
-  (note: dev, test in filenames refer to data extracted from conll dev/test split;
-   this is not suitable as an inflection split)
+    python rl/sh02b_getUD.py
+       --project [path]/morph_rl 
+       --ud_train [path]/tr_kenet-um-train.conllu
+	   --pos_target NOUN
+	   --pos_feat_style unimorph
+       --local_frequency (for Turkish)
+     [produces] rl/dataset/ud_UD_Turkish-Kenet.csv
+
+(note: dev, test in filenames refer to data extracted from conll dev/test split; this is not suitable as an inflection split)
 
 3: Sample instances
 - Split dataset into train/dev/test inflection split by lemma
 
-  python rl/sh03b_splitByLemma.py
-     --project [path]/morph_rl 
-     --ud_dataframe rl/dataset/ud_UD_Turkish-Kenet.csv
-  >> rl/dataset/ud_inflection_split_[train].csv
+    python rl/sh03b_splitByLemma.py
+       --project [path]/morph_rl 
+       --ud_dataframe rl/dataset/ud_UD_Turkish-Kenet.csv
+    [produces] rl/dataset/ud_inflection_split_[train].csv
 
 - Create Unimorph full-paradigm instances for testing
 
-  python rl/sh03c_sampleUnimorph.py 
-  		 --project [path]/morph_rl
-		 --pos_target NOUN
-		 --unimorph_data ~/tur/tur 
-		 --ud_dataframe rl/dataset/ud_UD_Turkish-Kenet.csv
-		 --ud_train rl/dataset/UD_Turkish-Kenet_inflection_split_train.csv
+    python rl/sh03c_sampleUnimorph.py 
+        --project [path]/morph_rl
+        --pos_target NOUN
+        --unimorph_data ~/tur/tur 
+        --ud_dataframe rl/dataset/ud_UD_Turkish-Kenet.csv
+        --ud_train rl/dataset/UD_Turkish-Kenet_inflection_split_train.csv
 
 4: Assemble queries and responses for each item
+
     python rl/sh10b_sequential_dataset.py
-     --project /users/PAS1268/osu8210/morph_rl 
-	 --language UD_Turkish-Kenet
-	 --split train/dev/test
-    >> rl/dataset/query_df_[train].csv
+        --project /users/PAS1268/osu8210/morph_rl 
+	    --language UD_Turkish-Kenet
+        --split train/dev/test
+    [produces] rl/dataset/query_df_[train].csv
 
 - Plot and verify the temporal predictions
 
-  python rl/sh10d_plot_predictions.py
+    python rl/sh10d_plot_predictions.py
 
 Now we can run the learning system. This is a copy of one version of Wu et al (see the neural-transducer/README.md file for more cites). For some reason, the code is located in neural-transducer/example/transformer/src --- I am not sure why.
 
