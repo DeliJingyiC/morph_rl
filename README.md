@@ -64,7 +64,7 @@ Output: /morph/rl/dataset/elp_withsublex.csv
 4: Assemble queries and responses for each item
 
     python rl/sh10b_sequential_dataset.py
-        --project /users/PAS1268/osu8210/morph_rl 
+        --project [path]/morph_rl 
 	    --language UD_Turkish-Kenet
         --split train/dev/test
     [produces] rl/dataset/query_df_[train].csv
