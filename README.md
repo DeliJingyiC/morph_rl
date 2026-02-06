@@ -110,10 +110,10 @@ The model results go to:
 
 checkpoints/UD-Turkish-Kenet-[run name]
 
-The evaluator produces a textual report (report_[epoch]_[split]_product_only.txt) and a csv file (statistics_[epoch]_[split]_product_only.csv). You can run the programs:
+The evaluator produces a textual report (report_[epoch]\_[split]\_product\_only.txt) and a csv file (statistics\_[epoch]\_[split]\_product_only.csv). You can run the programs:
 
     python -u example/transformer/src/analyzeFrequentStrs.py --stats [stats] --policy [optimal|predicted|stop|wait]
     python -u example/transformer/src/analyzeMemoryUsage.py --stats [stats] --policy [optimal|predicted|stop|wait]
     python -u example/transformer/src/analyzeStoppingPoints.py --stats [stats] --policy [optimal|predicted|stop|wait]
 
-These obtain analysis results about what the program is actually doing (as shown in the data tables in the paper).
+These obtain analysis results about what the program is actually doing (as shown in the data tables in the paper). The results of these analyses on our models of Turkish nouns are also provided for you in the checkpoints directory, so you can check the analyses in the paper without retraining the model.

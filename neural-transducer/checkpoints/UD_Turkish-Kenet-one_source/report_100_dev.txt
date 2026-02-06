@@ -1,0 +1,132 @@
+results of policy predicted
+420 / 493 0.8519269776876268 items correct
+52.36178934780714 time taken
+35 steps > 0
+0 stored anything
+3.2494929006085194 avg step
+
+results of policy optimal
+444 / 493 0.9006085192697769 items correct
+112.88615084853875 time taken
+80 steps > 0
+0 stored anything
+5.0182555780933065 avg step
+
+results of policy stop
+413 / 493 0.8377281947261663 items correct
+0.0 time taken
+0 steps > 0
+0 stored anything
+0.0 avg step
+
+results of policy wait
+423 / 493 0.8580121703853956 items correct
+779.8139865276215 time taken
+493 steps > 0
+0 stored anything
+44.793103448275865 avg step
+
+featural analysis of predicted
+3;ESS;N;PSS2S;SG	#: 2	#>0: 2 (1.0)	store: 0	avg: 774.1388204734135	med: 774.1388204734135
+3;ESS;N;PSS1S;SG	#: 3	#>0: 2 (0.6666666666666666)	store: 0	avg: 529.2210468898386	med: 773.7725345212461
+3;DAT;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 359.46012437230905	med: 359.46012437230905
+3;ACC;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 416.8108961262939	med: 416.8108961262939
+3;GEN;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 258.211263985306	med: 258.211263985306
+3;AT+ABL;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 375.2910814909304	med: 375.2910814909304
+3;N;NOM;PSS1S;SG	#: 7	#>0: 2 (0.2857142857142857)	store: 0	avg: 218.30844078281604	med: 0.0
+3;ESS;N;PSS3S;SG	#: 8	#>0: 2 (0.25)	store: 0	avg: 149.4556193630649	med: 0.0
+3;DAT;N;PSS3S;SG	#: 14	#>0: 3 (0.21428571428571427)	store: 0	avg: 163.77037822481975	med: 0.0
+3;ESS;N;PL	#: 5	#>0: 1 (0.2)	store: 0	avg: 158.78158794283513	med: 0.0
+3;GEN;N;SG	#: 21	#>0: 3 (0.14285714285714285)	store: 0	avg: 111.77716399990496	med: 0.0
+3;AT+ABL;N;PSS3S;SG	#: 7	#>0: 1 (0.14285714285714285)	store: 0	avg: 102.23913529941976	med: 0.0
+3;ACC;N;PSS3S;SG	#: 31	#>0: 4 (0.12903225806451613)	store: 0	avg: 100.10964040492314	med: 0.0
+3;ACC;N;SG	#: 14	#>0: 1 (0.07142857142857142)	store: 0	avg: 39.9126240144859	med: 0.0
+3;N;NOM;PL;PSS3S	#: 20	#>0: 1 (0.05)	store: 0	avg: 29.259380174188088	med: 0.0
+3;N;NOM;PSS3S;SG	#: 41	#>0: 2 (0.04878048780487805)	store: 0	avg: 41.21629274725063	med: 0.0
+3;N;NOM;SG	#: 112	#>0: 4 (0.03571428571428571)	store: 0	avg: 24.8900496144802	med: 0.0
+3;DAT;N;SG	#: 29	#>0: 1 (0.034482758620689655)	store: 0	avg: 26.13409328084308	med: 0.0
+3;DAT;N;PL	#: 10	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;PSS3S;SG	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;SG	#: 10	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PL;PSS3P	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PL;PSS2S	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;GEN;N;PL	#: 13	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ESS;N;SG	#: 11	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL	#: 8	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;SG	#: 17	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PL	#: 21	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;PL	#: 6	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS1S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PSS1S;SG	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;GEN;N;PL;PSS1S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PSS2S;SG	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PL;PSS3P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS3P	#: 5	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;GEN;N;PL;PSS3S	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS1P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PSS3P;SG	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;GEN;N;PSS3S;SG	#: 5	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;PL;PSS3P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PSS3P;SG	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ESS;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PSS1S;SG	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;PL	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;PL;PSS3P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+
+
+
+featural analysis of optimal
+3;ACC;N;PSS2S;SG	#: 2	#>0: 2 (1.0)	store: 0	avg: 517.5110340625043	med: 517.5110340625043
+3;AT+ABL;N;PSS2S;SG	#: 2	#>0: 2 (1.0)	store: 0	avg: 657.5480976126753	med: 657.5480976126753
+3;INS;N;PSS3S;SG	#: 3	#>0: 2 (0.6666666666666666)	store: 0	avg: 380.08074405648085	med: 546.8869354758842
+3;ACC;N;PSS1S;SG	#: 3	#>0: 2 (0.6666666666666666)	store: 0	avg: 526.0366136359451	med: 771.3661192022112
+3;ESS;N;PSS1S;SG	#: 3	#>0: 2 (0.6666666666666666)	store: 0	avg: 455.74549941434924	med: 553.3458920947779
+3;ACC;N;PL;PSS1S	#: 2	#>0: 1 (0.5)	store: 0	avg: 239.8189724709431	med: 239.8189724709431
+3;DAT;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 296.9685891985882	med: 296.9685891985882
+3;GEN;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 405.3828881862504	med: 405.3828881862504
+3;ESS;N;PSS2S;SG	#: 2	#>0: 1 (0.5)	store: 0	avg: 260.1643924477529	med: 260.1643924477529
+3;N;NOM;PSS1S;SG	#: 7	#>0: 3 (0.42857142857142855)	store: 0	avg: 308.09947292520167	med: 0.0
+3;ACC;N;PSS3S;SG	#: 31	#>0: 12 (0.3870967741935484)	store: 0	avg: 250.38258977034062	med: 0.0
+3;ESS;N;PSS3S;SG	#: 8	#>0: 3 (0.375)	store: 0	avg: 263.708660598149	med: 0.0
+3;ACC;N;SG	#: 14	#>0: 5 (0.35714285714285715)	store: 0	avg: 256.43738391420794	med: 0.0
+3;DAT;N;PL;PSS2S	#: 3	#>0: 1 (0.3333333333333333)	store: 0	avg: 269.53953636480975	med: 0.0
+3;N;NOM;PSS2S;SG	#: 3	#>0: 1 (0.3333333333333333)	store: 0	avg: 269.71571332441994	med: 0.0
+3;DAT;N;PSS1S;SG	#: 3	#>0: 1 (0.3333333333333333)	store: 0	avg: 175.85807525010975	med: 0.0
+3;AT+ABL;N;SG	#: 17	#>0: 5 (0.29411764705882354)	store: 0	avg: 203.39339444617187	med: 0.0
+3;AT+ABL;N;PSS3S;SG	#: 7	#>0: 2 (0.2857142857142857)	store: 0	avg: 193.8408329349056	med: 0.0
+3;ESS;N;PL	#: 5	#>0: 1 (0.2)	store: 0	avg: 175.7114252367914	med: 0.0
+3;GEN;N;PSS3S;SG	#: 5	#>0: 1 (0.2)	store: 0	avg: 174.99353044838634	med: 0.0
+3;ESS;N;SG	#: 11	#>0: 2 (0.18181818181818182)	store: 0	avg: 143.4947879320582	med: 0.0
+3;INS;N;PL	#: 6	#>0: 1 (0.16666666666666666)	store: 0	avg: 100.09253057519328	med: 0.0
+3;GEN;N;SG	#: 21	#>0: 3 (0.14285714285714285)	store: 0	avg: 96.01725835397566	med: 0.0
+3;DAT;N;PSS3S;SG	#: 14	#>0: 2 (0.14285714285714285)	store: 0	avg: 113.23281977433028	med: 0.0
+3;DAT;N;SG	#: 29	#>0: 4 (0.13793103448275862)	store: 0	avg: 106.31962130349508	med: 0.0
+3;INS;N;SG	#: 10	#>0: 1 (0.1)	store: 0	avg: 77.26661024044171	med: 0.0
+3;N;NOM;PL;PSS3S	#: 20	#>0: 2 (0.1)	store: 0	avg: 78.87165778262973	med: 0.0
+3;N;NOM;PSS3S;SG	#: 41	#>0: 4 (0.0975609756097561)	store: 0	avg: 71.12383193226376	med: 0.0
+3;N;NOM;SG	#: 112	#>0: 9 (0.08035714285714286)	store: 0	avg: 53.60208507599955	med: 0.0
+3;GEN;N;PL	#: 13	#>0: 1 (0.07692307692307693)	store: 0	avg: 58.36596613448729	med: 0.0
+3;DAT;N;PL	#: 10	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PL;PSS3P	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL	#: 8	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PL	#: 21	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;GEN;N;PL;PSS1S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PL;PSS3P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS3P	#: 5	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;GEN;N;PL;PSS3S	#: 3	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS1P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;N;NOM;PSS3P;SG	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;INS;N;PL;PSS3P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PSS3P;SG	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;DAT;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ESS;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;ACC;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;PL	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;PL;PSS3S	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+3;AT+ABL;N;PL;PSS3P	#: 2	#>0: 0 (0.0)	store: 0	avg: 0.0	med: 0.0
+
